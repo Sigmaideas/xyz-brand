@@ -1,0 +1,17 @@
+{
+  "name": "xyz-brand",
+  "version": "1.0.0",
+  "description": "엑스와이지(XYZ) 브랜드 언급 모니터링 대시보드 (내부용)",
+  "private": true,
+  "scripts": {
+    "blog": "node scraper/scrape-blog.js",
+    "news": "node scraper/scrape-news.js",
+    "trend": "node scraper/scrape-trend.js",
+    "update": "npm run blog && npm run news && npm run trend",
+    "dashboard": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0"
+  }
+}

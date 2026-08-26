@@ -1,0 +1,1085 @@
+{
+  "lastScrapedAt": "2026-08-26T05:15:42.278Z",
+  "queries": [
+    "엑스와이지",
+    "엑스와이지 로봇",
+    "엑스와이지 XYZ",
+    "엑스와이지 바리스브루"
+  ],
+  "totalPosts": 107,
+  "officialPosts": 36,
+  "externalPosts": 71,
+  "bloggerCount": 48,
+  "posts": [
+    {
+      "title": "엑스와이지 갤럭시아 한국 로봇 시장 협력, 우리 일상 속 로봇 변화 미리보기 3가지",
+      "description": "엑스와이지와 갤럭시아의 전략적 협력이 한국 로봇 시장에 어떤 변화를 가져올지 궁금하지 않으신가요? 최근 두 기업이 손잡고 국내 환경에 최적화된 로봇 애플리케이션 개발에... 엑스와이지 갤럭시아, 로봇 협력의 시작 최근 6월 19일, 엑스와이지와 갤럭시아가 한국 로봇 시장 공략을 위한 업무협약(MOU)을 체결했다는 소식이 전해졌습니다. 이 협력의 핵심은 갤럭시아의...",
+      "link": "https://blog.naver.com/go48p/224389284986",
+      "blogger": "찬희님의 블로그",
+      "bloggerId": "go48p",
+      "date": "2026-08-25",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엔비디아보다 2배 빠른 로봇? 엑스와이지의 '브레인엑스'가 바꿀 미래 산업 현장!",
+      "description": "오늘은 국내 AI 로보틱스 기업 엑스와이지(XYZ)와 로보틱스 기업 갤럭시아(GALAXEA)의 흥미로운 협력 소식을 전해드릴게요. 이 두 기업이 손잡고 한국 로봇 시장을 어떻게 바꿔나갈지 함께 살펴보시죠! 엑스와이지 '브레인엑스', 갤럭시아 로봇에 탑재되다! 엑스와이지는 자체 개발한 로봇 지능 프레임워크인 ‘브레인엑스(BrainX)’를 갤럭시아의 로봇 하드웨어에...",
+      "link": "https://blog.naver.com/k-blogger-js/224389287786",
+      "blogger": "오늘의 주식|경제|트렌드 브리핑",
+      "bloggerId": "k-blogger-js",
+      "date": "2026-08-25",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026. 08. 25 (화) [쿠니 로봇 한컷 - 로봇뉴스픽]",
+      "description": "엑스와이지, 갤럭시아와 협력해 한국 로봇 시장 공략 2. 다이나믹솔루션, 엔비디아와 ‘차세대 BCI·로봇손 AI칩’ 기술 협력 논의… 젠슨 황 장녀 부스 방문 3. 오토노머스에이투지, 중기부 ‘글로벌 팁스’ 선정 4. 명령 넘어 맥락 읽고 행동…크래프톤, 사회 지능 높은 '로봇 두뇌' 만든다 5. 에브리봇, 中 PIA오토메이션과 휴머노이드 로봇 사업...",
+      "link": "https://blog.naver.com/ai-robotics/224389147617",
+      "blogger": "쿠니 로봇 한컷 : AI·로봇 뉴스를 한컷에 쏙",
+      "bloggerId": "ai-robotics",
+      "date": "2026-08-25",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "서울시청 로봇카페 바리스브루! 귀여운 해치 캐릭터와 함께하는 색다른 커피 타임 ☕️",
+      "description": "서울시청의 대표적인 볼거리 로봇카페 엑스와이지(XYZ)의 똑똑한 바리스타 로봇과 서울시 대표 캐릭터 '해치와 친구들'이 만나 한층 더 친근하고 상큼하게 새로워진 공간을 소개해 드릴게요! ☕️ 서울시청 1층에서 만나는 귀여운 로봇카페 '바리스브루' 서울시청 1층 로비에 들어서면 시민과 관광객, 그리고 시청 임직원분들의 눈길을 사로잡는 특별한 공간이 있습니다....",
+      "link": "https://blog.naver.com/xyz_inc/224385611746",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-08-21",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇이 배우려면 GPU보다 데이터 순환이 먼저입니다",
+      "description": "국내 로봇 기업 엑스와이지가 고성능 GPU를 확충했습니다. 엔비디아 H100·H200급입니다. 다만 회사가 강조한 건 장비가 아니라 데이터가 도는 구조입니다. 확보 경로 정부·지자체... 삼성이 구미 공장을 데이터 팩토리로 바꾸는 것과 같은 판단 구조입니다. 규모는 다르지만 방향은 겹칩니다. 출처: 헬로티, 로봇 지능용 GPU 확충한 엑스와이지 (www.hellot.net)",
+      "link": "https://blog.naver.com/nalbol/224382872397",
+      "blogger": "날볼",
+      "bloggerId": "nalbol",
+      "date": "2026-08-19",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇이 사람처럼 일하는 시대, 엑스와이지의 피지컬 AI 승부수",
+      "description": "오늘의 핵심 내용 ✅ 최근 '피지컬 AI'가 IT 업계의 최대 화두가 된 이유 ✅ 엑스와이지(XYZ)가 현장 데이터에 집착하는 진짜... 특히 최근 엑스와이지(XYZ)가 보여주는 행보는 많은 이들의 시선을 사로잡고 있습니다. 단순히 정해진 경로를 반복하는... 엑스와이지의 승부수, '현장 데이터'라는 무기 많은 로봇 기업이 시뮬레이션 환경에서 학습한 데이터를 바탕으로 로봇을...",
+      "link": "https://blog.naver.com/kebaake/224380663109",
+      "blogger": "지식의 복리 - The Knowledge Interest",
+      "bloggerId": "kebaake",
+      "date": "2026-08-12",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "S/I/M, (주)엑스와이지, 구글코리아",
+      "description": "2026 S/I/M, (주)엑스와이지, 구글코리아 방문기 S/I/M 삼성이노베이션뮤지엄은 삼성디지털시티 수사업장 내에 위치하고 있다. 이곳에서 전자산업의 역사와 삼성전자의... 학교교육이 어떤 방향으로 발전해야 될지 생각해보는 시간을 가졌다. 로봇ETF, 삼성, 구글 모두 열심히 일하고 있던데 주식을 사야하는 건가.. S / I / M SAMSUNG INNOVATION MUSEUM (주) 엑스와이지",
+      "link": "https://blog.naver.com/theendlessjourney/224377899195",
+      "blogger": "삶은 여행",
+      "bloggerId": "theendlessjourney",
+      "date": "2026-08-12",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇이 일하는 빌딩은 어떻게 만들어질까? 엑스와이지 RBMS가 연결하는 로봇과 공간",
+      "description": "피지컬 AI 로봇 기업 엑스와이지(XYZ)는 서울 성동구 사옥에서 ‘로봇빌딩’의 운영 방식을 실제 환경에서 검증하고 있습니다. 서로 다른 로봇을 하나의 시스템으로, 로봇빌딩 통합관리시스템 RBMS 엑스와이지 사옥에는 서로 다른 역할을... 바리스타 로봇이 만든 음료를 배송로봇이 전달한다면 엑스와이지는 서로 다른 역할의 로봇을 하나의 서비스로 연결하는...",
+      "link": "https://blog.naver.com/xyz_inc/224375373190",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-08-05",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 로봇카페 바리스브루 '점심 피크때도 3분만에 음료 뚝딱'",
+      "description": "Physical AI 기업 엑스와이지(XYZ Inc.)가 운영하는 로봇카페 솔루션 '바리스브루(BarisBrew)'는 이 답답함을 데이터로 시원하게 풀어내고 있습니다. 엑스와이지 바리스브루 오늘은 최근 공개된 운영 데이터를 바탕으로, 이 바리스타 로봇이 얼마나 똑똑하게 일하고 있는지 살펴볼게요. 로봇카페의 실력, 숫자로 증명하다 엑스와이지가 최근 한 달간의 운영 데이터를 분석했더니...",
+      "link": "https://blog.naver.com/xyz_inc/224368800723",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-08-05",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[물류매거진] 엑스와이지, 상업공간 데이터로 피지컬 AI 고도화... 세미 휴머노이드 '듀스' 출시 추진",
+      "description": "엑스와이지(XYZ)가 실제 상업 공간에서 축적한 운영 데이터를 기반으로 로봇 지능을 고도화하는 '피지컬 AI 데이터 플라이휠... 엑스와이지는 AI 로봇카페 솔루션 '바리스브루(Baris Brew)', 자율주행 배송로봇 '스토리지(STORAGY)', 로봇 빌딩 통합 솔루션(RBMS) 등을 개발해 기업과 공공기관, 상업시설 등에 공급하고 있다. 엑스와이지는 이러한 상용 운영 경험이 피지컬 AI...",
+      "link": "https://blog.naver.com/ulogistics05/224362615182",
+      "blogger": "물류매거진",
+      "bloggerId": "ulogistics05",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 매장 데이터로 로봇 진화",
+      "description": "엑스와이지가 2026년 하반기 출시를 목표로 개발 중인 세미 휴머노이드 로봇 ‘듀스’. Ⓒ엑스와이지 엑스와이지가 2026년 하반기 출시를 목표로 개발 중인 세미 휴머노이드 로봇 ‘듀스’. Ⓒ엑스와이지 AI 로보틱스 기업 엑스와이지는 실제 상업공간에서 수집한 데이터를 자체 로봇 지능모델과 휴머노이드 개발에 연결하는 ‘Physical AI 데이터 선순환 체계’를...",
+      "link": "https://blog.naver.com/newsphere1/224362027074",
+      "blogger": "뉴스환경",
+      "bloggerId": "newsphere1",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력",
+      "description": "▲엑스와이지(XYZ) 5지형 글러브 (1) (사진=엑스와이지) AI 로보틱스 기업 엑스와이지(XYZ)와 오픈그래프랩스(Open Graph Labs)가 피지컬 AI 행동 데이터 수집을 위한 협력에 나선다. 엑스와이지의 자회사 라운지엑스(LoungeX)의 작업자들이 오픈그래프랩스가 개발한 비전 시스템과 촉각 글러브를 착용해 업무를 수행하고, 양사는 이 과정에서 생성되는 멀티모달 행동...",
+      "link": "https://blog.naver.com/irobotnews/224361854625",
+      "blogger": "로봇신문",
+      "bloggerId": "irobotnews",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 실제 매장 데이터 기반 'Physical AI' 고도화…세미 휴머노이드 '듀스' 상용화 속도",
+      "description": "결합 엑스와이지(XYZ)가 실제 상업시설에서 축적한 데이터를 활용해 Physical AI(피지컬 AI) 기술 경쟁력을 강화하고 있다.... 가운데, 엑스와이지는 카페 운영 데이터를 기반으로 차세대 로봇 지능 플랫폼 구축에 속도를 내고 있다. 올해 하반기 출시 예정인 엑스와이지의 휴머노이드 로봇 ‘듀스(DEUX)’ 로봇 카페 브랜드 라운지엑스(LoungeX)를 하나의 AI 실험실로...",
+      "link": "https://blog.naver.com/eung9114/224361647473",
+      "blogger": ".",
+      "bloggerId": "eung9114",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "피지컬 AI, 연구실 밖으로…엑스와이지, 생활 밀착형 양팔 세미 휴머노이드 ‘듀스’ 실매장 투입",
+      "description": "피지컬 AI 로봇 기업 엑스와이지(XYZ)는 양팔형 세미 휴머노이드 로봇 ‘듀스(DEUX)’를 라운지엑스 성수본점에 투입하고... 엑스와이지의 세미 휴머노이드 듀스가 실제 매장인 라운지엑스 성수본점에서 실증을 한 이유입니다. 듀스는 매장에서... 엑스와이지의 세미 휴머노이드 듀스 라운지엑스 실증 장면 이러한 작업을 수행하려면 물체를 발견하는 것만으로는...",
+      "link": "https://blog.naver.com/xyz_inc/224360314574",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-07-29",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "“로봇이 진짜 직원처럼 일한다”…성수동 매장에 투입된 ‘듀스’",
+      "description": "국내 피지컬 AI 로봇 기업 **엑스와이지(XYZ)**가 양팔 세미 휴머노이드 로봇 **‘듀스(DEUX)’**를 공개하고, 서울 성수동... 그래서 엑스와이지는 라운지엑스를 단순한 로봇 전시장이 아니라 실제 행동 데이터를 확보하는 테스트베드로 활용하고... 엑스와이지의 행동지능 프레임워크 **‘브레인엑스(BrainX)’**입니다. 핵심 기능인 Intelligence Router는 모든 작업을 AI에...",
+      "link": "https://blog.naver.com/samecircle/224360100089",
+      "blogger": "From Lab to World",
+      "bloggerId": "samecircle",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 기반 피지컬 AI 검증 본격화",
+      "description": "피지컬 인공지능(Physical AI) 로봇 기업 엑스와이지(XYZ)가 생활 밀착형 양팔 세미 휴머노이드 로봇 ‘듀스(DEUX)’의 실물을 공개하고, 서울 성수동 무인 카페 ‘라운지엑스’... 향후 확장 계획 엑스와이지는 무인 카페 라운지엑스 8개 매장을 시작으로, 축적된 행동 데이터 학습 체계를 사무실(서류 배달, 회의실 정리), 병원(환자 케어 보조), 주거 공간...",
+      "link": "https://blog.naver.com/minbog70/224360076351",
+      "blogger": "미래로",
+      "bloggerId": "minbog70",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 '듀스' 실매장 투입…실환경 피지컬 AI 검증",
+      "description": "▲엑스와이지(XYZ)가 생활 밀착형 양팔 세미 휴머노이드 로봇 '듀스(DEUX)'를 공개하고, 서울 라운지엑스 성수본점 매장에서 실환경 기반 행동지능 실증에 들어갔다. (사진=엑스와이지) 피지컬 AI 로봇 기업 엑스와이지(XYZ)가 생활 밀착형 양팔 세미 휴머노이드 로봇 '듀스(DEUX)'의 실물을 공개하고, 서울 라운지엑스 성수본점 매장에서 실환경 기반 행동지능 실증을...",
+      "link": "https://blog.naver.com/irobotnews/224359487109",
+      "blogger": "로봇신문",
+      "bloggerId": "irobotnews",
+      "date": "2026-07-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇 기업 채용 2026 총정리 — 지금 지원 가능한 수시공고 5선 (두산로보틱스·엑스와이지·NVIDIA 신입/인턴)",
+      "description": "■ 오늘의 로봇·AI 채용공고 (2026년 7월 20일 확인) · 두산로보틱스 — Robot R&D·AI&SW 등 15개 직군 / 수시 · 엑스와이지(XYZ) — 자율주행 로봇 개발자 / 정규직전환형 인턴... 2) 엑스와이지(XYZ) — 자율주행 로봇 개발자 (정규직전환형 인턴, 신입 가능) 서비스 로봇을 만드는 엑스와이지가 3개월 정규직전환형 인턴으로 자율주행 로봇 개발자를...",
+      "link": "https://blog.naver.com/ai_living/224351856482",
+      "blogger": "가성비 여행정보",
+      "bloggerId": "ai_living",
+      "date": "2026-07-20",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 '바리스브루' 로봇 자동화로 ESG 실현 플라스틱 연간 5.1톤 저감",
+      "description": "서비스 로봇 스타트업 엑스와이지(XYZ)의 무인 로봇 카페 솔루션 '바리스 브루(Baris Brew)'가 자동화 기술을 통해 매장 운영 효율을 높이는 것을 넘어, 연간 5.1톤의 플라스틱을 줄이는 친환경 ESG 경영 성과를 입증했습니다. 단순히 인건비를 절감하는 로봇을 넘어 환경적 가치(친환경 매장)를 창출하는 스마트 리테일의 모범 사례로 주목받고 있습니다. 1. 연간 5.1톤...",
+      "link": "https://blog.naver.com/minbog70/224347681410",
+      "blogger": "미래로",
+      "bloggerId": "minbog70",
+      "date": "2026-07-15",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "메디아나 병원 피지컬 AI 정리, 3사 협력이 노리는 700조 시장",
+      "description": "7월 7일 메디아나가 퓨리오사AI, 엑스와이지와 병원형 피지컬 AI 플랫폼을 함께 만든다고 밝혔다. 2. 병원 안 서버에서... 메디아나 장비가 심박과 산소포화도를 읽고, 퓨리오사AI의 NPU가 이상을 감지하고, 엑스와이지 로봇이 그 결과를... 엑스와이지의 로봇이 그 결과에 따라 검체와 혈액을 옮기고, 병동 물류를 나르고, 환자 안내를 한다. 한 병원 안에서...",
+      "link": "https://blog.naver.com/dev_memo/224346213743",
+      "blogger": "같이 또 다른",
+      "bloggerId": "dev_memo",
+      "date": "2026-07-14",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[로봇신문｜06.29] 엑스와이지, 엔비디아와 협력해 피지컬 AI 로보틱스 전문인재 기른다",
+      "description": "초점 ▲엑스와이지가 엔비디아와 협력해 피지컬 AI 로보틱스 분야 전문 인재를 양성하는 실습형 교육과정을 올 하반기부터 운영한다. 사진은 엑스와이지의 지능형 양팔로봇 ‘듀스’ 학습을 위한 디지털 트윈 데이터 수집 장면. (사진=엑스와이지) AI 로보틱스 전문기업 엑스와이지(대표 황성재)는 엔비디아(NVIDIA)와 협력해 피지컬 AI 로보틱스 분야 전문 인재를...",
+      "link": "https://blog.naver.com/xyz_inc/224330407780",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-06-29",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[2026 일잘러 페스타] 참가기업 소개_주식회사 엑스와이지",
+      "description": "오늘 소개할 참가기업은 주식회사 엑스와이지입니다! 주식회사 엑스와이지은 BarisBrew를 기반으로 리테일·오피스·병원 등 실환경에 AI 서비스 로봇 솔루션을 상용화한 Physical AI 스타트업입니다.입니다. 주식회사 엑스와이지은 이번 2026 일잘러페스타에서 BairsBrewX를 소개합니다! BairsBrewX는 BarisBrew 시리즈는 AI·로봇 기술 기반의 무인...",
+      "link": "https://blog.naver.com/skillup_festa/224328300903",
+      "blogger": "일잘러페스타",
+      "bloggerId": "skillup_festa",
+      "date": "2026-06-26",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "메디아나 주가 전망, 피지컬AI 협업의 의미",
+      "description": "전문기업 엑스와이지와 의료 분야 협업에 나섭니다. 기존 환자감시장치 중심 사업에서 병원 AI 인프라와 피지컬AI를... 목차 이 뉴스의 핵심을 먼저 보면 메디아나 주가 전망에서 의료AI가 주목받는 배경 엑스와이지 협업이 메디아나 주식에... 이번에 협업하는 엑스와이지는 로봇용 피지컬AI 기술을 개발하는 기업으로 소개됐습니다. 기사에서는 엑스와이지가...",
+      "link": "https://blog.naver.com/eatinghere/224310750932",
+      "blogger": "✅주관적 시장 파헤치기✅",
+      "bloggerId": "eatinghere",
+      "date": "2026-06-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "메디아나, 의료AI 플랫폼 확장",
+      "description": "'엔비디아'가 점찍은 엑스와이지와 의료AI 협업 셀바스AI(108860) 계열사 메디아나(041920)가 피지컬 AI(Physical AI) 전문기업 엑스와이지(XYZ, 대표 황성재)와 의료 분야 협업에 나선다고... 엑스와이지는 어제 8일 국내 AI·로봇 기업들과 함께 최근 방한한 엔비디아 젠슨 황 최고경영자(CEO)와의 'AI 에코시스템 간담회'에 참석하는 등 관련 산업내 협력 활동을 이어가고...",
+      "link": "https://blog.naver.com/ph001144/224310299141",
+      "blogger": "몸짱기자 취재수첩",
+      "bloggerId": "ph001144",
+      "date": "2026-06-09",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "메디아나-엑스와이지 협력, 차세대 의료 AI 플랫폼 구축 나선다",
+      "description": "셀바스AI 계열사인 메디아나가 로봇용 피지컬 AI 전문기업인 엑스와이지와 손을 잡고 의료 혁신을 추진합니다. 기존의 환자 모니터링 사업을 넘어 병원 AI 인프라와 첨단 로봇 기술을 융합한 스마트 병원 플랫폼 구축에 속도를 낼 전망입니다. 메디아나-엑스와이지 의료 AI 분야 맞춤형 협업 메디아나(108860)는 피지컬 AI 전문기업 엑스와이지와 차세대 의료 AI...",
+      "link": "https://blog.naver.com/hosizora_o/224310254303",
+      "blogger": "ꜱ ᴛ ᴏ ʀ ʏ ✿",
+      "bloggerId": "hosizora_o",
+      "date": "2026-06-09",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 회사 무턱방화문 시공",
+      "description": "안녕하세요 여러분 점점 날씨가 더워지는 계절이 다가오네요 다들 건강조심하시고, 오늘은 성수동에 위치한 엑스와이지 회사 #무턱방화문 시공한 현장을 소개해드리려합니다. 엑스와이지 회사는 로봇을 개발하는 회사인데요 시공 전 찾아가보니 기존 방화문 턱이 있어 로봇이 지나가기에 걸릴수 있는 큰 위험이 있어 저희회사에게 턱이 없는 방화문을 설치해달라는...",
+      "link": "https://blog.naver.com/yeonhuijang/224286451737",
+      "blogger": "백부&YH인테리어",
+      "bloggerId": "yeonhuijang",
+      "date": "2026-05-15",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "듀스를 만드는 엑스와이지의 사람들_인터뷰 1편 (w. 헬로티)",
+      "description": "피지컬 AI 기업 엑스와이지(XYZ)입니다. 최근 엑스와이지의 새로운 세미 휴머노이드, '듀스(DEUX)'가 공개되면서 정말 많은 관심을 받고 있는데요. 화려한 스펙 나열보다는 듀스 속에... 전문 매체 헬로티(Hello T)와 함께한 엑스와이지 개발진들의 심층 인터뷰. 로봇의 '친밀함'을 고민했던 그 치열한 기록을 공유합니다. [봇규의 헬로BOT] “형상보다 현장”...사람 곁에...",
+      "link": "https://blog.naver.com/xyz_inc/224283965865",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-05-13",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "양팔형 로봇 'DEUX' 공개 | 실환경에서 학습하는 Physical AI | XYZ",
+      "description": "엑스와이지(XYZ)가 양팔형 로봇 DEUX(듀스)를 공개합니다. DEUX는 양팔 구조의 상반신과 이동형 플랫폼을 결합한 세미 휴머노이드 로봇으로, 리테일, 오피스, 홈과 같은 일상... 엑스와이지는 실제 운영 환경에서 데이터를 수집하고, Physical AI 데이터 수집 디바이스 GloveX를 통해 사람의 행동 데이터를 학습에 적용하고 있습니다. 실환경을 기반으로...",
+      "link": "https://blog.naver.com/xyz_inc/224283069160",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-05-12",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "‘AI 무인 리테일 시대’ 온다 목표는 기술 기반으로 ‘리테일 문제 해결’하는 것 – 황성재 엑스와이지 대표",
+      "description": "(사진=엑스와이지) 김동진 ㈜엑스와이지 CCO & 황성재 ㈜엑스와이지 대표 서울 성수동의 한 골목. 커피 향이 가득한 매장 안을 들여다보면 기존 카페들에서 보였던 익숙한 풍경과는 조금 다르다. 주문을 받는 직원도, 바쁜 손놀림의 바리스타도 보이지 않는다. 대신 고객이 키오스크로 주문을 마치면 로봇 바리스타가 정교하게 일반 커피를 완성한다. 이곳은 AI 로봇 카페...",
+      "link": "https://blog.naver.com/tenantnews/224270557275",
+      "blogger": "TENANT NEWS",
+      "bloggerId": "tenantnews",
+      "date": "2026-05-01",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[현장] 2026 로봇채용위크, 엑스와이지(XYZ)가 제안하는 로봇과 사람의 공존 (바리스브루 & 듀스)",
+      "description": "일상 속 로봇 서비스를 혁신하는 엑스와이지(XYZ)입니다. 26년 4월 29일, 용산 서울파트너스하우스에서는 로봇 산업의 미래를 이끌 인재들이 한자리에 모인 '제4회 로봇채용위크'가... 자연스럽게 공존하는 세상을 만들기 위해 멈추지 않고 달려가겠습니다. 현장에서 응원해 주신 모든 분께 감사의 인사를 전합니다! ▼▼ 엑스와이지에 대해 더 자세히 알고 싶다면?▼▼",
+      "link": "https://blog.naver.com/xyz_inc/224270522768",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-04-30",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[Welcome to XYZ] 새로운 동료의 시작을 함께하는 웰컴키트",
+      "description": "엑스와이지(XYZ)입니다. 누구에게나 '첫 출근'은 낯설고 긴장되는 순간이죠. 엑스와이지는 새로운 동료의 그 긴장감을 설렘으로 바꾸기 위해, 정성 가득한 웰컴키트를 준비합니다. 오늘은 엑스와이지의 철학이 듬뿍 담긴 웰컴키트의 구성품과 그 안에 담긴 이야기를 들려드릴게요! 1. 웰컴키트에 담긴 엑스와이지의 철학 엑스와이지의 웰컴키트는 겉모습만 화려한...",
+      "link": "https://blog.naver.com/xyz_inc/224269371441",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-04-29",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개 \"카페 알바·고객 응대도 척척\"",
+      "description": "피지컬 인공지능(AI) 로봇 전문 기업 엑스와이지(XYZ)가 지난 2026년 4월 27일, 서비스 현장에 특화된 양팔형 로봇 ‘듀스... 핵심 기술 및 운용 방식 GloveX 기반 데이터 학습: 엑스와이지의 행동 데이터 수집 장치인 'GloveX'를 통해 실제 사람이... 엑스와이지는 이번 듀스 공개를 통해 단순한 자동화를 넘어, 서비스 산업 현장에서 사람과 긴밀하게 협업하는 로봇 에이전트...",
+      "link": "https://blog.naver.com/minbog77/224268079777",
+      "blogger": "미래생활",
+      "bloggerId": "minbog77",
+      "date": "2026-04-28",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "“진짜 쓰이는 로봇이 나온다” — 서비스형 양팔 로봇 시대 개막 엑스와이지의 ‘듀스(DEUX)’",
+      "description": "최근 공개된 **엑스와이지의 ‘듀스(DEUX)’**는 단순한 로봇 신제품이 아닙니다. 한마디로 정리하면, “지금 당장... 하지만 엑스와이지는 다릅니다. “사람 사는 공간에서 바로 쓰자” 리테일 카페 사무실 가정 즉, 공장이 아니라 ‘생활... 기존 문제 RL 학습 → 느림 데이터 부족 → 성능 제한 엑스와이지 방식 인간 손 동작을 그대로 캡처 행동 데이터 수집...",
+      "link": "https://blog.naver.com/samecircle/224267612736",
+      "blogger": "From Lab to World",
+      "bloggerId": "samecircle",
+      "date": "2026-04-28",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 양팔형 로봇 ‘듀스’ 공개…글러브X 기반 학습 프레임워크 제시",
+      "description": "▲엑스와이지가 27일 공개한 양팔형 로봇 ‘듀스(DEUX)’. (사진=엑스와이지) 피지컬 AI 전문 기업 엑스와이지(XYZ)가 양팔형 로봇 ‘듀스(DEUX)’를 27일 공개했다. 엑스와이지는 공식 채널을 통해 듀스 영상을 선보이며, 일상 환경에서의 다양한 활용 시나리오와 개발 방향을 함께 제시했다. 듀스는 양팔 구조의 상반신과 이동형 플랫폼을 결합한 세미 휴머노이드...",
+      "link": "https://blog.naver.com/irobotnews/224266614915",
+      "blogger": "로봇신문",
+      "bloggerId": "irobotnews",
+      "date": "2026-04-27",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "글로벌 로봇 산업의 중심! K- 로봇 진출을 선도하는 XYZ",
+      "description": "기업으로 엑스와이지를 취재했습니다. 피지컬 ai 기업 엑스와이지는 단순한 기계를 넘어 인간의 감각을 학습한 일상형 자동화 로봇 솔루션 기업 지향하고 있는데요, 엑스와이지가 만들어 낸 바리스타 로봇 '바리스'가 사람과 대화하며 직접 주문하는 모습부터 고객의 장소까지 배달해주는 '스토리지' 로봇, 양팔 지능형 로봇 '듀스'까지 담아낸 현장이었습니다....",
+      "link": "https://blog.naver.com/xyz_inc/224262395941",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-04-23",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "울트라백화점 서울 Vol.2, 엑스와이지 '아리스' 체험존 운영 | Agentic AI 인터랙션 공개",
+      "description": "DDP 뮤지엄 전시 2관 <울트라백화점 서울> '울트라 프라자'에 엑스와이지의 로봇아이스크림 아리스(aris)가 적용된 체험형... 체험형 인터랙션 존 구성 이번 전시에서 핵심은 로봇과의 대화 경험인데요, 엑스와이지는 별도의 마케팅 요소 없이... *전시회 방문 예정인 분들은 체험해보시길 바라겠습니다 :) 적용 기술 설명 이번 체험존에는 엑스와이지의 Agentic AI 기반...",
+      "link": "https://blog.naver.com/xyz_inc/224254651738",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-04-16",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "(주)엑스와이지 | 25년 매출 59억, 영업손실 16억, 누적투자 230억 | Physical AI 스타트업",
+      "description": "(주)엑스와이지: 카페·리테일 같은 일상의 무인화를 만드는 Physical AI 스타트업 설립: 2019년 5월 바리스타 로봇 '바리스브루'와 풀스택 AI 인프라를 통해 B2B 무인... io/ #InnoConnect #이노커넥트 #혁신 #Innovation #스타트업 #Startup #엑스와이지 #xyz #커피 #바리스 #바리스브루 #라운지엑스 #황성재 #무인화 #PhysicalAI #피지컬AI #투자...",
+      "link": "https://blog.naver.com/innoconnect/224251644656",
+      "blogger": "이노커넥트",
+      "bloggerId": "innoconnect",
+      "date": "2026-04-14",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "사내카페 운영 인건비 부담을 없애는 기업들의 선택 · 엑스와이지 바리스브루",
+      "description": "사내카페 솔루션_ 엑스와이지 바리스브루 현대자동차 사내카페 엑스와이지의 바리스브루(Baris Brew)는 사내카페에 특화된 로봇 바리스타 솔루션입니다. 기존 자판기나 전자동... 인건비를 줄이는 바리스브루의 핵심 운영 방식 엑스와이지 바리스브루가 사내카페 인건비 문제를 해결하는 방식은 '사람을 줄이는 것'이 아니라, '로봇이 사람의 역할을 대신하는 것...",
+      "link": "https://blog.naver.com/xyz_inc/224242784726",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-04-06",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "'자율주행, AI 신약개발, 로봇' 핫한 섹터는 펀딩이 잘되네 (feat. 오토노머스에이투지, 지니너스, 엑스와이지, 트위니)",
+      "description": "newsId=02056566645381680&mediaCodeNo=257 엑스와이지 (바리스타 로봇) - 시리즈B 투자사: 코오롱인베, 유안타인베, 크릿벤처스 등 (130억원) 로봇 팔이 달려있긴 하지만 자동화 설비에 가깝다고 생각했었는데, 실제로 매출을 발생시키고 양팔로봇 등으로 라인업을 확장시키는 것 보니 임직원들이 정말 열심히 사업하고 개발하고 있음을 간접적으로 알 수...",
+      "link": "https://blog.naver.com/boja_guidance/224241634056",
+      "blogger": "노캐쓸",
+      "bloggerId": "boja_guidance",
+      "date": "2026-04-05",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026년 3월 31일 로봇 뉴스레터",
+      "description": "클로봇, 두산로지스틱스솔루션 인수 우선협상대상자 선정 https://www.irobotnews.com/news/articleView.html?idxno=45600 엑스와이지, 유진증권 ‘유망 기업 설명회’ 참가…피지컬 AI 기반 사업 확장 전략 발표 https://www.irobotnews.com/news/articleView.html?idxno=45601 中 애지봇 \"1만대째 로봇 출하...내년 말까지...",
+      "link": "https://blog.naver.com/yhrobotics/224235294079",
+      "blogger": "(주)영현로보틱스",
+      "bloggerId": "yhrobotics",
+      "date": "2026-03-31",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "제 13회 2026 국제 e 모빌리티 엑스포, 엑스와이지 참여후기",
+      "description": "바로 로봇 바리스타 '바리스(Baris)'를 앞세운 스타트업, 엑스와이지(XYZ)입니다. e 모빌리티의 흐름 위에 F&B 자동화를 접목한 이들의 도전이 행사장 안팎에서 뜨거운 화제를 모았는데요. 현장을 직접 다녀온 생생한 참여후기를 지금 공유합니다. 1. 국제 e 모빌리티 엑스포*에 참여한 엑스와이지는? 1) 엑스와이지 기업은? AI 기반의 서비스 로봇 스타트업으로, 카페...",
+      "link": "https://blog.naver.com/xyz_inc/224234513659",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-30",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026년 3월 27일 로봇 뉴스레터",
+      "description": "무역위, 日·中 산업용 로봇에 최고 19.85% 반덤핑 관세 부과 건의 https://www.irobotnews.com/news/articleView.html?idxno=45556 엑스와이지, 국제e모빌리티엑스포서 ‘바리스 DT’ 선보여 https://www.irobotnews.com/news/articleView.html?idxno=45542 큐렉소, 인공관절 수술 로봇 ‘큐비스-조인트’ 美 FDA 승인 https://www....",
+      "link": "https://blog.naver.com/yhrobotics/224231074678",
+      "blogger": "(주)영현로보틱스",
+      "bloggerId": "yhrobotics",
+      "date": "2026-03-27",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "크라우드웍스, 엑스와이지와 로봇 학습 데이터 협력…피지컬 AI 공략",
+      "description": "황성재 엑스와이지 대표(좌측)이 기념사진을 찍고 있다. AI 테크 기업 크라우드웍스는 피지컬 AI 기술 기업 엑스와이지(XYZ)와 로봇 학습용 데이터 구축 및 사업 협력을 위한 업무협약을 체결했다고 25일 밝혔다. 엑스와이지는 자율주행 및 푸드테크 로봇 분야에서 두각을 나타내며 실생활 밀착형 로봇 솔루션을 제공하는 피지컬 AI 강소기업이다. 크라우드웍스와 함께...",
+      "link": "https://blog.naver.com/crowdworks_ai/224228725227",
+      "blogger": "크라우드웍스",
+      "bloggerId": "crowdworks_ai",
+      "date": "2026-03-25",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "피지컬 AI 기업 엑스와이지: 클로드코드(Claude Code) 사내교육 진행",
+      "description": "피지컬 AI 전문기업 엑스와이지(XYZ)가 최근 임직원을 대상으로 클로드코드(Claude Code) 사내교육을 진행했습니다. 이번 교육은 클로드코드가 무엇인지에 대한 기초 설명부터... 피지컬 AI 기업 엑스와이지에서 열린 클로드코드 사용법 교육 엑스와이지는 물리 세계와 AI를 연결하는 피지컬 AI(Physical AI) 분야를 선도하는 기업으로, 소프트웨어와 하드웨어의 경계를...",
+      "link": "https://blog.naver.com/xyz_inc/224223523634",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-20",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "제13회 2026 국제 e모빌리티엑스포에 엑스와이지도 참여해요!",
+      "description": "오늘은 엑스와이지의 기술력을 직접 경험하며 체감할 수 있는 현장을 소개해보려 합니다. 이번에 엑스와이지가 2026 국제 e모빌리티 엑스포에 참여하게 됐어요. 엑스와이지가 참여하는 국제 e모빌리티엑스포는 무엇인지, 어떤 기술이 엑스포에서 소개되는지, 엑스와이지는 금번 어떤 기술력을 선보이는지 블로그를 통해 알려드릴게요. 1️⃣ 2026 국제 e...",
+      "link": "https://blog.naver.com/xyz_inc/224221037655",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-18",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026년 3월 3주차 스타트업 소식 및 일정",
+      "description": "구독하기 STARTUP WEEKLY Fully covered, once a week 국내 뉴스 엑싯/투자 에이투지오토노머스, 405억원 프리IPO 투자 유치 공간유전체 '지니너스', 200억원 후속 투자 유치 리테일 로봇 '엑스와이지', 130억원 시리즈B 투자 유치 3차원 세포 배양 '셀로이드', 90억 시리즈A 투자 유치 건강기능식품 '닥터트루', 40억원 시리즈A 투자 유치 멘탈 헬스케어 '리솔', 30억원...",
+      "link": "https://blog.naver.com/kichajin/224217903900",
+      "blogger": "예지향",
+      "bloggerId": "kichajin",
+      "date": "2026-03-16",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 카페 로봇 바리스브루 4.0 완전 분석",
+      "description": "그 변화의 중심에 서 있는 엑스와이지(XYZ)가 한층 진화한 바리스타 로봇 '바리스브루(Baris Brew) 4.0'을 선보였습니다. 단순한 기계를 넘어 공간의 품격을 높이는 카페 로봇의 새로운 기준, 오늘 포스팅에서 자세히 파헤쳐 보겠습니다. 1. 엑스와이지의 바리스타 로봇 '바리스브루'는 무엇일까? 바리스브루(Baris Brew)는 국내 대표 서비스 로봇 스타트업 '엑스와이지(XYZ)'가...",
+      "link": "https://blog.naver.com/xyz_inc/224215054395",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-13",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026년 3월 13일 로봇 뉴스레터",
+      "description": "엑스와이지, 차세대 바리스타 ‘바리스브루 4.0’ 출시 https://www.irobotnews.com/news/articleView.html?idxno=45318 인천시, 대표 로봇기업 에스피지 방문…‘로봇 시티 인천’ 속도 낸다 https://www.irobotnews.com/news/articleView.html?idxno=45316 “물건 옮기고 테이블 정리 척척”…기계연, 로봇 작업 AI 개발 https...",
+      "link": "https://blog.naver.com/yhrobotics/224214828288",
+      "blogger": "(주)영현로보틱스",
+      "bloggerId": "yhrobotics",
+      "date": "2026-03-13",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇 카페, 어디까지 왔을까?｜로봇 스타트업 투자 130억의 비밀",
+      "description": "바로 ㈜엑스와이지(XYZ Inc.)가 총 130억 원 규모의 시리즈 B 투자를 유치했다는 소식입니다! 1. 로봇 스타트업, '엑스와이지 (XYZ)'는 어떤 회사예요? 엑스와이지(XYZ Inc.)는 인공지능 기반 로보틱스 기술을 일상에 적용하는 서비스 로봇 스타트업입니다. 이 회사는 '로봇 지능 플랫폼'을 지향하며, Physical AI 전 과정을 자체적으로 수행하는 풀스택(Full-Stack) 체계를...",
+      "link": "https://blog.naver.com/xyz_inc/224211284542",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-10",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 130억 시리즈B 투자유치, 삼성전자 스타트업 매각 창업자가 바리스타 로봇으로 연매출 60억 만든 전략",
+      "description": "엑스와이지(XYZ)가 2026년 3월 코오롱인베스트먼트 리드로 130억원 시리즈B를 유치했습니다. 2025년 연매출 60억원, 누적... \" ㅤ 카페를 데이터 수집 인프라로 설계한 역발상 ㅤ 엑스와이지의 핵심 전략은 직영 로봇카페 라운지엑스(LoungeX)를... \" ㅤ 풀스택 피지컬 AI 파이프라인 ㅤ 엑스와이지의 기술 구조는 4단계 수직통합입니다. 손조작 데이터 수집 장갑 GloveX...",
+      "link": "https://blog.naver.com/demoday/224211144597",
+      "blogger": "창업 정보 플랫폼 '데모데이'",
+      "bloggerId": "demoday",
+      "date": "2026-03-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026년 3월 10일 로봇 뉴스레터",
+      "description": "두산로보틱스, 광진그룹에 제조용 로봇 100대 공급 https://www.irobotnews.com/news/articleView.html?idxno=45267 엑스와이지, 130억원 규모 시리즈 B 투자 유치 https://www.irobotnews.com/news/articleView.html?idxno=45259 한국로봇산업진흥원, 착용로봇 국내 최초 KS인증 수여식 개최 https://www.irobotnews.com/news/articleView.html?...",
+      "link": "https://blog.naver.com/yhrobotics/224211059426",
+      "blogger": "(주)영현로보틱스",
+      "bloggerId": "yhrobotics",
+      "date": "2026-03-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[연합뉴스｜03.09] 로봇 기업 엑스와이지, 시리즈B 자금 조달",
+      "description": "기자 = 엑스와이지가 130억 원 규모의 시리즈 B 투자를 마무리했다며 로봇 지능 플랫폼 기업으로 도약하겠다고 9일 밝혔다. 엑스와이지는 코오롱인베스트먼트, 유안타인베스트먼트, 크릿벤처스 등이 참여한 총 130억 원 규모의 시리즈 B 라운드를 마감했다. 투자에는 재무적 투자자(FI)와 전략적 투자자(SI)가 함께 참여했다. 엑스와이지는 지난해 바리스타 로봇...",
+      "link": "https://blog.naver.com/xyz_inc/224209772207",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-03-09",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "사내카페 입점, 24시간 스마트 운영 노하우｜엑스와이지 바리스브루 도입 사례",
+      "description": "사내카페 입점, 24시간 스마트 운영 노하우｜엑스와이지 바리스브루 도입 사례 기업 복지의 기준이 달라지고 있습니다.... 오늘은 엑스와이지 바리스브루(Baris Brew) 기반의 스마트 사내카페 입점 사례와 도입 효과를 소개해드릴게요! 왜 지금... 엑스와이지 바리스브루, 사람 없이도 안정적인 운영 구조 엑스와이지의 바리스브루는 그냥 자동 커피머신이 아닙니다. AI 기반...",
+      "link": "https://blog.naver.com/xyz_inc/224198314023",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-02-27",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 독자 AI 파운데이션 모델 개발 국책과제 컨소시엄 핵심 참여기관 선정",
+      "description": "Physical AI 전문 기업 ㈜엑스와이지(대표 황성재)가 과학기술정보통신부가 추진하는 ‘독자 AI 파운데이션 모델(독파모)’ 개발... 엑스와이지가 참여하는 모티프테크놀로지스 컨소시엄은 AI 인프라, 데이터 구축, 학계 등으로 구성된 풀스택 협력 체계를 갖추고 있다. 이 가운데 엑스와이지는 VLA(Vision-Language-Action, 시각·언어·행동) 기반 로보틱스 적용을 담당한다....",
+      "link": "https://blog.naver.com/venturesquare_/224196623228",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2026-02-26",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[로봇신문｜02.26] 엑스와이지, '독자 AI 파운데이션 모델' 국책과제 참여",
+      "description": "기업 ㈜엑스와이지(대표 황성재)가 과학기술정보통신부의 ‘독자 AI 파운데이션 모델(독파모)’ 개발 국책과제 컨소시엄에 핵심 참여기관으로 선정됐다. 엑스와이지는 자체 인프라와 디바이스를 통해 Physical AI 데이터를 수집... 엑스와이지가 참여하는 모티프테크놀로지스 컨소시엄은 AI 인프라, 데이터 구축, 학계 등으로 구성된 풀스택...",
+      "link": "https://blog.naver.com/xyz_inc/224196507528",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-02-26",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[연합뉴스TV 스페셜] 416화 : 엑스와이지XYZ 로봇 기술 현장 기록",
+      "description": "[연합뉴스TV 스페셜 416화]에 엑스와이지가 소개됐습니다. 방송에서는 로봇이 일터와 일상의 풍경 자체를 바꾸고 있는 변화의 흐름을 집중 조명했는데요! 산업 현장을 넘어 카페... 그리고 그 변화의 한가운데에 엑스와이지XYZ의 기술이 소개됐습니다. 24시간 멈추지 않는 로봇카페, '바리스브루Baris Brew' 엑스와이지 로봇지능화팀 고미종 연구원님의 인터뷰를 통해...",
+      "link": "https://blog.naver.com/xyz_inc/224192507919",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-02-23",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "제2방정환교육지원센터에 들어선 엑스와이지 바리스브루｜공공교육 공간 속 로봇카페북카페 새로운 모델",
+      "description": "제2방정환교육지원센터에 들어선 엑스와이지 바리스브루｜공공교육 공간 속 로봇카페 새로운 모델 중랑구 미래 교육 거점으로 조성된 제2방정환교육지원센터에 AI 로봇 바리스타 기반 로봇카페가 새롭게 구축되었습니다 :) 이번 공간에는 엑스와이지의 로봇카페 솔루션인 엑스와이지 바리스브루가 설치되어 교육 공간과 휴식 공간, 그리고 첨단 기술 체험이 자연스럽게...",
+      "link": "https://blog.naver.com/xyz_inc/224182757518",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-02-13",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "은행연합회 CF광고에 엑스와이지 로봇 DEUX & G1이!? (w.오정세 배우님)",
+      "description": "은행연합회 CF 광고에 엑스와이지 로봇이 등장했어요! 양팔형 로봇 듀스DEUX부터 춤추는 휴머노이드로봇 G1까지! 오정세 배우님과 함께한 특별한 광고 촬영 현장이었답니다 : ) ▼ 엑스와이지의 다양한 기술 로봇을 확인해보세요 ▼",
+      "link": "https://blog.naver.com/xyz_inc/224182583624",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-02-13",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "로봇카페 운영 사례로 보는 실제 도입 효과 - 공공기관/기업/교육/리테일까지",
+      "description": "\"실제로 운영이 잘 되고 있는 로봇카페 운영 사례가 있을까?\" 엑스와이지(XYZ)의 로봇 바리스타 바리스브루(Baris Brew)는... 로봇카페 도입을 고민 중이시라면 엑스와이지는 일반 로봇 판매가 아닌 실제 운영 데이터를 기반으로 한 로봇카페 운영... 제공 로봇카페 운영 사례를 직접 확인하고 싶다면 엑스와이지의 바리스브루 도입 사례를 참고해 보세요. ▼ 도입 사례 확인하기 ▼",
+      "link": "https://blog.naver.com/xyz_inc/224161358555",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-01-27",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지(XYZ)가 함께한 로스콘 코리아2026(ROSCon Korea 2026) 현장 소식!",
+      "description": "X엑스와이지(XYZ) 가 공동 주최하고, 로봇 운영체제 ROS를 관리하는 OSRF(Open Source Robotics Foundation)의 공식 지원을 받아 진행됐습니다. 국내 첫 공식 로컬 ROS 콘퍼런스의 시작 행사 개막식에서는 엑스와이지 황성재 대표님께서 환영사를... 엑스와이지, 현장에서의 로봇 개발 사례 공유 이번 ROSCon Korea 2026에서 엑스와이지 소속 개발자분들 또한 참여해 실제...",
+      "link": "https://blog.naver.com/xyz_inc/224156052657",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-01-22",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[로봇신문｜01.22] 황성재 엑스와이지 대표, '로스콘 코리아 2026' 서 환영사",
+      "description": "기업인 엑스와이지의 황성재 대표가 환영사를 맡아 행사의 시작을 알렸다고 회사 측이 22일 밝혔다. 황 대표는... 이번 행사는 로봇·AI 기술 교육 전문기업 핑크랩(PinkLAB)과 광운대학교, 엑스와이지(XYZ)가 공동 주최했으며, ROS를 개발... [출처] 황성재 엑스와이지 대표, ‘로스콘 코리아 2026’서 환영사 < 인사·동정 < 커뮤니티 < 기사본문 - 로봇신문",
+      "link": "https://blog.naver.com/xyz_inc/224155996230",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2026-01-22",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026.01.16 벤처기업 NEWS",
+      "description": "⭐️라포랩스 퀸잇에 팔린 SK스토아, 흔들리는 1위·커지는 내부 반발 https://www.womaneconomy.co.kr/news/articleView.html?idxno=248262 ⭐️엑스와이지 엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입 https://www.hellot.net/news/article.html?no=109060 ⭐️엑소시스템즈...",
+      "link": "https://blog.naver.com/sageonepartners/224147892145",
+      "blogger": "세이지원파트너스 공식블로그",
+      "bloggerId": "sageonepartners",
+      "date": "2026-01-16",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2026. 01. 05 (월) [쿠니 로봇 한컷 - 로봇뉴스픽]",
+      "description": "엑스와이지, 2025년 로봇 상용화 성과 '결실'...매출 35억 원 돌파해 2. 클로봇, 삼현과 물류·제조용 실외 주행 로봇 MOU 체결 3. 세코어로보틱스, CES 2026에서 피지컬 AI를 위한 3D 공간 데이터 기술 선봬 4. 협진, 이달 '앤로보틱스' 인수 완료…\"로봇 전문기업 전환\" \" \" 5. [현대무벡스] AGV가 상품을 착착, 겐트리가 타이어를 번쩍…스마트...",
+      "link": "https://blog.naver.com/ai-robotics/224134032883",
+      "blogger": "쿠니 로봇 한컷 : AI·로봇 뉴스를 한컷에 쏙",
+      "bloggerId": "ai-robotics",
+      "date": "2026-01-04",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2025. 12. 30 (화) [쿠니 로봇 한컷 - 로봇뉴스픽]",
+      "description": "엑스와이지, 올해 로봇 상용 성과로 경쟁력 입증 4. 뉴로메카, CES 2026서 산업 현장 즉시 투입 가능한 ‘피지컬 AI 휴머노이드 플랫폼 EIR(에이르)’ 공개 5. 마음AI, 남원시에 피지컬AI 자율경비로봇 '소라' 공급 6. 로보티즈, 자율주행 배달로봇 대학가 등장…“배달비 무료 인기” 7. 요기요, 로봇으로 아파트 현관 앞까지 배달한다 8. 최준호...",
+      "link": "https://blog.naver.com/ai-robotics/224127568362",
+      "blogger": "쿠니 로봇 한컷 : AI·로봇 뉴스를 한컷에 쏙",
+      "bloggerId": "ai-robotics",
+      "date": "2025-12-30",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[KOSTA 가산] 채용연계기업 x XYZ(엑스와이지) 기업설명회 개최",
+      "description": "채용연계 기업설명회 현장 스케치 [KOSTA 가산] 채용연계기업 x XYZ(엑스와이지) 기업설명회 / 2025.11.12.(수), 14:30... 채용연계기업이 ‘직접’ 찾아오는 교육 과정 기업설명회 발표자 : XYZ(엑스와이지) 김O조 CFO 이번 기업설명회는 〈React.JS와 Spring Boot를 활용한 풀스택 개발자 양성 과정(강사 : 전혜영)〉의 채용연계기업으로 참여 중인 XYZ(엑스와이지) 기업이...",
+      "link": "https://blog.naver.com/kosta_gasan/224113942154",
+      "blogger": "KOSTA_가산",
+      "bloggerId": "kosta_gasan",
+      "date": "2025-12-18",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "원티드랩, AI 휴머노이드 시대의 문을 열다: IT 인재를 위한 새로운 기회",
+      "description": "IT 인재 매칭 플랫폼의 선두주자 원티드랩이 엑스와이지, 광운대학교와의 파격적인 협력을 통해 피지컬 AI 휴머노이드... 엑스와이지는 로봇 기술 및 하드웨어 개발의 선두주자로서 피지컬 AI의 '몸'을 구축하는 전문성을 제공합니다. 여기에... 원티드랩, 엑스와이지, 그리고 광운대의 이번 전략적 협력은 한국이 피지컬 AI 휴머노이드 분야에서 글로벌 경쟁력을 확보하고...",
+      "link": "https://blog.naver.com/google76-/224106353567",
+      "blogger": "영끌모아 백두산",
+      "bloggerId": "google76-",
+      "date": "2025-12-11",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "아이엘, 엑스와이지와 업무협약 체결",
+      "description": "미래 모빌리티 플랫폼 기업 아이엘(대표 송성근)은 10일 AI·설계·데이터 기반 DX 기술을 보유한 엑스와이지와 스마트제조 및 로봇... 역량과 엑스와이지의 AI·DX 기술을 결합해 로봇 지능 고도화와 제조환경 실증 속도를 높이기 위한 전략적 조치로 평가된다. 양사는 최근 공개된 세미휴머노이드 로봇 아이엘봇 C2 모델을 중심으로 엑스와이지의 차세대 지능 플랫폼...",
+      "link": "https://blog.naver.com/venturesquare_/224105715366",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2025-12-11",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2025. 12. 11 (목) [쿠니 로봇 한컷 - 로봇뉴스픽]",
+      "description": "엑스와이지-아이엘, 제조공정 로봇전환 업무협약 체결 4. ‘자율주행 로봇’ 뉴빌리티, 251억원 시리즈B 투자 유치… 휴머노이드로 사업 넓힌다 5. 뉴로메카, 휴머노이드 로봇 핵심 '구동계' 핵심부품 국산화 팔걷어 6. 브릴스, 지텍과 '로봇 자동화 솔루션 공동 개발' 업무협약 체결 7. 삼성전기, '휴머노이드 로봇' 사업 속도…노르웨이 기업 투자 8....",
+      "link": "https://blog.naver.com/ai-robotics/224105404697",
+      "blogger": "쿠니 로봇 한컷 : AI·로봇 뉴스를 한컷에 쏙",
+      "bloggerId": "ai-robotics",
+      "date": "2025-12-11",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "무인카페기계 렌탈, 대기업 공공기관도 선택한 기계",
+      "description": "왜 엑스와이지 로봇카페가 선택되는가 의료기관·대기업·교육시설·공공기관이 선택한 무인카페머신 '바리스브루' 도입 사례 무인카페기계 / 무인커피머신을 찾는 기업과 기관이 빠르게 늘고 있습니다. AI 로봇 기술 기업 엑스와이지(XYZ)의 로봇... 공공기관·기업·전시 공간까지 폭넓은 확산 다양한 운영 목적에 최적화된 무인카페기계 엑스와이지는 현대자동차그룹...",
+      "link": "https://blog.naver.com/xyz_inc/224087376283",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-25",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지 바리스브루, 재구매가 증명한 로봇카페 기술력",
+      "description": "엑스와이지 바리스브루, 재구매가 증명한 로봇카페 기술력 의료·대기업·교육시설까지 확산되는 XYZ 로봇카페 솔루션 엑스와이지(XYZ)의 로봇 바리스타 바리스브루(BarisBrew)가 다양한 현장에서 빠르게 확산되고 있습니다. 특히 한 번 설치한... 엑스와이지는 현대자동차그룹 외에도 서울시청, 청양군 칠갑타워, 덕구온천 등 기업·공공기관의 다양한 운영 공간에...",
+      "link": "https://blog.naver.com/xyz_inc/224078587458",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-17",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[엑스와이지, 로보월드 2025서 차세대 로봇 라인업 대거 공개] - 2025 로보월드 카페테리아 운영",
+      "description": "지능형 양팔 로봇 'XY봇' 공개 리테일 운영 자동화를 위한 '정밀 조작 자동화'기술 공개 엑스와이지의 차세대 양팔 조작 로봇 'XY봇'은 서비스·리테일 환경에서 요구되는 섬세한 조작 작업을 수행하기 위해 설계된 소형·경량 양팔 로봇 플랫폼입니다. 이미테이션 러닝(Imitation Learning) 기반 조작 기술이 적용된 XY봇은 사람의 실제 조작 데이터를 모델링한 뒤...",
+      "link": "https://blog.naver.com/xyz_inc/224072022824",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-11",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 로보월드 2025서 지능형 양팔 로봇 ‘XY봇’ 공개…리테일 조작 자동화 본격화",
+      "description": "오픈암(Open Arm) 기반으로 설계한 H/W와, 엑스와이지의 범용 로봇지능 플랫폼인 브레인X(BrainX)을 소프트웨어 레이어에서 적용하는 구조로 설계돼 제조사나 로봇 폼팩터에 구애받지 않는다. 이를 통해 로봇 지능의 범용적 이식성·확장성을 확보했다. 엑스와이지는 XY봇을 구성하는 조작·지능 모듈이 향후 휴머노이드 플랫폼에도 연동되도록 광운대학교 로빛(RO...",
+      "link": "https://blog.naver.com/xyz_inc/224068284608",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-07",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 로보월드 2025서 ‘스토리지 2.0’ 최초 공개…다층 이송·지능형 자율주행 플랫폼 고도화",
+      "description": "이번에 선보이는 스토리지 2.0은 이전 대비 소형화됐지만 처리 능력은 강화됐으며, 엔비디아 젯슨(NVIDIA Jetson) 플랫폼 기반 연산 구조와 엑스와이지 로봇 지능 ‘브레인X(BrainX)’ 적용을 통해 지능형 자율주행 성능을 대폭 끌어올린 모델이다. 스토리지 2.0은 특별 설계된 캐스터휠 시스템을 적용해 카페·리테일·서비스 공간의 협소한 구조에서도 20~25mm 단차를...",
+      "link": "https://blog.naver.com/xyz_inc/224068283200",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-07",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 로보월드 2025서 ‘브레인X’ 기반 휴머노이드 첫 공개…K-콘텐츠 결합한 로봇 지능 시연",
+      "description": "-브레인X 기반 휴머노이드 첫 공개…범용 로봇 지능 시대 개막 -K-콘텐츠 결합한 R2S2R 시연으로 차세대 로봇 엔터테인먼트 기술 선보여 AI·로봇 기술기업 엑스와이지(XYZ)는 국내 최대 로봇 산업 전시회 ‘로보월드 2025’에서 자사의 로봇 지능 모델 ‘브레인X(BrainX)’를 탑재한 휴머노이드 로봇을 공개 시연 한다고 밝혔다. 이번 전시는 엑스와이지가 개발한 차세대...",
+      "link": "https://blog.naver.com/xyz_inc/224068281616",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-11-07",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "“K-로봇의 길은 ‘지능×앱×운영데이터’…맘스터치 전자동화가 던진 신호”",
+      "description": "“K-로봇의 길은 ‘지능×앱×운영데이터’…맘스터치 전자동화가 던진 신호” 로봇이 전시품을 넘어 매출을 만드는 설비로 이동하고 있다. 엑스와이지(XYZ)가 로보월드 2025에서 공개한 자율주행 ‘스토리지 2.0’, 양팔 조작 ‘XY봇’, 휴머노이드 데모는 공통의 두뇌 ‘브레인X’를 축으로 음성 지능과 조작을 엮어 실제 고객 시나리오를 굴린다. 하드웨어 종속을...",
+      "link": "https://blog.naver.com/ekalghd/224068080413",
+      "blogger": "ekalghd님의 블로그",
+      "bloggerId": "ekalghd",
+      "date": "2025-11-07",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "맘스터치, 로봇 전시회 ‘로보월드 2025’ 참가",
+      "description": "사진=맘스터치앤컴퍼니 맘스터치가 인공지능(AI) 기반 서비스 로봇 전문 기업 엑스와이지(XYZ)와 ‘로보월드 2025’에 공동으로 참가해 미래형 QSR 매장 쇼룸을 공개했다고 6일 밝혔다. 이번 쇼룸은 지난달 24일 ‘AI·로봇 기반 F&B 서비스 혁신을 위한 전략적 업무제휴(MOU)’ 체결 이후 양사가 함께 선보이는 첫 공식 협업이다. 맘스터치의 맛과 품질, 전국적인 QSR...",
+      "link": "https://blog.naver.com/weekly-cnb/224066531190",
+      "blogger": "문화경제",
+      "bloggerId": "weekly-cnb",
+      "date": "2025-11-06",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[벤처스퀘어｜2025.10.27] 엑스와이지X맘스터치, AI 로봇 기반 F&B 서비스 혁신 위한 MOU 체결",
+      "description": "이와 연계해 엑스와이지의 로봇카페 솔루션 ‘바리스브루엑스 맘스터치에디션(Barisbrew X MAMSTOUCH Edition)’이 맘스터치 R&D센터에 설치되어 실증 운영 중이며, 검증을 거쳐 향후 전국 매장으로의 단계적 확대가 추진될 예정이다. [출처] 엑스와이지, 맘스터치와 업무협약 체결",
+      "link": "https://blog.naver.com/xyz_inc/224059891232",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-10-31",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "라운지엑스, 엑스와이지와 업무협약 체결",
+      "description": "엑스와이지는 로봇 비전, 인공지능(AI), 인간-로봇 상호작용(HRI·Human-Robot Interaction) 등 피지컬 AI(Physical AI) 기술을 중심으로 무인 매장 솔루션을 개발하고 있다. 특히 로봇 센서와 비전 인식 기술, 매장 내 실시간 운영 데이터를 결합해 인력 개입이 필요 없는 자율 운영 구조를 실현 중이다. 엑스와이지 황성재 대표는 “그동안 기업 중심으로 도입되던 로봇카페...",
+      "link": "https://blog.naver.com/venturesquare_/224057463618",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2025-10-29",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 맘스터치와 업무협약 체결",
+      "description": "AI 로봇 기술 기업 엑스와이지(XYZ)는 24일 서울 명동 맘스터치 R&D 제품혁신센터에서 맘스터치와 ‘AI 로봇 기반 F&B 서비스 혁신 업무협약(MOU)’을 체결했다고 밝혔다. 양사는 이번 협약을 통해 인공지능(AI)과 로봇 기술을 기반으로 한 미래형 무인매장 구축 및 차세대 리테일 플랫폼 개발을 공동 추진한다. 협약 주요 내용은 ▲무인 로봇매장 및 로봇...",
+      "link": "https://blog.naver.com/venturesquare_/224055145191",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2025-10-27",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "맘스터치, ‘로봇 매장’ 시대 앞장 선다",
+      "description": "맘스터치는 지난 24일 오후 서울 중구에 위치한 맘스터치 R&D센터에서 인공지능(AI) 기반 서비스 로봇 전문 기업인 ‘엑스와이지’(XYZ)와 ‘AI·로봇 기반의 F&B 서비스 혁신을 위한 전략적 업무제휴’(MOU)를 체결했다고 27일 밝혔다. 이번 협약은 메뉴 주문부터 조리, 제공에 이르는 QSR 전 과정의 자동화 매장 구현하고, 매장 운영 효율과 고객 경험의 고도화를 통한...",
+      "link": "https://blog.naver.com/weekly-cnb/224055013289",
+      "blogger": "문화경제",
+      "bloggerId": "weekly-cnb",
+      "date": "2025-10-27",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "'보이스오더' 기술과 휴머노이드 '엔터테인먼트', '운영력' 세 가지 역량을 입증한 2025 서울 AI 로봇쇼",
+      "description": "2025 서울 AI 로봇쇼 전시 성과 공유 9월 30일부터 10월 2일까지 코엑스에서 개최된 2025 서울 AI 로봇쇼에서 엑스와이지는 기술, 엔터테인먼트, 운영력 세 영역에서의 경쟁력을 입증했습니다. 바리스브루X는 전시 현장에서 음성 주문 기반 '보이스오더' 데모를 실시간 시연하며 로봇 카페의 차세대 인터페이스를 선보였습니다. 또한 엑스와이지의 강화학습 기술...",
+      "link": "https://blog.naver.com/xyz_inc/224040666514",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-10-14",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2025. 10. 13 (월) [쿠니 로봇 한컷 - 로봇뉴스픽]",
+      "description": "보스턴 다이나믹스, 신형 ‘그리퍼’ 공개…로봇 손 기술의 새로운 진화 2. 엑스와이지, 서울시 주관 ‘2025 하이서울 기업’ 인증 획득 3. 테솔로 DG-5F, 한양대 연구팀의 로봇 손 ‘문워크’ 영상으로 IEEE Spectrum에 등장 4. 한국AI·로봇산업협회, 11월 국제로봇연맹(IFR) 서비스로봇위원회 회의 개최 5. “전기차 말고 로봇이 먼저 쓴다”…‘꿈의...",
+      "link": "https://blog.naver.com/ai-robotics/224039230615",
+      "blogger": "쿠니 로봇 한컷 : AI·로봇 뉴스를 한컷에 쏙",
+      "bloggerId": "ai-robotics",
+      "date": "2025-10-13",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "전시/컨퍼런스 현장에서도 열일하는 바리스브루X! 빠른 설치, 대기줄 없는 커피 서빙, 이벤트 진행까지!",
+      "description": "Joyful, Chill, Gaze, Hello 등 더욱 다양한 모션이 추가되며, 주문 환경에 맞춰 고객과 상호작용하는 엑스와이지의 AI 로봇 카페 바리스브루X입니다. Try Everything 2025 마무리 Try Everything 2025는 수많은 국내외 방문객들에게 일상 속에서 첨단 기술을 직접 체험할 수 있는 기회를 제공했습니다. 또한 현장 곳곳에서 이어진 사진 촬영과 기술에 대한 깊이 있는 질문...",
+      "link": "https://blog.naver.com/xyz_inc/224010091708",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-09-16",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[KOSTA 가산] 304기 채용연계기업 추가 확정 : XYZ((주)엑스와이지)",
+      "description": "여기서 잠깐, 로봇 기술에 AI 테크의 선두주자인 XYZ : (주)엑스와이지에서 채용연계기업으로 추가되었다는 소식을 전해드립니다. 여기서 잠깐! 채용연계과정이란? 한국소프트웨어기술진흥협회(KOSTA)와 채용연계기업 지원자를 선별하여 소프트웨어 기술 훈련을 진행하고, 약 5개월 간의 교육을 수료한 수 입사 절차를 밟게 되는...",
+      "link": "https://blog.naver.com/kosta_gasan/223995275632",
+      "blogger": "KOSTA_가산",
+      "bloggerId": "kosta_gasan",
+      "date": "2025-09-04",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "커피 로봇부터 로봇 빌딩까지, 일상을 변화시키는 로봇 전문 기업, 엑스와이지",
+      "description": "엑스와이지가 개발한 로봇은 바리스브루(고급형 카페로봇), 바리스브루엑스(기본형 카페로봇), 바리스드립(드립 커피), 아리스(아이스크림), 스토리지(자율주행 배달) 등이 있다. 엑스와이지가 다양한 로봇 응용 분야 중에서도 일상생활, 특히 F&B 분야에 먼저 집중한 데는 이유가 있다. 황 대표는 “로봇 기술이 많이 발전했지만, 대부분 공장 자동화에 집중되어 있어요....",
+      "link": "https://blog.naver.com/venturesquare_/223975910838",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2025-08-19",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "(주)엑스와이지, 카페 로봇을 넘어 공존형 AI 로봇에 도전",
+      "description": "엑스와이지 로봇 지능화 연구소 조인성 연구소장은 로봇이 사람과 대화하고, 원격지에서 명령을 받아 움직이는 지능화 기술을 적극 연구하고 있다고 밝혔습니다. 대표적인 제품은 로봇 바리스타 '바리스브루'와 이를 소형화한 '바리스브루X' 핸드드립 전문 로봇인 '바리스드립, 아이스크림 로봇인 '아리스'와 함께 빌딩 내 AMR 기반 배송 로봇 '스토리지(Storage)'와...",
+      "link": "https://blog.naver.com/yeogie1/223969054594",
+      "blogger": "1등 산업포털 여기에",
+      "bloggerId": "yeogie1",
+      "date": "2025-08-13",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, ‘K-휴머노이드 연합’ 최종 선정",
+      "description": "엑스와이지는 무인 로봇카페 ‘LOUNGE’X’를 포함한 약 40여 대의 상용 로봇을 운영하며, 사용자와의 대화 및 동작 등의 멀티모달 데이터를 실시간으로 수집하고 있다. 이 데이터를 바탕으로 물리적 지능을 학습하는 디지털 트윈 기반 플랫폼 ‘Twin X’를 통해, 현장에서 발생하는 문제를 원격 교시(tele-operation) 방식으로 해결함과 동시에 실사용자의 움직임...",
+      "link": "https://blog.naver.com/kips1214/223958680566",
+      "blogger": "로봇신문",
+      "bloggerId": "kips1214",
+      "date": "2025-08-04",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, '2025 농식품 테크 스타트업 창업 박람회’서 '바리스브루X' 선보인다",
+      "description": "바리스브루X를 포함한 엑스와이지 바리스브루 시리즈는 ▲자체 개발한 음성 상호작용 엔진 ‘브레인엑스(BrainX)’를 탑재해 주문 및 응대 가능 AI 음성 인터랙션 ▲로봇이 스스로 정돈된 상태로 복귀해 안정적이고 일관된 고객 경험을 제공하는 마트 메모리얼 리와인딩 기술 ▲자체 개발한 10채널 정밀 디스펜싱 시스템으로 다양한 레시피 구현 가능한 음료...",
+      "link": "https://blog.naver.com/kips1214/223936009277",
+      "blogger": "로봇신문",
+      "bloggerId": "kips1214",
+      "date": "2025-07-16",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:15:42.278Z"
+    },
+    {
+      "title": "1시간 100잔, 효율로 증명하는 무인 카페 머신 엑스와이지 바리스브루",
+      "description": "대량 주문도 빠르고 정확하게, 24시간 부담 없는 무인카페 엑스와이지 바리스브루 사람들은 어떤 카페 경험을 중요하게 여길까요? 커피 맛만으로는 더 이상 선택받기 어려운 시대입니다. 이제 소비자를 만족시키기 위해선 단순한 음료 제공을 넘어선 '경험'이 필요합니다. 엑스와이지는 이러한 변화에 대응해, 기술과 경험을 결합한 무인 카페 솔루션으로...",
+      "link": "https://blog.naver.com/xyz_inc/223930171227",
+      "blogger": "XYZ 엑스와이지",
+      "bloggerId": "xyz_inc",
+      "date": "2025-07-11",
+      "official": true,
+      "firstSeenAt": "2026-08-26T05:15:42.278Z"
+    },
+    {
+      "title": "[공유] 엑스와이지, Unity 기반 로봇 원격 교시·모방 학습 시스템 ‘트윈엑스’ 공개",
+      "description": "https://naver.me/xjU2yaXO &",
+      "link": "https://blog.naver.com/pb-room/223917372076",
+      "blogger": "빌리언스의 투자노트",
+      "bloggerId": "pb-room",
+      "date": "2025-07-01",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "2025. 04. 04 (금) [SHARE AI+로봇 뉴스]",
+      "description": "로보티즈-엑스와이지, 피지컬 AI 기반 리테일 서비스 로봇 개발 협약 3. 에이엠솔루션즈, 해병대 군수단에 전군 로봇 금속 3D 프린터 공급해 기술력 주목 4. 루닛, 美 국립암연구소와 전략적 파트너십 체결…AI로 암 치료 혁신 나선다 5. 샌즈랩, 日에 AI NDR 솔루션 공급…현지 기업과 판매 협약 <정부 & 로봇 동향 뉴스> 1. KETI-ETRI, AI·로봇·메타버스...",
+      "link": "https://blog.naver.com/sharerobotics/223821724788",
+      "blogger": "한양대학교 ERICA 지능형로봇 사업단 공식 블로그",
+      "bloggerId": "sharerobotics",
+      "date": "2025-04-04",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "데이원컴퍼니, 엑스와이지와 업무협약 체결",
+      "description": "데이원컴퍼니(대표 이강민)가 로봇 전문 기업 엑스와이지와 로봇 전문 인력 양성을 위한 업무협약(MOU)을 체결했다고 27일 밝혔다. 이번 협약은 데이원컴퍼니가 보유한 고도화된 교육 플랫폼과 엑스와이지의 로봇 기술 전문성을 결합하여 체계적인 로봇 교육 생태계를 구축하는 데 중점을 두고 있다. 특히, 4차 산업혁명 시대에 필요한 AI와 로봇 기술을 겸비한 융합형...",
+      "link": "https://blog.naver.com/venturesquare_/223776458457",
+      "blogger": "VentureSquare",
+      "bloggerId": "venturesquare_",
+      "date": "2025-02-27",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "성수동 140평 지산 인테리어 사례 | 사무 공간 및 특수 공간 구축 | 경제적인 지식산업센터 공간 활용",
+      "description": "XYZ 엑스와이지는 AI 기술을 활용해 푸드 로봇, 자율주행 로봇 등을 개발하는 서비스 로봇 기업입니다. 지식산업센터인 성수CF타워에 입주하며 8개 호실을 합쳐 공사를 진행했고, 사업 전개에 필요한 특수 공간인 로봇개발 연구실, 아카데미 교육장을 구축했습니다. 지식산업센터 사무실 인테리어와 기업 맞춤 특수 공간 인테리어가 궁금했던 분들은 눈여겨봐 주셔도...",
+      "link": "https://blog.naver.com/fastfiveinterior/223730086352",
+      "blogger": "오피스 전문 인테리어 하이픈디자인",
+      "bloggerId": "fastfiveinterior",
+      "date": "2025-01-18",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "국내 1등 커피로봇 전문기업인 \"엑스와이지\" 임원분들 대상 프라이빗 강의",
+      "description": "국내 1등 커피로봇 전문기업인 \"엑스와이지\" 임원분들 대상 프라이빗 강의 성수동 임장, 팝업스토어, 상권분석, 수익형부동산, 공간대여업 등 3시간 동안 임원분들과 같이 달렸습니다 프랜차이즈는 로봇 무인화가 대안입니다",
+      "link": "https://blog.naver.com/rcntk/223717513570",
+      "blogger": "자수성가부자들(쇼츠펀)",
+      "bloggerId": "rcntk",
+      "date": "2025-01-07",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[(주)엑스와이지] XYZ 본사 방문기",
+      "description": "XYZ는 “로봇 기술을 우리의 일상으로 (ROBOTS INTO OUR DAILY LIFE)” 라는 비전을 기반으로 설립된 서비스 로봇(Service Robot) 스타트업으로, 인공지능 기반의 로봇 기술을 통해 리테일 시장의 문제를 해결하고 있습니다. 현재 저희 연구실은 서울시 교육청이 발주한 ‘푸드테크를 활용한 스마트 급식실 모델 및 운영기준 연구’ 과제를 한국푸드테크 협의회 이기원 교수님...",
+      "link": "https://blog.naver.com/yonsei0510/223613670287",
+      "blogger": "연세대학교 급식외식경영연구실",
+      "bloggerId": "yonsei0510",
+      "date": "2024-10-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 엑스와이지전자어음할인, 엑스와이지어음할인",
+      "description": "서비스 #로봇 기업 엑스와이지와 공간 #사물인터넷 기업 고퀄이 건물 관제를 통한 로봇 애플리케이션 개발을 위해 업무 협약을 체결. 엑스와이지는 최근 로봇 빌딩 솔루션의 사업화에 착수. 이달 초 신축된 성수CF타워로 사옥을 이전해 관련 솔루션의 테스트베드도 마련. 로봇 빌딩 솔루션의 핵심은 빌딩 내 적용된 로봇 및 #IoT 등 각 기술을 제어할 수...",
+      "link": "https://blog.naver.com/boohung114/223563504636",
+      "blogger": "금융달인",
+      "bloggerId": "boohung114",
+      "date": "2024-08-28",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[ZLTECH]휠인모터 적용 어플리케이션 (자율주행 배달로봇)",
+      "description": "오늘은 ZLTECH의 휠인 모터와 드라이버가 탑재된 어플리케이션, 자율주행 배달로봇을 소개해드리겠습니다. 출처 : 엑스와이지 ZLTECH의 5인치 휠인모터를 사용한 로봇입니다. 제어 드라이브로는 2축 드라이버로 하나의 드라이버와 2개의 휠인모터로 구성되었습니다. 배달로봇 제작시 크기를 줄이는것이 매우 중요합니다. 작은 크기의 로봇은 좁은 공간에서도 쉽게...",
+      "link": "https://blog.naver.com/motor2662/223540532318",
+      "blogger": "모터114 공식 블로그",
+      "bloggerId": "motor2662",
+      "date": "2024-08-08",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "#인공지능로봇 시대에 #로봇 이 맥주도 따릅니다. #바텐더 도 곧 사라지겠네요.",
+      "description": "#두산로보틱스 는 최근 #서비스로봇 기업 엑스와이지와 식음료 특화 #협동로봇 ‘E시리즈’와 납품 계약을 체결했습니다. #엑스와이지 는 #E시리즈 를 활용해 #맥주로봇 을 개발하고 이를 두산로보틱스 측에 다시 독점 공급할 예정이고 두산로보틱스는 이 맥주로봇을 매장에 공급할 계획입니다. 미래기술변화를 미리 알고 대비해야합니다. https://zdnet....",
+      "link": "https://blog.naver.com/thomashykim/223505040347",
+      "blogger": "인공지능시대 주인으로 살기",
+      "bloggerId": "thomashykim",
+      "date": "2024-07-08",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[채용공고] 엑스와이지 · [서비스 로봇] 로봇 세일즈 매니저(5년 이상)",
+      "description": "** (신사옥 전경) [팀 소개] XYZ의 사업전략팀은 엑스와이지의 제품과 서비스 등을 판매하기 위한 전략을 수립하고 실행하는 조직입니다. 이를 위해 회사의 사업전략, 마케팅, 영업, 정부사업 지원 업무를 수행할 뿐 아니라 VOC를 수집하여 제품개발에 반영할 수 있도록 내부적인 커뮤니케이션에도 많은 노력을 기울이고 있습니다. [직무소개] 로봇 세일즈...",
+      "link": "https://blog.naver.com/inthisworkofficial/223486889053",
+      "blogger": "IN THIS WORK - 인디스워크",
+      "bloggerId": "inthisworkofficial",
+      "date": "2024-06-21",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[채용공고] 엑스와이지 · [서비스 로봇] 재무회계 담당자(경력 5년 이상)",
+      "description": "** (신사옥 전경) [팀 소개] 재무회계팀은 엑스와이지의 재무 건전성을 유지하고, 전략적 의사 결정을 지원하며, 재무 보고 및 분석, 예산 관리, 자금 조달, 리스크 관리 등을 수행합니다. 또한, 법규 준수와 내부 통제 강화를 통해 기업의 투명성과 신뢰성을 높이는 데 기여하고 있습니다. [기술스택] 위하고, Notion, Slack, MS-office [담당업무] – 월/분기/연간 결산...",
+      "link": "https://blog.naver.com/inthisworkofficial/223479020466",
+      "blogger": "IN THIS WORK - 인디스워크",
+      "bloggerId": "inthisworkofficial",
+      "date": "2024-06-14",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 엑스와이지전자어음할인, 엑스와이지어음할인",
+      "description": "#서비스 로봇 스타트업 엑스와이지가 #로봇카페 솔루션의 세 번째 버전인 #바리스브루 3.0 출시. 바리스브루는 결제와 실시간 #관제운영, #음료제조, #스낵 픽업, #픽업대 서비스와 음성 안내 및 음악 재생까지 카페의 모든 기능을 수행. 엑스와이지는 기존 바리스브루의 크기를 축소하면서 #스마트픽업존, 인공지능 비전기술 등 다양한 기술을 개선 및...",
+      "link": "https://blog.naver.com/boohung114/223451031363",
+      "blogger": "금융달인",
+      "bloggerId": "boohung114",
+      "date": "2024-05-20",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "AI 대체 불가직업인 크리에이터! 어떻게 준비하지?",
+      "description": "좌 출처 : 엑스와이지 (엑스익스프레스의 로봇 바리스타) / 우 출처 : 한국도로공사 (문막 휴게소 로봇 푸드코트 쉐프) 기술의 발전으로 AI 로봇을 비롯한 다양한 AI를 쉽게 만나볼 수 있게 되면서 생활의 전반적인 편의성이 굉장히 향상되었습니다. 특히 AI 로봇이 도입된 곳이 점차 많아지면서 우리 일상도 하나둘씩 빠르게 변화하고 있는데요. 하지만! AI 기술, AI 로봇이...",
+      "link": "https://blog.naver.com/apm-company/223448730178",
+      "blogger": "APM-COMPANY",
+      "bloggerId": "apm-company",
+      "date": "2024-05-16",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[채용공고] 엑스와이지 · [서비스 로봇] 백엔드 엔지니어",
+      "description": "▣▣ (성수CF타워 상세주소 : 서울 성동구 성수동 2가 284-124, 7층) (6월 초 이사 예정 사무실 이미지) [팀 소개] XYZ의 로봇 자동화팀은 로봇 서비스 운영과 제어에 필요한 시스템 임베디드부터 사용자 프론트 앱까지 전반적인 제어 시스템과 소프트웨어를 디자인하고 개발하는 팀입니다. 바리스타 로봇, 아이스크림 로봇과 같은 푸드테크 로봇과 주변...",
+      "link": "https://blog.naver.com/inthisworkofficial/223442434392",
+      "blogger": "IN THIS WORK - 인디스워크",
+      "bloggerId": "inthisworkofficial",
+      "date": "2024-05-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[채용공고] 엑스와이지 · [서비스 로봇] Front-end 엔지니어",
+      "description": "▣▣ (성수CF타워 상세주소 : 서울 성동구 성수동 2가 284-124, 7층) (6월 초 이사 예정 사무실 이미지) [팀 소개] XYZ는 자율주행 로봇을 전문적으로 개발하는 스타트업으로 자율주행 로봇을 활용하여 건축물 내 XY축 이동뿐만 아니라 Z축 이동을 통해 다양한 식음료를 전달하고 있습니다. XYZ의 로봇 자동화팀은 로봇 서비스 운영과 제어에 필요한...",
+      "link": "https://blog.naver.com/inthisworkofficial/223442424690",
+      "blogger": "IN THIS WORK - 인디스워크",
+      "bloggerId": "inthisworkofficial",
+      "date": "2024-05-10",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "엑스와이지, 엑스와이지전자어음할인, 엑스와이지어음할인",
+      "description": "바리스드립은 엑스와이지가 2019년 출시한 핸드드립 로봇. 전문가의 손목 각도와 높이, 드립 속도까지 정밀하게 계산된 드립 모션을 구사해 일정하게 커피를 내려줘. ★ 엑스와이지 전자어음 할인 절차 ★ 상담 ▶ 금리정하기 상담 ▶ 서류팩스 ▶ 전자어음배서 ▶ 배서확인 ▶ 송금 ▶ 완료 1) 사업자등록증 사본 2) 세금계산서 사본 3) 입금통장 사본...",
+      "link": "https://blog.naver.com/boohung114/223436864025",
+      "blogger": "금융달인",
+      "bloggerId": "boohung114",
+      "date": "2024-05-09",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "여의도 IFC몰 카페 라운지엑스, 로봇 드립커피를 맛볼 수 있는 이색카페",
+      "description": "서비스 로봇 엑스와이지(XYZ)와 커피 전문가가 만난 곳 ‘라운지엑스’ 서울 영등포구 국제금융로 10, IFC몰 L1 151호 매일 10:00 ~ 22:00 (21:30 라스트오더) 주차 가능 (구매 금액별 무료주차) 로봇이 내어주는 커피는 롯데월드에서나 봤지 여의도 카페에 로봇카페가 있을 줄은 생각도 못했는데 라운지엑스는 IFC몰 카페 L1층에 위치해있고 로봇 바리스가 만들어 주는...",
+      "link": "https://blog.naver.com/ramirambo_/223298298423",
+      "blogger": "라미람보",
+      "bloggerId": "ramirambo_",
+      "date": "2023-12-20",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    },
+    {
+      "title": "[여의도카페]IFC몰 로봇이 드립커피 내려주는 크림슈페너 맛집 로봇카페, 라운지엑스(LOUNGE'X)",
+      "description": "서비스 로봇 스타트업인 엑스와이지(XYZ)와 커피 전문가가 만나 탄생한 브랜드인, 라운지엑스(LOUNGE'X) 라운지엑스 영업시간/위치 라운지엑스(LOUNGE'X) 로봇이 원두 알고리즘에 기반해 각 원두에 맞는 전문가의 드립모션을 그대로 수행하는 서비스 로봇이 바리스타인 곳 여의도, 영등포 거주자는 물론 주말에 IFC몰을 찾는 사람들이라면 모두 방문할 수 있는...",
+      "link": "https://blog.naver.com/akehssk555/223290860943",
+      "blogger": "빠꾸의 On&Off",
+      "bloggerId": "akehssk555",
+      "date": "2023-12-12",
+      "official": false,
+      "firstSeenAt": "2026-08-26T05:13:31.389Z"
+    }
+  ]
+}

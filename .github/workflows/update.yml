@@ -1,0 +1,82 @@
+name: 브랜드 데이터 자동 수집
+
+on:
+  workflow_dispatch:  # 대시보드의 새로고침 버튼이 Cloudflare Worker 를 통해 트리거
+  schedule:
+    # 하루 2회(오전/저녁). 정시·자정 정각은 GitHub 예약 작업 혼잡으로 1~3시간 밀리므로
+    # :40 분으로 비켜 둔다. 실측 지연은 약 1시간 20분이라 실제 반영은 아래 시각쯤.
+    #   23:40 UTC = 08:40 KST → 실제 약 10:00 KST
+    #   11:40 UTC = 20:40 KST → 실제 약 22:00 KST
+    - cron: '40 11,23 * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: 저장소 체크아웃
+        uses: actions/checkout@v6
+
+      - name: Node.js 설정
+        uses: actions/setup-node@v6
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: 의존성 설치
+        run: npm ci
+
+      - name: Playwright Chromium 설치
+        run: npx playwright install --with-deps chromium
+
+      # 누적분은 data/*.json 을 커밋해서 보관한다 — 별도 캐시 복원이 필요 없다
+      - name: 네이버 블로그 수집
+        env:
+          HEADLESS: 'true'
+        run: npm run blog
+        continue-on-error: true  # 블로그 수집 실패해도 나머지 결과는 살림
+
+      - name: 브랜드 뉴스 수집
+        run: npm run news
+        continue-on-error: true  # 뉴스 수집 실패해도 나머지 결과는 살림
+
+      - name: 네이버 데이터랩 검색 트렌드 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: npm run trend
+        continue-on-error: true  # 키 미설정 등 실패해도 나머지 결과는 살림
+
+      - name: 데이터 변경 시 커밋 + 푸시
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/blog.json data/news.json data/trend.json 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "변경사항 없음 — 커밋 생략"
+            exit 0
+          fi
+          git commit -m "데이터 자동 갱신 ($(TZ=Asia/Seoul date '+%Y-%m-%d %H:%M KST'))"
+
+          # 실행 중(3~4분)에 누군가 main 에 푸시하면 이 푸시가 non-fast-forward 로 거절되고
+          # 그 회차 수집 결과가 통째로 버려진다. 원격 위에 다시 얹고 재시도한다.
+          # -X theirs = 리베이스로 다시 적용되는 쪽(이번 회차 데이터) 우선.
+          # 데이터 파일은 이 워크플로우만 생성하므로 방금 만든 최신본을 택하는 게 맞다.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "푸시 완료 (시도 $attempt)"
+              exit 0
+            fi
+            echo "푸시 거절됨 — 원격 변경 반영 후 재시도 ($attempt/3)"
+            git fetch origin main
+            if ! git rebase -X theirs origin/main; then
+              git rebase --abort || true
+              echo "리베이스 실패 — 중단"
+              exit 1
+            fi
+          done
+          echo "3회 재시도 후에도 푸시 실패"
+          exit 1

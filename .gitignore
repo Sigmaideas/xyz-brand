@@ -1,0 +1,26 @@
+# 의존성
+node_modules/
+
+# 환경 변수 (API 키 포함 — 절대 커밋 금지)
+.env
+.env.local
+.env.*.local
+
+# 수집 데이터는 전부 공개 정보라 원문째로 커밋한다.
+# 커밋 파일 자체가 누적 저장소 역할을 하므로 캐시가 필요 없다.
+data/*
+!data/blog.json
+!data/news.json
+!data/trend.json
+
+# 시스템/에디터
+.DS_Store
+*.log
+.vscode/
+.idea/
+
+# 테스트/임시 산출물
+.playwright-mcp/
+*.png
+!logo.png
+.claude/

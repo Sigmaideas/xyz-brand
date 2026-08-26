@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="color-scheme" content="light only" />
+  <title>XYZ 브랜드 모니터링</title>
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+  <!-- ?v= 는 캐시 버스팅. GitHub Pages 가 max-age=600 으로 내려줘서 파라미터를 안 바꾸면
+       코드를 고쳐도 브라우저가 10분간 옛 파일을 계속 쓴다. app.js/style.css 수정 시 함께 올릴 것 -->
+  <link rel="stylesheet" href="style.css?v=1" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <img class="brand-logo" src="logo.png" alt="XYZ" />
+    </div>
+    <nav class="nav">
+      <div class="nav-section">데이터 소스</div>
+      <a class="nav-item active" href="#" data-source="blog">
+        <i data-lucide="message-square-text" class="nav-icon"></i>
+        네이버 블로그 모니터링
+      </a>
+      <div class="nav-section">노출 분석</div>
+      <a class="nav-item" href="#" data-source="trend">
+        <i data-lucide="trending-up" class="nav-icon"></i>
+        검색어 트렌드
+      </a>
+      <a class="nav-item" href="#" data-source="news">
+        <i data-lucide="newspaper" class="nav-icon"></i>
+        뉴스 모니터링
+      </a>
+    </nav>
+    <div class="sidebar-foot">내부용 · v1.0</div>
+  </aside>
+
+  <div class="app">
+    <header class="topbar">
+      <div>
+        <h1 id="pageTitle">네이버 블로그 모니터링</h1>
+      </div>
+      <div class="topbar-meta">
+        <div class="topbar-meta-text">
+          <span class="meta-value" id="lastUpdated">-</span>
+        </div>
+        <button
+          class="refresh-btn"
+          id="refreshBtn"
+          title="데이터를 다시 수집합니다"
+        >
+          <i data-lucide="refresh-cw" class="btn-icon"></i>
+          <span id="refreshLabel">데이터 업데이트</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+     <div id="blogView">
+      <div class="scope-bar">
+        <div class="scope-tabs" id="blogScopeTabs"><!-- loadBlog() 에서 생성 --></div>
+        <span class="hint" id="blogScopeHint"></span>
+      </div>
+
+      <section class="kpi-row" id="blogKpiRow"><!-- loadBlog() 에서 생성 --></section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="trending-up" class="head-icon"></i>월별 포스트 수</h2>
+          <div class="card-head-actions">
+            <select id="blogYearSelect" class="year-select" aria-label="연도 선택"></select>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="blogMonthly"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="pie-chart" class="head-icon"></i>블로거별 포스트 비중</h2>
+          <span class="hint">전체 누적 기준 · 상위 9곳</span>
+        </div>
+        <div class="chart-wrap"><canvas id="blogAuthors"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="tag" class="head-icon"></i>포스트 주요 주제</h2>
+          <span class="hint">제목·본문에 언급된 키워드</span>
+        </div>
+        <div class="chart-wrap chart-wrap-tall"><canvas id="blogTopics"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="list" class="head-icon"></i>최근 포스트</h2>
+          <span class="hint">제목 클릭 시 원문 새 탭에서 열림</span>
+        </div>
+        <div id="blogList"></div>
+      </section>
+     </div>
+
+     <div id="trendView" hidden>
+      <section class="kpi-row" id="trendKpiRow"><!-- loadTrend() 에서 생성 --></section>
+
+      <section class="card chart-card" id="trendCard">
+        <div class="card-head">
+          <h2><i data-lucide="line-chart" class="head-icon"></i>브랜드 검색 관심도 추이</h2>
+          <span class="hint" id="trendHint">'엑스와이지' 네이버 검색 트렌드 · 최근 1년</span>
+        </div>
+        <div class="chart-wrap"><canvas id="trend"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="info" class="head-icon"></i>지표 읽는 법</h2>
+        </div>
+        <div id="trendNote"></div>
+      </section>
+     </div>
+
+     <div id="newsView" hidden>
+      <div class="scope-bar">
+        <div class="scope-tabs" id="newsScopeTabs"><!-- loadNews() 에서 생성 --></div>
+        <span class="hint" id="newsScopeHint"></span>
+      </div>
+
+      <section class="kpi-row" id="newsKpiRow"><!-- loadNews() 에서 생성 --></section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="newspaper" class="head-icon"></i>월별 기사 수</h2>
+          <div class="card-head-actions">
+            <select id="newsYearSelect" class="year-select" aria-label="연도 선택"></select>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="newsMonthly"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="pie-chart" class="head-icon"></i>언론사별 보도 비중</h2>
+          <span class="hint" id="newsPressHint">전체 누적 기준</span>
+        </div>
+        <div class="chart-wrap"><canvas id="newsPress"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="tag" class="head-icon"></i>기사 주요 주제</h2>
+          <span class="hint">제목·요약에 언급된 키워드</span>
+        </div>
+        <div class="chart-wrap chart-wrap-tall"><canvas id="newsTopics"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="list" class="head-icon"></i>최근 기사</h2>
+          <span class="hint">제목 클릭 시 원문 새 탭에서 열림</span>
+        </div>
+        <div id="newsList"></div>
+      </section>
+     </div>
+    </main>
+  </div>
+
+  <script src="app.js?v=1"></script>
+</body>
+</html>
