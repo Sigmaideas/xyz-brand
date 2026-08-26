@@ -40,6 +40,10 @@ jobs:
         continue-on-error: true  # 블로그 수집 실패해도 나머지 결과는 살림
 
       - name: 브랜드 뉴스 수집
+        env:
+          # 네이버 뉴스 검색도 같은 키를 쓴다. 없으면 구글 뉴스만 수집된다.
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: npm run news
         continue-on-error: true  # 뉴스 수집 실패해도 나머지 결과는 살림
 
