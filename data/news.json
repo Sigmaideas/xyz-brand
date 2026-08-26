@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-26T05:22:11.554Z",
+  "lastScrapedAt": "2026-08-26T08:28:36.931Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 135,
-  "krArticles": 131,
+  "totalArticles": 137,
+  "krArticles": 133,
   "overseasArticles": 4,
   "articles": [
     {
@@ -47,6 +47,28 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.digitaltoday.co.kr/news/photo/202608/695628_643474_210.jpg"
+    },
+    {
+      "title": "지티지오·엑스와이지, 글로벌 팁스 선정…Physical AI 무인 외식매장 개발",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE0yUl9XazVMalFSVHVMdDlNaEVOZXdsdDd2UXYyRi0zWWlORndGc2tIeVlFVUtwcHNWSXZ0SXlkUnR0NW1WT0E?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-26T08:28:36.931Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/08/20260826_XYZ-1024x388.png"
+    },
+    {
+      "title": "GTGO·엑스와이지, 글로벌 팁스 선정…50억 확보해 24시간 무인 F&B 매장 개발",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9fSTJZSGRTS0d5bUxjRlpMd0t0VHUzZ0xYNXhHRmFjaWZxVVg1MWhWVDdEME1KMVdYWHZ1LXBPenRncFFObFE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-26T08:28:36.931Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/08/%EC%82%AC%EC%A7%84-%EC%A4%91%EA%B8%B0%EB%B6%80-%E2%80%98%EA%B8%80%EB%A1%9C%EB%B2%8C-%ED%8C%81%EC%8A%A4%EC%97%90-%EC%B5%9C%EC%A2%85-%EC%84%A0%EC%A0%95%EB%90%9C-GTGO%EA%B0%80-XYZ%EC%99%80-%ED%95%A8%EA%BB%98-24%EC%8B%9C%EA%B0%84-%EB%AC%B4%EC%9D%B8-FB-%EB%A7%A4%EC%9E%A5-%EA%B0%9C%EB%B0%9C%EC%97%90-%EB%82%98%EC%84%A0%EB%8B%A4-1024x576.jpg"
     },
     {
       "title": "\"사람 손 닮는게 목표 아냐\"…엑스와이지, 로봇핸드 구조 공개 - 머니투데이",
