@@ -27,6 +27,15 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
 // 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
 // 구 사명 '라운지랩' 은 제외 — 걸리는 기사가 전부 2019~2022년이라 현재 상황과 무관하다
+// HTTP 헤더는 latin-1 만 담을 수 있다. 키에 한글이 섞이면(한글 IME 켜고 입력하면
+// l→ㅣ 처럼 바뀐다) fetch 가 'Cannot convert argument to a ByteString' 로 죽는데
+// 원인이 전혀 드러나지 않으므로 여기서 미리 잡아 준다.
+function badKeyChars(name, value) {
+  const bad = [...value].filter((c) => c.charCodeAt(0) > 255);
+  if (bad.length === 0) return null;
+  return `${name} 에 ASCII 가 아닌 문자(${bad.join(' ')})가 들어 있습니다 — 한글 IME 상태로 입력했거나 복사가 잘못된 값입니다`;
+}
+
 const QUERIES = ['엑스와이지', '엑스와이지 로봇', '엑스와이지 XYZ', '엑스와이지 피지컬AI'];
 
 // 해외 보도는 국문 검색에 거의 안 걸린다.
@@ -325,7 +334,13 @@ async function main() {
 
   const id = process.env.NAVER_CLIENT_ID;
   const secret = process.env.NAVER_CLIENT_SECRET;
-  if (id && secret) {
+  const keyErr =
+    id && secret
+      ? badKeyChars('NAVER_CLIENT_ID', id) || badKeyChars('NAVER_CLIENT_SECRET', secret)
+      : null;
+  if (keyErr) {
+    log(`네이버 뉴스 건너뜀 — ${keyErr}`);
+  } else if (id && secret) {
     for (const q of QUERIES) {
       try {
         fresh.push(...(await collectNaver(q, id, secret)));
