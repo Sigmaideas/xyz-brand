@@ -59,7 +59,13 @@ function runStep(script, phase) {
   });
 }
 
-const SCRAPE_SCRIPT = { blog: 'scrape-blog.js', news: 'scrape-news.js', trend: 'scrape-trend.js' };
+const SCRAPE_SCRIPT = {
+  blog: 'scrape-blog.js',
+  cafe: 'scrape-cafe.js',
+  news: 'scrape-news.js',
+  trend: 'scrape-trend.js',
+  youtube: 'scrape-youtube.js',
+};
 
 async function runUpdate(source) {
   job = {

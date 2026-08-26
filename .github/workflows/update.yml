@@ -39,6 +39,13 @@ jobs:
         run: npm run blog
         continue-on-error: true  # 블로그 수집 실패해도 나머지 결과는 살림
 
+      - name: 네이버 카페 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: npm run cafe
+        continue-on-error: true  # '검색' API 미등록 등 실패해도 나머지 결과는 살림
+
       - name: 브랜드 뉴스 수집
         env:
           # 네이버 뉴스 검색도 같은 키를 쓴다. 없으면 구글 뉴스만 수집된다.
@@ -54,13 +61,19 @@ jobs:
         run: npm run trend
         continue-on-error: true  # 키 미설정 등 실패해도 나머지 결과는 살림
 
+      - name: 유튜브 영상 수집
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+        run: npm run youtube
+        continue-on-error: true  # 키 미설정·쿼터 소진 등 실패해도 나머지 결과는 살림
+
       - name: 데이터 변경 시 커밋 + 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           # 한 번에 넘기면 없는 파일 하나 때문에 git add 가 통째로 실패해서
           # 나머지 수집 결과까지 스테이징되지 않는다. 있는 것만 개별로 add 한다.
-          for f in data/blog.json data/news.json data/trend.json; do
+          for f in data/blog.json data/cafe.json data/news.json data/trend.json data/youtube.json; do
             [ -f "$f" ] && git add "$f"
           done
           if git diff --cached --quiet; then

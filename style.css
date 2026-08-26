@@ -598,6 +598,8 @@ tbody tr:hover { background: var(--surface-2); }
 }
 .news-press { font-size: 12px; font-weight: 600; color: var(--text-sub); white-space: nowrap; }
 .news-date { font-size: 11px; color: var(--text-dim); font-variant-numeric: tabular-nums; }
+/* 조회수처럼 수집원별로만 있는 부가 지표 — 날짜 아래에 붙는다 */
+.news-extra { font-size: 11px; font-weight: 600; color: var(--accent); font-variant-numeric: tabular-nums; white-space: nowrap; }
 
 /* 공식 블로그 포스트 표시 — 제목 앞에 인라인으로 붙는다 */
 .tag-official {

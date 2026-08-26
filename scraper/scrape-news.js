@@ -17,6 +17,7 @@
 require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
+const { isBrandMention, isIntlBrandMention, naverKeys } = require('./relevance');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'news.json');
 const GOOGLE_RSS = 'https://news.google.com/rss/search';
@@ -27,15 +28,6 @@ const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (
 
 // 표기 흔들림을 커버. 결과는 제목 기준으로 합쳐진다.
 // 구 사명 '라운지랩' 은 제외 — 걸리는 기사가 전부 2019~2022년이라 현재 상황과 무관하다
-// HTTP 헤더는 latin-1 만 담을 수 있다. 키에 한글이 섞이면(한글 IME 켜고 입력하면
-// l→ㅣ 처럼 바뀐다) fetch 가 'Cannot convert argument to a ByteString' 로 죽는데
-// 원인이 전혀 드러나지 않으므로 여기서 미리 잡아 준다.
-function badKeyChars(name, value) {
-  const bad = [...value].filter((c) => c.charCodeAt(0) > 255);
-  if (bad.length === 0) return null;
-  return `${name} 에 ASCII 가 아닌 문자(${bad.join(' ')})가 들어 있습니다 — 한글 IME 상태로 입력했거나 복사가 잘못된 값입니다`;
-}
-
 const QUERIES = ['엑스와이지', '엑스와이지 로봇', '엑스와이지 XYZ', '엑스와이지 피지컬AI'];
 
 // 해외 보도는 국문 검색에 거의 안 걸린다.
@@ -49,26 +41,10 @@ const INTL_QUERIES = [
 // '엑스와이지' / 'XYZ' 는 동명이 유난히 많다. 실제로 걸려 나오는 것들:
 //   엑스와이지 스튜디오(연예기획사) · XYZ로보틱스(중국 물류로봇) · W.XYZ(워커힐 멤버십)
 // → 표기가 있어도 아래 동명들에 걸리면 버린다.
-const BRAND_TOKENS = ['엑스와이지', 'xyzinc'];
-const EXCLUDE_TOKENS = ['엑스와이지스튜디오', 'xyz로보틱스', 'xyzrobotics', '엑스와이지엔터', 'w.xyz'];
-const normalize = (a) => `${a.title} ${a.description || ''}`.toLowerCase().replace(/[\s'’·()㈜]+/g, '');
-const isBrand = (a) => {
-  const t = normalize(a);
-  if (EXCLUDE_TOKENS.some((tok) => t.includes(tok))) return false;
-  return BRAND_TOKENS.some((tok) => t.includes(tok));
-};
-
-// 해외 판정은 국내보다 빡빡하게. 라틴 문자권에서 'XYZ' 는 좌표계·상품코드·플레이스홀더로
-// 아무 데나 나오는 세 글자라 표기만으로는 전혀 못 거른다.
-// → 'XYZ' + 한국/로봇 맥락이 같이 있어야 하고, 중국 XYZ Robotics 는 명시적으로 뺀다
-const INTL_ANCHORS = ['korea', 'korean', 'seoul', 'robot', 'barista', 'cafe', 'café', 'coffee',
-  'foodtech', 'humanoid', '韓国', 'ロボット', 'カフェ', '韩国', '机器人'];
-const INTL_EXCLUDE = ['xyz robotics', 'xyzrobotics', 'shanghai', 'w.xyz', '.xyz domain'];
-const isOverseasRelevant = (a) => {
-  const t = normalize(a);
-  if (INTL_EXCLUDE.some((x) => t.includes(x.replace(/\s+/g, '')))) return false;
-  return t.includes('xyz') && INTL_ANCHORS.some((x) => t.includes(x));
-};
+// 동명이인 제외·맥락 판정 규칙은 scraper/relevance.js 한 곳에 모아 뒀다.
+// 뉴스는 언론사 편집을 거쳐 이미 걸러진 상태라 맥락 단어까지는 요구하지 않는다.
+const isBrand = (a) => isBrandMention(a, { requireAnchor: false });
+const isOverseasRelevant = (a) => isIntlBrandMention(a);
 
 // region('kr' | 'overseas') 판정. 브랜드와 무관하면 null → 저장에서 제외
 function classify(a) {
@@ -332,15 +308,11 @@ async function main() {
     await sleep(300);
   }
 
-  const id = process.env.NAVER_CLIENT_ID;
-  const secret = process.env.NAVER_CLIENT_SECRET;
-  const keyErr =
-    id && secret
-      ? badKeyChars('NAVER_CLIENT_ID', id) || badKeyChars('NAVER_CLIENT_SECRET', secret)
-      : null;
-  if (keyErr) {
-    log(`네이버 뉴스 건너뜀 — ${keyErr}`);
-  } else if (id && secret) {
+  const keys = naverKeys();
+  if (keys.reason) {
+    log(`네이버 뉴스 건너뜀 — ${keys.reason} (구글 뉴스만 수집)`);
+  } else {
+    const { id, secret } = keys;
     for (const q of QUERIES) {
       try {
         fresh.push(...(await collectNaver(q, id, secret)));
@@ -351,8 +323,6 @@ async function main() {
       }
       await sleep(200);
     }
-  } else {
-    log('NAVER_CLIENT_ID/SECRET 없음 — 네이버 뉴스는 건너뜀 (구글 뉴스만 수집)');
   }
 
   if (fresh.length === 0) {

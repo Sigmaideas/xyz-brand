@@ -9,12 +9,16 @@ const TOPIC_TOP_N = 12;
 let currentSource = 'blog';
 let blogData = null;
 let newsData = null;
+let cafeData = null;
+let youtubeData = null;
 let trendChart = null;
 
 const SOURCE_PAGE_TITLE = {
   blog: '네이버 블로그 모니터링',
   trend: '엑스와이지 검색어 트렌드',
   news: '엑스와이지 뉴스 모니터링',
+  cafe: '네이버 카페 모니터링',
+  youtube: '엑스와이지 유튜브 모니터링',
 };
 
 const $ = (s) => document.querySelector(s);
@@ -32,10 +36,9 @@ function kpiCard({ icon, label, value, sub, accent, valueClass }) {
     </div>`;
 }
 
+const VIEWS = ['blog', 'trend', 'news', 'cafe', 'youtube'];
 function toggleView(view) {
-  $('#blogView').hidden = view !== 'blog';
-  $('#trendView').hidden = view !== 'trend';
-  $('#newsView').hidden = view !== 'news';
+  for (const v of VIEWS) $(`#${v}View`).hidden = v !== view;
 }
 
 // ── 공통 집계 ────────────────────────────────────────────────
@@ -169,7 +172,7 @@ function topicsBarChart(canvas, items, mentionLabel) {
 }
 
 // 수집 시점이 아니라 작성일 기준으로 월을 나눈다 — 같은 날 여러 건이 흔해서 날짜만으로는 덩어리가 커진다
-function renderItemList(container, items, { emptyMsg, sourceKey, badge }) {
+function renderItemList(container, items, { emptyMsg, sourceKey, badge, extra }) {
   if (!items.length) {
     container.innerHTML = `<p class="empty-msg">${emptyMsg}</p>`;
     return;
@@ -193,6 +196,7 @@ function renderItemList(container, items, { emptyMsg, sourceKey, badge }) {
         <div class="news-item-meta">
           <span class="news-press">${escapeHtml(x[sourceKey])}</span>
           <span class="news-date">${escapeHtml(x.date || '-')}</span>
+          ${extra ? `<span class="news-extra">${extra(x)}</span>` : ''}
         </div>
       </a>`;
   }
@@ -506,10 +510,222 @@ function renderNews() {
   renderItemList($('#newsList'), d.recent, { emptyMsg: '수집된 기사가 없습니다.', sourceKey: 'press' });
 }
 
+
+// ── 네이버 카페 ──────────────────────────────────────────────
+// 카페는 블로그보다 홍보성 글이 적어 외부 언급 지표로 더 정직하다.
+// 다만 카페글 검색 API 가 작성일을 주지 않아서 date 가 '발견일' 이다 —
+// 월별 그래프는 '작성 추이' 가 아니라 '발견 추이' 이므로 화면에 그렇게 적는다.
+const CAFE_TOPIC_GROUPS = [
+  { label: '로봇·로보틱스', terms: ['로봇', '로보틱스'] },
+  { label: '카페·바리스브루', terms: ['카페', '바리스브루', '커피', '바리스타'] },
+  { label: '라운지엑스', terms: ['라운지엑스', "lounge'x", 'loungex'] },
+  { label: '피지컬 AI', terms: ['피지컬 ai', '피지컬ai', '브레인엑스', 'brainx'] },
+  { label: '후기·방문', terms: ['후기', '방문', '가봤', '다녀', '먹어'] },
+  { label: '채용·조직', terms: ['채용', '공고', '입사', '면접'] },
+  { label: '투자·주식', terms: ['투자', '시리즈', '유치', '주식', '공모'] },
+  { label: '무인·자동화', terms: ['무인', '자동화', '키오스크'] },
+  { label: '전시·행사', terms: ['전시', '엑스포', '박람회', '세미나'] },
+  { label: '물류·빌딩', terms: ['물류', '빌딩', 'rbms', '창고'] },
+];
+
+let cafeAgg = null;
+let cafeSelectedYear = null;
+let cafeMonthlyChart = null;
+let cafeBreakdownChart = null;
+let cafeTopicsChart = null;
+
+async function loadCafe() {
+  toggleView('cafe');
+  let res;
+  try {
+    res = await fetch('data/cafe.json', { cache: 'no-store' });
+  } catch {
+    res = null;
+  }
+  if (!res || !res.ok) {
+    cafeData = null;
+    $('#lastUpdated').textContent = '-';
+    $('#cafeKpiRow').innerHTML = '';
+    $('#cafeBasisHint').textContent = '';
+    $('#cafeList').innerHTML =
+      '<p class="empty-msg">카페 데이터가 아직 없습니다.<br />' +
+      "네이버 개발자센터에서 애플리케이션에 '검색' API 를 추가하면 수집이 시작됩니다.</p>";
+    return;
+  }
+  cafeData = await res.json();
+  $('#lastUpdated').textContent = fmtDateTime(cafeData.lastScrapedAt);
+  renderCafe();
+}
+
+function renderCafe() {
+  const posts = cafeData.posts || [];
+  cafeAgg = aggregate(posts, { sourceKey: 'cafe', topicGroups: CAFE_TOPIC_GROUPS });
+  const d = cafeAgg;
+  $('#cafeBasisHint').textContent =
+    '카페글 검색 API 는 작성일을 주지 않는다 — 날짜는 이 대시보드가 글을 처음 발견한 날 기준이다';
+  $('#cafeKpiRow').innerHTML = [
+    kpiCard({ icon: 'file-text', label: '총 글 수', value: d.total.toLocaleString(), sub: '외부 언급' }),
+    kpiCard({ icon: 'users-round', label: '언급 카페', value: d.sourceCount.toLocaleString(), sub: '곳' }),
+    kpiCard({ icon: 'calendar', label: '최근 발견', value: d.latestDate || '-', sub: '가장 최근 수집일', valueClass: 'kpi-date' }),
+    kpiCard({ icon: 'activity', label: '월간 발견량', value: d.monthlyActivity.toLocaleString(), sub: '최근 30일 신규 글', accent: true }),
+  ].join('');
+  if (window.lucide) window.lucide.createIcons();
+
+  const redrawMonthly = (y) => {
+    if (cafeMonthlyChart) cafeMonthlyChart.destroy();
+    cafeMonthlyChart = monthlyBarChart($('#cafeMonthly'), d.monthlyByYear[y] || emptyMonths(), '건');
+  };
+  cafeSelectedYear = setupYearSelector($('#cafeYearSelect'), d, cafeSelectedYear, (y) => {
+    cafeSelectedYear = y;
+    redrawMonthly(y);
+  });
+  redrawMonthly(cafeSelectedYear);
+
+  if (cafeBreakdownChart) cafeBreakdownChart.destroy();
+  cafeBreakdownChart = breakdownDoughnut($('#cafeBreakdown'), d.breakdown, '건', '곳');
+  $('#cafeBreakdownHint').textContent =
+    d.breakdown.length > BREAKDOWN_TOP_N ? `전체 누적 기준 · 상위 ${BREAKDOWN_TOP_N}곳` : '전체 누적 기준';
+  if (cafeTopicsChart) cafeTopicsChart.destroy();
+  cafeTopicsChart = topicsBarChart($('#cafeTopics'), d.topicFrequency, '개 글에서 언급');
+
+  renderItemList($('#cafeList'), d.recent, { emptyMsg: '수집된 글이 없습니다.', sourceKey: 'cafe' });
+}
+
+// ── 유튜브 ───────────────────────────────────────────────────
+// 다른 수집원과 달리 조회수라는 정량 지표가 있다. 영상 편수보다 조회수가
+// 실제 도달을 더 잘 보여주므로 KPI 와 별도 차트로 같이 보여준다.
+const YOUTUBE_TOPIC_GROUPS = [
+  { label: '로봇·로보틱스', terms: ['로봇', '로보틱스', 'robot'] },
+  { label: '카페·바리스브루', terms: ['카페', '바리스브루', '커피', '바리스타', 'cafe', 'coffee', 'barista'] },
+  { label: '라운지엑스', terms: ['라운지엑스', "lounge'x", 'loungex'] },
+  { label: '피지컬 AI', terms: ['피지컬 ai', '피지컬ai', '브레인엑스', 'brainx', 'humanoid', '휴머노이드'] },
+  { label: '리뷰·체험', terms: ['리뷰', '후기', '체험', '먹방', 'review'] },
+  { label: '시연·데모', terms: ['시연', '데모', 'demo', '작동'] },
+  { label: '투자·기업', terms: ['투자', '시리즈', '유치', 'ir', '기업'] },
+  { label: '전시·행사', terms: ['전시', '엑스포', '박람회', 'ces', 'expo'] },
+  { label: '무인·자동화', terms: ['무인', '자동화', '키오스크'] },
+  { label: '뉴스·보도', terms: ['뉴스', '보도', '취재', 'news'] },
+];
+
+let youtubeScope = 'kr';
+let youtubeAgg = null;
+let youtubeSelectedYear = null;
+let youtubeMonthlyChart = null;
+let youtubeChannelsChart = null;
+let youtubeTopViewsChart = null;
+
+const fmtViews = (n) => {
+  const v = Number(n || 0);
+  if (v >= 10000) return `${(v / 10000).toFixed(v >= 100000 ? 0 : 1)}만`;
+  return v.toLocaleString();
+};
+
+async function loadYoutube() {
+  toggleView('youtube');
+  let res;
+  try {
+    res = await fetch('data/youtube.json', { cache: 'no-store' });
+  } catch {
+    res = null;
+  }
+  if (!res || !res.ok) {
+    youtubeData = null;
+    $('#lastUpdated').textContent = '-';
+    $('#youtubeKpiRow').innerHTML = '';
+    $('#youtubeScopeTabs').innerHTML = '';
+    $('#youtubeScopeHint').textContent = '';
+    $('#youtubeList').innerHTML =
+      '<p class="empty-msg">유튜브 데이터가 아직 없습니다.<br />' +
+      'YouTube Data API 키(YOUTUBE_API_KEY)가 설정돼야 수집됩니다.</p>';
+    return;
+  }
+  youtubeData = await res.json();
+  $('#lastUpdated').textContent = fmtDateTime(youtubeData.lastScrapedAt);
+  renderYoutubeScopeTabs();
+  renderYoutube();
+}
+
+function youtubeVideos() {
+  const all = youtubeData.videos || [];
+  if (youtubeScope === 'overseas') return all.filter((v) => v.region === 'overseas');
+  return all.filter((v) => (v.region || 'kr') === 'kr');
+}
+
+function renderYoutubeScopeTabs() {
+  const kr = youtubeData.krVideos ?? 0;
+  const overseas = youtubeData.overseasVideos ?? 0;
+  $('#youtubeScopeTabs').innerHTML = [
+    { key: 'kr', label: `국내 ${kr}편` },
+    { key: 'overseas', label: `해외 ${overseas}편` },
+  ]
+    .map((t) => `<button class="scope-tab${youtubeScope === t.key ? ' active' : ''}" data-scope="${t.key}">${t.label}</button>`)
+    .join('');
+  $('#youtubeScopeHint').textContent = {
+    kr: "'엑스와이지'를 언급한 국내 영상",
+    overseas: '해외 채널 영상 — 절대량이 적습니다',
+  }[youtubeScope];
+  $('#youtubeScopeTabs').querySelectorAll('.scope-tab').forEach((btn) => {
+    btn.onclick = () => {
+      if (youtubeScope === btn.dataset.scope) return;
+      youtubeScope = btn.dataset.scope;
+      youtubeSelectedYear = null; // 탭마다 영상이 있는 연도가 다르다
+      renderYoutubeScopeTabs();
+      renderYoutube();
+    };
+  });
+}
+
+function renderYoutube() {
+  const videos = youtubeVideos();
+  youtubeAgg = aggregate(videos, { sourceKey: 'channel', topicGroups: YOUTUBE_TOPIC_GROUPS });
+  const d = youtubeAgg;
+  const views = videos.reduce((sum, v) => sum + (v.views || 0), 0);
+  const scopeSub = { kr: '국내 채널', overseas: '해외 채널' }[youtubeScope];
+  $('#youtubeKpiRow').innerHTML = [
+    kpiCard({ icon: 'youtube', label: '총 영상 수', value: d.total.toLocaleString(), sub: scopeSub }),
+    kpiCard({ icon: 'eye', label: '누적 조회수', value: fmtViews(views), sub: `${views.toLocaleString()}회` }),
+    kpiCard({ icon: 'tv', label: '게시 채널', value: d.sourceCount.toLocaleString(), sub: '곳' }),
+    kpiCard({ icon: 'activity', label: '월간 게시량', value: d.monthlyActivity.toLocaleString(), sub: '최근 30일 영상', accent: true }),
+  ].join('');
+  if (window.lucide) window.lucide.createIcons();
+
+  const redrawMonthly = (y) => {
+    if (youtubeMonthlyChart) youtubeMonthlyChart.destroy();
+    youtubeMonthlyChart = monthlyBarChart($('#youtubeMonthly'), d.monthlyByYear[y] || emptyMonths(), '편');
+  };
+  youtubeSelectedYear = setupYearSelector($('#youtubeYearSelect'), d, youtubeSelectedYear, (y) => {
+    youtubeSelectedYear = y;
+    redrawMonthly(y);
+  });
+  redrawMonthly(youtubeSelectedYear);
+
+  if (youtubeChannelsChart) youtubeChannelsChart.destroy();
+  youtubeChannelsChart = breakdownDoughnut($('#youtubeChannels'), d.breakdown, '편', '곳');
+  $('#youtubeChannelHint').textContent =
+    d.breakdown.length > BREAKDOWN_TOP_N ? `전체 누적 기준 · 상위 ${BREAKDOWN_TOP_N}곳` : '전체 누적 기준';
+
+  // 조회수 상위 — 가로 막대 차트를 주제 차트와 같은 모양으로 재사용한다.
+  // 제목이 길면 축 라벨이 차트를 잡아먹어서 잘라 쓴다.
+  const topViews = [...videos]
+    .sort((a, b) => (b.views || 0) - (a.views || 0))
+    .slice(0, 10)
+    .map((v) => ({ word: v.title.length > 28 ? `${v.title.slice(0, 27)}…` : v.title, count: v.views || 0 }));
+  if (youtubeTopViewsChart) youtubeTopViewsChart.destroy();
+  youtubeTopViewsChart = topicsBarChart($('#youtubeTopViews'), topViews, '회 조회');
+
+  renderItemList($('#youtubeList'), d.recent, {
+    emptyMsg: '수집된 영상이 없습니다.',
+    sourceKey: 'channel',
+    extra: (v) => `조회 ${fmtViews(v.views)}`,
+  });
+}
+
 // ── 라우팅 ───────────────────────────────────────────────────
 async function load() {
   if (currentSource === 'trend') return loadTrend();
   if (currentSource === 'news') return loadNews();
+  if (currentSource === 'cafe') return loadCafe();
+  if (currentSource === 'youtube') return loadYoutube();
   return loadBlog();
 }
 

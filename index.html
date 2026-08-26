@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
   <!-- ?v= 는 캐시 버스팅. GitHub Pages 가 max-age=600 으로 내려줘서 파라미터를 안 바꾸면
        코드를 고쳐도 브라우저가 10분간 옛 파일을 계속 쓴다. app.js/style.css 수정 시 함께 올릴 것 -->
-  <link rel="stylesheet" href="style.css?v=3" />
+  <link rel="stylesheet" href="style.css?v=4" />
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <script src="https://unpkg.com/lucide@0.469.0/dist/umd/lucide.min.js"></script>
 </head>
@@ -24,6 +24,10 @@
         <i data-lucide="message-square-text" class="nav-icon"></i>
         네이버 블로그 모니터링
       </a>
+      <a class="nav-item" href="#" data-source="cafe">
+        <i data-lucide="users-round" class="nav-icon"></i>
+        네이버 카페 모니터링
+      </a>
       <div class="nav-section">노출 분석</div>
       <a class="nav-item" href="#" data-source="trend">
         <i data-lucide="trending-up" class="nav-icon"></i>
@@ -32,6 +36,10 @@
       <a class="nav-item" href="#" data-source="news">
         <i data-lucide="newspaper" class="nav-icon"></i>
         뉴스 모니터링
+      </a>
+      <a class="nav-item" href="#" data-source="youtube">
+        <i data-lucide="youtube" class="nav-icon"></i>
+        유튜브 모니터링
       </a>
     </nav>
     <div class="sidebar-foot">내부용 · v1.0</div>
@@ -162,9 +170,94 @@
         <div id="newsList"></div>
       </section>
      </div>
+
+     <div id="cafeView" hidden>
+      <div class="scope-bar">
+        <span class="hint" id="cafeBasisHint"></span>
+      </div>
+
+      <section class="kpi-row" id="cafeKpiRow"><!-- loadCafe() 에서 생성 --></section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="trending-up" class="head-icon"></i>월별 발견 글 수</h2>
+          <div class="card-head-actions">
+            <select id="cafeYearSelect" class="year-select" aria-label="연도 선택"></select>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="cafeMonthly"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="pie-chart" class="head-icon"></i>카페별 언급 비중</h2>
+          <span class="hint" id="cafeBreakdownHint">전체 누적 기준</span>
+        </div>
+        <div class="chart-wrap"><canvas id="cafeBreakdown"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="tag" class="head-icon"></i>글 주요 주제</h2>
+          <span class="hint">제목·본문에 언급된 키워드</span>
+        </div>
+        <div class="chart-wrap chart-wrap-tall"><canvas id="cafeTopics"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="list" class="head-icon"></i>최근 글</h2>
+          <span class="hint">제목 클릭 시 원문 새 탭에서 열림</span>
+        </div>
+        <div id="cafeList"></div>
+      </section>
+     </div>
+
+     <div id="youtubeView" hidden>
+      <div class="scope-bar">
+        <div class="scope-tabs" id="youtubeScopeTabs"><!-- loadYoutube() 에서 생성 --></div>
+        <span class="hint" id="youtubeScopeHint"></span>
+      </div>
+
+      <section class="kpi-row" id="youtubeKpiRow"><!-- loadYoutube() 에서 생성 --></section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="trending-up" class="head-icon"></i>월별 영상 수</h2>
+          <div class="card-head-actions">
+            <select id="youtubeYearSelect" class="year-select" aria-label="연도 선택"></select>
+          </div>
+        </div>
+        <div class="chart-wrap"><canvas id="youtubeMonthly"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="pie-chart" class="head-icon"></i>채널별 영상 비중</h2>
+          <span class="hint" id="youtubeChannelHint">전체 누적 기준</span>
+        </div>
+        <div class="chart-wrap"><canvas id="youtubeChannels"></canvas></div>
+      </section>
+
+      <section class="card chart-card">
+        <div class="card-head">
+          <h2><i data-lucide="eye" class="head-icon"></i>조회수 상위 영상</h2>
+          <span class="hint">누적 조회수 기준 상위 10편</span>
+        </div>
+        <div class="chart-wrap chart-wrap-tall"><canvas id="youtubeTopViews"></canvas></div>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="list" class="head-icon"></i>최근 영상</h2>
+          <span class="hint">제목 클릭 시 유튜브에서 열림</span>
+        </div>
+        <div id="youtubeList"></div>
+      </section>
+     </div>
     </main>
   </div>
 
-  <script src="app.js?v=3"></script>
+  <script src="app.js?v=4"></script>
 </body>
 </html>

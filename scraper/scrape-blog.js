@@ -1,19 +1,22 @@
 /**
  * 네이버 블로그 '엑스와이지' 언급 포스트 수집
  *
- * 네이버 검색 API 는 쓰지 않는다 — 발급된 키가 '검색' 스코프 미등록이라 401 이 난다.
- * 대신 통합검색의 블로그 탭을 Playwright 로 훑는다.
- * 검색 결과 HTML 은 클래스명이 난독화돼 있어 바뀌기 쉬우므로,
- * 상대적으로 안정적인 data-template-id 속성과 blog.naver.com URL 패턴으로만 뽑는다.
+ * 수집 경로가 두 가지고, 가능한 쪽을 자동으로 고른다:
+ *   1) 네이버 검색 API — 앱에 '검색' API 가 등록돼 있을 때. HTML 변경에 안 깨지고 빠르다.
+ *   2) 통합검색 블로그 탭 (Playwright) — 위가 401 이거나 키가 없을 때의 대체 경로.
+ *      검색 결과 HTML 은 클래스명이 난독화돼 있어 바뀌기 쉬우므로,
+ *      상대적으로 안정적인 data-template-id 속성과 blog.naver.com URL 패턴으로만 뽑는다.
  *
  * 포스트는 시간이 지나면 검색 결과에서 밀려나므로 URL 기준 dedup 으로 누적한다.
  * 공개 정보라 캐시 대신 data/blog.json 을 커밋해 그 파일 자체를 누적 저장소로 쓴다.
  *
  * '3일 전' 같은 상대 표기는 수집 시점에 절대 날짜로 바꿔 저장한다 — 그대로 두면 의미가 변한다.
  */
+require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
 const { chromium } = require('playwright');
+const { isBrandMention, naverKeys } = require('./relevance');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'blog.json');
 const SEARCH_URL = 'https://search.naver.com/search.naver';
@@ -28,26 +31,19 @@ const QUERIES = ['엑스와이지', '엑스와이지 로봇', '엑스와이지 X
 // 공식 채널은 따로 구분한다 — 자사 홍보글과 외부 언급을 섞으면 지표가 왜곡된다
 const OFFICIAL_BLOG_IDS = ['xyz_inc', 'lounge_lab'];
 
-// '엑스와이지' / 'XYZ' 는 동명이 유난히 많다. 실제로 걸려 나온 것들:
-//   엑스와이지 스튜디오(연예기획사) · XYZ로보틱스(중국 물류로봇) · W.XYZ(워커힐 멤버십)
-//   엑스와이지 칵테일 · 압구정 엑스와이지포차 · 'W X Y Z' 알파벳 노래 · 후디니 xyzdist()
-// → 브랜드 표기 + 로봇/푸드테크 맥락이 같이 있어야 하고, 위 동명들은 명시적으로 뺀다.
-//   공식 블로그 글은 맥락 조건을 면제한다(웰컴키트·행사 공지처럼 앵커가 없는 글이 있다).
-const BRAND_TOKENS = ['엑스와이지', 'xyzinc'];
-const ANCHORS = ['로봇', '로보틱스', '바리스타', '카페', '무인', '푸드테크', '자동화',
-  '라운지엑스', '브레인엑스', '바리스브루', '피지컬ai', '아이스크림',
-  '채용', '스타트업', '시리즈b', '기업설명회', '엑스포'];
-const EXCLUDE = ['엑스와이지스튜디오', 'xyz로보틱스', 'xyzrobotics', '엑스와이지엔터',
-  '떠블유엑스와이지', 'w.xyz', '더블유닷', '엑스와이지포차'];
+// 동명이인 제외·맥락 판정 규칙은 scraper/relevance.js 한 곳에 모아 뒀다.
+// 공식 블로그 글은 맥락 조건을 면제한다(웰컴키트·행사 공지처럼 앵커가 없는 글이 있다).
+const isRelevant = (p) =>
+  isBrandMention(p, { requireAnchor: true, exempt: OFFICIAL_BLOG_IDS.includes(p.bloggerId) });
 
-const normalize = (p) => `${p.title} ${p.description || ''}`.toLowerCase().replace(/[\s'’·,()㈜]+/g, '');
-function isRelevant(p) {
-  const t = normalize(p);
-  if (EXCLUDE.some((x) => t.includes(x))) return false;
-  if (OFFICIAL_BLOG_IDS.includes(p.bloggerId)) return true;
-  if (!BRAND_TOKENS.some((x) => t.includes(x))) return false;
-  return ANCHORS.some((x) => t.includes(x));
-}
+const API_URL = 'https://openapi.naver.com/v1/search/blog.json';
+const API_DISPLAY = 100;
+const API_PAGES = 3;
+
+const stripTags = (s) =>
+  String(s || '').replace(/<[^>]*>/g, '')
+    .replace(/&quot;/g, '"').replace(/&apos;/g, "'").replace(/&lt;/g, '<')
+    .replace(/&gt;/g, '>').replace(/&amp;/g, '&').trim();
 
 const log = (...a) => console.log(`[blog ${new Date().toISOString().slice(11, 19)}]`, ...a);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -109,6 +105,40 @@ function extractItems() {
     .filter((x) => x && x.title);
 }
 
+/** 네이버 검색 API 경로. postdate(YYYYMMDD) 를 주므로 날짜 환산이 필요 없다. */
+async function collectApi(query, id, secret) {
+  const out = [];
+  for (let i = 0; i < API_PAGES; i++) {
+    const start = i * API_DISPLAY + 1;
+    if (start > 1000) break; // API 상한
+    const url = `${API_URL}?query=${encodeURIComponent(query)}&display=${API_DISPLAY}&start=${start}&sort=date`;
+    const res = await fetch(url, {
+      headers: { 'X-Naver-Client-Id': id, 'X-Naver-Client-Secret': secret },
+    });
+    if (!res.ok) throw new Error(`${res.status} ${(await res.text()).slice(0, 160)}`);
+    const items = (await res.json()).items || [];
+    for (const it of items) {
+      // bloggerlink 는 'blog.naver.com/{id}' 형태 — 없으면 포스트 링크에서 뽑는다
+      const m = String(it.bloggerlink || it.link || '').match(/blog\.naver\.com\/([^/?#]+)/);
+      const bloggerId = m ? m[1] : '';
+      const d = String(it.postdate || '');
+      out.push({
+        title: stripTags(it.title),
+        description: stripTags(it.description),
+        link: it.link,
+        blogger: stripTags(it.bloggername) || bloggerId,
+        bloggerId,
+        date: d.length === 8 ? `${d.slice(0, 4)}-${d.slice(4, 6)}-${d.slice(6, 8)}` : null,
+        official: OFFICIAL_BLOG_IDS.includes(bloggerId),
+      });
+    }
+    if (items.length < API_DISPLAY) break;
+    await sleep(200);
+  }
+  log(`'${query}' → ${out.length}건 (API)`);
+  return out;
+}
+
 async function collect(page, query) {
   const out = [];
   for (let i = 0; i < PAGES_PER_QUERY; i++) {
@@ -163,18 +193,18 @@ function dedupe(prev, fresh, runIso) {
   return { merged: [...byLink.values()], added };
 }
 
-async function main() {
+/** Playwright 대체 경로 — 브라우저는 이 경로를 탈 때만 띄운다 */
+async function collectViaBrowser() {
   const browser = await chromium.launch({ headless: HEADLESS });
   const page = await browser.newPage({
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36',
     locale: 'ko-KR',
   });
-
-  const fresh = [];
+  const out = [];
   try {
     for (const q of QUERIES) {
       try {
-        fresh.push(...(await collect(page, q)));
+        out.push(...(await collect(page, q)));
       } catch (e) {
         log(`'${q}' 실패: ${e.message}`);
       }
@@ -183,6 +213,32 @@ async function main() {
   } finally {
     await browser.close();
   }
+  return out;
+}
+
+/** API 를 먼저 시도하고, 못 쓰면 통합검색 화면으로 내려간다 */
+async function collectAll() {
+  const keys = naverKeys();
+  if (keys.reason) {
+    log(`검색 API 미사용(${keys.reason}) — 통합검색 화면으로 수집`);
+    return collectViaBrowser();
+  }
+  try {
+    const out = [];
+    for (const q of QUERIES) {
+      out.push(...(await collectApi(q, keys.id, keys.secret)));
+      await sleep(200);
+    }
+    return out;
+  } catch (e) {
+    // 앱에 '검색' API 미등록이면 401 — 대체 경로가 있으므로 실패로 보지 않는다
+    log(`검색 API 사용 불가(${e.message}) — 통합검색 화면으로 대체`);
+    return collectViaBrowser();
+  }
+}
+
+async function main() {
+  const fresh = await collectAll();
 
   if (!fresh.length) {
     log('수집된 포스트 없음 — 기존 파일 유지');

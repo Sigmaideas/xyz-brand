@@ -11,18 +11,10 @@
 require('dotenv').config();
 const fs = require('fs').promises;
 const path = require('path');
+const { naverKeys } = require('./relevance');
 
 const OUT_PATH = path.join(__dirname, '..', 'data', 'trend.json');
 const API_URL = 'https://openapi.naver.com/v1/datalab/search';
-
-// HTTP 헤더는 latin-1 만 담을 수 있다. 키에 한글이 섞이면(한글 IME 켜고 입력하면
-// l→ㅣ 처럼 바뀐다) fetch 가 'Cannot convert argument to a ByteString' 로 죽는데
-// 원인이 전혀 드러나지 않으므로 여기서 미리 잡아 준다.
-function badKeyChars(name, value) {
-  const bad = [...value].filter((c) => c.charCodeAt(0) > 255);
-  if (bad.length === 0) return null;
-  return `${name} 에 ASCII 가 아닌 문자(${bad.join(' ')})가 들어 있습니다 — 한글 IME 상태로 입력했거나 복사가 잘못된 값입니다`;
-}
 
 const log = (...a) => console.log(`[trend ${new Date().toISOString().slice(11, 19)}]`, ...a);
 const ymd = (d) => d.toISOString().slice(0, 10);
@@ -31,17 +23,12 @@ const ymd = (d) => d.toISOString().slice(0, 10);
 const KEYWORD_GROUPS = [{ groupName: '엑스와이지', keywords: ['엑스와이지', 'XYZ 로봇', '엑스와이지 로봇'] }];
 
 async function main() {
-  const id = process.env.NAVER_CLIENT_ID;
-  const secret = process.env.NAVER_CLIENT_SECRET;
-  if (!id || !secret) {
-    log('NAVER_CLIENT_ID/SECRET 없음 — 검색 트렌드 수집 스킵');
+  const keys = naverKeys();
+  if (keys.reason) {
+    log(`검색 트렌드 수집 스킵 — ${keys.reason}`);
     return;
   }
-  const keyErr = badKeyChars('NAVER_CLIENT_ID', id) || badKeyChars('NAVER_CLIENT_SECRET', secret);
-  if (keyErr) {
-    log(`검색 트렌드 수집 스킵 — ${keyErr}`);
-    return;
-  }
+  const { id, secret } = keys;
   const end = new Date();
   const start = new Date(end.getTime() - 365 * 24 * 3600 * 1000);
   const body = {
