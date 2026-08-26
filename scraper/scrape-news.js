@@ -224,6 +224,84 @@ function dedupe(prev, fresh, runIso) {
   return { merged: [...byKey.values()], added };
 }
 
+// ── 기사 썸네일 ────────────────────────────────────────────
+//
+// 구글 뉴스 RSS 링크(news.google.com/rss/articles/CBMi...)는 원문 URL 을 감춘 토큰이고,
+// 그 페이지의 og:image 는 전 기사가 똑같은 구글 뉴스 앱 아이콘이다 — 기사 사진이 아니다.
+// 토큰은 JS 로만 원문으로 튕기므로 실제 브라우저로 따라가서 원문의 og:image 를 읽는다.
+//
+// 기사 1건당 3~6초. 매 회차 전체를 훑으면 워크플로우 20분 예산을 넘기므로
+// image 필드가 아직 없는 기사만, 회차당 THUMB_LIMIT 건까지만 처리한다.
+// 사진을 못 찾은 기사는 image: null 로 남겨 다음 회차에 다시 시도하지 않는다.
+const THUMB_LIMIT = Number(process.env.THUMB_LIMIT || 40);
+const THUMB_CONCURRENCY = 3;
+
+async function resolveThumb(ctx, article) {
+  const page = await ctx.newPage();
+  try {
+    await page.goto(article.link, { waitUntil: 'domcontentloaded', timeout: 25000 });
+    if (new URL(page.url()).host.includes('news.google.com')) {
+      await page.waitForURL((u) => !u.host.includes('news.google.com'), { timeout: 15000 });
+      await page.waitForLoadState('domcontentloaded', { timeout: 15000 }).catch(() => {});
+    }
+    const raw = await page.evaluate(() => {
+      const meta = (sel) => document.querySelector(sel)?.content?.trim() || '';
+      return meta('meta[property="og:image"]')
+        || meta('meta[name="twitter:image"]')
+        || meta('meta[property="twitter:image"]')
+        || meta('meta[name="twitter:image:src"]');
+    });
+    if (!raw) return null;
+    // 상대경로로 넣는 언론사가 있어 원문 URL 기준으로 절대경로화한다
+    const abs = new URL(raw, page.url());
+    return abs.protocol === 'https:' || abs.protocol === 'http:' ? abs.href : null;
+  } catch (e) {
+    return null;
+  } finally {
+    await page.close().catch(() => {});
+  }
+}
+
+async function attachThumbnails(articles) {
+  const todo = articles.filter((a) => a.image === undefined && a.link).slice(0, THUMB_LIMIT);
+  const pending = articles.filter((a) => a.image === undefined && a.link).length;
+  if (todo.length === 0) {
+    log('썸네일: 새로 받을 기사 없음');
+    return;
+  }
+
+  let chromium;
+  try {
+    ({ chromium } = require('playwright'));
+  } catch (e) {
+    log('썸네일: playwright 없음 — 건너뜀');
+    return;
+  }
+
+  const browser = await chromium.launch({ headless: true });
+  const ctx = await browser.newContext({ userAgent: UA });
+  // 메타태그만 필요하다. 이미지·폰트·미디어는 받지 않는다 (기사당 수 MB 절약)
+  await ctx.route('**/*', (route) => {
+    const t = route.request().resourceType();
+    return t === 'image' || t === 'font' || t === 'media' ? route.abort() : route.continue();
+  });
+
+  let found = 0;
+  const queue = [...todo];
+  const workers = Array.from({ length: THUMB_CONCURRENCY }, async () => {
+    while (queue.length) {
+      const a = queue.shift();
+      a.image = await resolveThumb(ctx, a);
+      if (a.image) found++;
+    }
+  });
+  await Promise.all(workers);
+  await browser.close().catch(() => {});
+
+  const rest = Math.max(0, pending - todo.length);
+  log(`썸네일: ${todo.length}건 시도 → ${found}건 확보${rest ? ` (남은 ${rest}건은 다음 회차)` : ''}`);
+}
+
 async function main() {
   const fresh = [];
 
@@ -285,6 +363,9 @@ async function main() {
     })
     .filter(Boolean)
     .sort((a, b) => String(b.date || '').localeCompare(String(a.date || '')));
+
+  // 최신 기사부터 채운다 — 목록 상단이 먼저 채워져야 눈에 보인다
+  await attachThumbnails(articles);
 
   const krCount = articles.filter((a) => a.region === 'kr').length;
   const overseasCount = articles.length - krCount;

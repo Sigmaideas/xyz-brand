@@ -179,11 +179,11 @@ main {
   gap: 24px;
 }
 
-/* 카드는 main 이 아니라 뷰 래퍼(#summaryView/#rankView) 안에 있어서
+/* 카드는 main 이 아니라 뷰 래퍼(#blogView/#trendView/#newsView) 안에 있어서
    main 의 gap 이 카드 사이에는 적용되지 않는다. 여기서 따로 지정.
    :not([hidden]) — app.js 가 hidden 속성으로 뷰를 전환하므로 필수 */
-#summaryView:not([hidden]),
-#rankView:not([hidden]),
+#blogView:not([hidden]),
+#trendView:not([hidden]),
 #newsView:not([hidden]) {
   display: flex;
   flex-direction: column;
@@ -569,7 +569,19 @@ tbody tr:hover { background: var(--surface-2); }
 }
 .news-item:hover { background: var(--surface-2); }
 .news-item:last-child { border-bottom: 0; }
-.news-item-main { display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+/* 기사 썸네일 — 없는 기사도 많아서(핫링크 차단·사진 없는 기사) 있을 때만 붙는다.
+   자리를 비워두지 않으므로 없는 행은 예전과 똑같이 보인다 */
+.news-thumb {
+  flex-shrink: 0;
+  width: 72px; height: 48px;
+  object-fit: cover;
+  border-radius: 6px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+}
+/* 썸네일이 붙으면 자식이 3개가 된다 — space-between 만으로는 가운데가 벌어지므로
+   본문이 남는 폭을 다 먹게 한다 */
+.news-item-main { flex: 1; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
 .news-title {
   font-size: 14px; font-weight: 600; color: var(--text); line-height: 1.45;
 }
@@ -661,8 +673,8 @@ tbody tr:hover { background: var(--surface-2); }
   .topbar { padding: 20px; }
   .topbar h1 { font-size: 18px; }
   main { padding: 0 20px 32px; gap: 16px; }
-  #summaryView:not([hidden]),
-  #rankView:not([hidden]),
+  #blogView:not([hidden]),
+  #trendView:not([hidden]),
   #newsView:not([hidden]) { gap: 16px; }
   .news-item { flex-direction: column; gap: 8px; }
   .news-item-meta { flex-direction: row; align-items: center; gap: 10px; }

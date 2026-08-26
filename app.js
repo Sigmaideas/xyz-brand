@@ -185,6 +185,7 @@ function renderItemList(container, items, { emptyMsg, sourceKey, badge }) {
     }
     html += `
       <a class="news-item" href="${escapeHtml(x.link)}" target="_blank" rel="noopener noreferrer">
+        ${x.image ? `<img class="news-thumb" src="${escapeHtml(x.image)}" alt="" loading="lazy" referrerpolicy="no-referrer" />` : ''}
         <div class="news-item-main">
           <span class="news-title">${(badge && badge(x)) || ''}${escapeHtml(x.title)}</span>
           <span class="news-desc">${escapeHtml(x.description || '')}</span>
@@ -196,6 +197,10 @@ function renderItemList(container, items, { emptyMsg, sourceKey, badge }) {
       </a>`;
   }
   container.innerHTML = html;
+  // 언론사 CDN 이 핫링크를 막거나 사진이 내려가면 깨진 아이콘이 남는다 — 통째로 뺀다
+  for (const img of container.querySelectorAll('.news-thumb')) {
+    img.addEventListener('error', () => img.remove(), { once: true });
+  }
 }
 
 function setupYearSelector(select, agg, selected, onChange) {
