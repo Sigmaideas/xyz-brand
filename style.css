@@ -58,8 +58,6 @@ body {
 .brand-logo {
   height: 26px;
   width: auto;
-  /* 원본 로고가 흰색이라 밝은 사이드바에서 보이도록 검정으로 반전 */
-  filter: invert(1);
 }
 .nav { display: flex; flex-direction: column; gap: 2px; }
 .nav-section {
