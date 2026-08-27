@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-27T04:59:24.116Z",
+  "lastScrapedAt": "2026-08-27T21:09:06.242Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 140,
-  "krArticles": 136,
+  "totalArticles": 142,
+  "krArticles": 138,
   "overseasArticles": 4,
   "articles": [
     {
@@ -960,6 +960,28 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://besuccess.com/wp-content/uploads/2026/04/260401_XYZ_%EC%86%A1%EC%B6%9C%EC%9D%B4%EB%AF%B8%EC%A7%80-1-1024x512.png"
+    },
+    {
+      "title": "엑스와이지, 부산 에코델타서 자율주행 연계 로봇 서비스 시연",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPUWp3UWxWdXNHbVQyNFhnTHY1Q3RpT2lubDRoRE1fVmNCM3lIcVpCT3lTMkJrUl9tWlcxVS1kYVczb0NMUFR4YWtQV3ZxeVE2NXlEdFNVZ0hQRFRITElEMVQzSVo2dm1BYXhSLURuYUdwRldNVm5NajZGRmhpYmJ6RQ?oc=5",
+      "press": "edaily.co.kr",
+      "date": "2026-04-01",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:09:06.242Z",
+      "image": null
+    },
+    {
+      "title": "엑스와이지, 유진투자증권 ‘유망 비상장기업 설명회’ 참가",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE05dkc3ZDdVUlR1MDJXeGNvb1hkSE5sY292bE9STWJxOUhFZU9BQnQwbUd0Wi01bHpNZzY5WVpfNVVOUWJPZmt1VDlMR1lWOTgzT0RBN1FVeUpsTEdDRzU3WjBHRVhGdVRjNzNz?oc=5",
+      "press": "물류신문",
+      "date": "2026-03-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-27T21:09:06.242Z",
+      "image": "https://cdn.klnews.co.kr/news/thumbnail/202603/320555_63709_4642_v150.jpg"
     },
     {
       "title": "엑스와이지, 유진증권 ‘유망 기업 설명회’ 참가…피지컬 AI 기반 사업 확장 전략 발표",
