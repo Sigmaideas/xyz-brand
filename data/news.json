@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-27T21:09:06.242Z",
+  "lastScrapedAt": "2026-08-28T07:03:58.652Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 142,
-  "krArticles": 138,
+  "totalArticles": 147,
+  "krArticles": 143,
   "overseasArticles": 4,
   "articles": [
     {
@@ -357,6 +357,17 @@
       "image": "https://digitalchosun.dizzo.com/site/data/img_dir/2026/07/30/2026073080174_0.jpg"
     },
     {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 행동 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBNeFE4Qm1yWFZIRExpQTBfXzQ1OG1NM05Ddl9BenZaSUU1MVFXQXVpeDBoU3JkNVdhd0lnT2hSTERVRW9wMHR3a01wN0xlVlBrWTNhQjVBVmt4RTVwSC1sZXRoeURnZk9lZHlHUA?oc=5",
+      "press": "로봇신문",
+      "date": "2026-07-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T07:03:58.652Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202607/47663_102254_446.jpg"
+    },
+    {
       "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE8wTDVwRUdGSTBUblQtanZhTTBGMFFLRXdIQ0J2TzlQbkVneHBCZTVqYmEwV0VvZUNpOUMxRUtyMTAzQllsYmRSWHpSTXk0WXVjQWItc0hrNXNkbkhaQlRKczlYaUFubkcwQ2FoNQ?oc=5",
@@ -454,6 +465,17 @@
       "region": "overseas",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://wimg.sedaily.com/news/cms/2026/07/27/news-p.v1.20260727.dab427b4a91a438b9d1ff1c4733f250b_P1.png"
+    },
+    {
+      "title": "엑스와이지, 양팔 휴머노이드 로봇 ‘듀스’ 공개…피지컬 AI 실증 착수",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9lR3hUUUd0QXpNajR6Tmd3emZYaW5jWjNpcGJxWDJCd2ZFbXpGQ2lxOG5zZWtKS0p5aEhYc1F3bHdLWU5FQnc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-07-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T07:03:58.652Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/07/20260727_%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80_%EB%93%80%EC%8A%A40-1024x574.png"
     },
     {
       "title": "엑스와이지 '바리스브루', 로봇 자동화로 ESG 실현…플라스틱 연간 5.1톤 저감",
@@ -1380,6 +1402,17 @@
       "image": "https://cdn.irobotnews.com/news/photo/202601/44523_97076_1240.png"
     },
     {
+      "title": "엑스와이지, ROSCon Korea 2026서 휴머노이드·바리스타 로봇 개발 사례 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1TR2hwMkdSdnlxZ1AwU3pzSFduLUdIck80dFl6R2l5bVU5NlNfNXdmSktzZG9GdjdzbjZwaGxGQUlfaU9YNnBRQ0FDamFQYkpWNkJZRjR3M3JWZkNIejlnc3NYb0xZbmlE0gFsQVVfeXFMTVdBS25hVWhPY3VjN2VqeWZkeE5NeHlXa0VFY3NZS0h0Y1lrdzNWVzZid2pMNmVTQWY0SmwwMjF2R3AzN3BLSC03RzZxLUdVVDA5U2x6emhvbUc0dlpHX0o0dGdaRmRFVEhLTFZS?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-01-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T07:03:58.652Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202601/56040_57760_4253_v150.jpg"
+    },
+    {
       "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81M3NjMTFLWjlKcmUzUFlpOWhJaVdPWmxmNmRfbGoxcmZiVG1lOS03czVqM0dsWE9NbDhHbjVtT3VRWHlBc2FwNGR2NTRaYVdiVWlMQlE4cUJmRDVpb0JZ?oc=5",
@@ -1512,6 +1545,17 @@
       "image": "https://cdn.startupn.kr/news/thumbnail/202511/54827_56476_3817_v150.jpg"
     },
     {
+      "title": "엑스와이지, '사회적 지능' 바리스타 로봇 공개…리테일 혁신 이끌까?",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zcVV6MTBacEJFekphZkc3eXN5X2M4QktzMnZWX0dkVllQdjFlZ2pmMDl4VDRHOGZoc0xuVmlWSEZRakNUbTFVQm56Qmwzb1RYbmcwS1prNTN2dVJnNHN2Sl85cGtNRTNL0gFsQVVfeXFMTlZwdlVZdi1yWHduc2dqSmsxUnJ5WU1tZFZxUE9OdFZId2dpN2pDekw3TGxOQjVxM2pRNTJIOWVjWXdxV2NfWVJ2cEhRdUswRUFYRDA0YTdFMUQyNWQ1RmxFRkxBekpTQS1La0k3?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2025-11-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T07:03:58.652Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202511/54774_56423_4023_v150.jpg"
+    },
+    {
       "title": "'로봇 지능' 브레인X, 휴머노이드 시동 건다! 엑스와이지, 로보월드 2025서 차세대 서비스 로봇 총출동",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NekVaUlR4WjhTZGl2Uy1waFRjd201YlNjTjlzeXpUZkl2b1RYSmpwbVlYSzdSNTBrbzRJWjgwMVFkdHZyYkNUbnpHZ1JjQjNJcXpLWDc1MnFodnZBR1NyX21HaVpycUI40gFsQVVfeXFMT1lRa05pZWp5ZGpjYXgtblhNcS1KLUd2bXRyZmRMckZwdGM3R3lKNUNRcEFkaHdJSWxIUHNjMXIxSWZnc0Y4emdXeGJ3Q3o5OG9ENWpPejlLSHo2U0t3QlNfN19ZbVFKLTAtcFdm?oc=5",
@@ -1576,6 +1620,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.irobotnews.com/news/photo/202509/_93812_1849.gif"
+    },
+    {
+      "title": "엑스와이지, 교보문고와 문화 콘텐츠 공간 실증 추진",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB0TkpUYjJCWDJIMmVNcWdtTEJmRDdUaWpBQ05Mc0lzMGdWNXhKOURVLUhYVnpsc2d4X3d2VGZ2RjlCZEVPb1VyUEQ0S09SYXhKZ3FZOFo2bW01cE1ET3F1OGc4TWw3QndoOTZQbg?oc=5",
+      "press": "로봇신문",
+      "date": "2025-09-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T07:03:58.652Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202509/_93263_496.png"
     }
   ]
 }
