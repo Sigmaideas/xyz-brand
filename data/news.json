@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-28T07:03:58.652Z",
+  "lastScrapedAt": "2026-08-28T21:30:38.981Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 147,
-  "krArticles": 143,
+  "totalArticles": 148,
+  "krArticles": 144,
   "overseasArticles": 4,
   "articles": [
     {
@@ -1213,6 +1213,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://img8.yna.co.kr/etc/inner/KR/2026/03/25/AKR20260325031800017_01_i_P4.jpg"
+    },
+    {
+      "title": "현장 데이터로 피지컬AI 고도화…엑스와이지-크라우드웍스 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9FSDkwNVZPbmRTNGZBc29kTHVTZW5Cb2dDZWlneDZTUkhKN18zUlhNZ25WUHFsUW0tWlBfMzdtQ0paRmFkRGdFWEtjR2lWSEhpYXNfQzhTbGVieGowZWlycm5vc2llT0hTQWstNQ?oc=5",
+      "press": "유니콘팩토리",
+      "date": "2026-03-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-28T21:30:38.981Z",
+      "image": "https://thumb.mt.co.kr/21/2026/03/2026032514310491320_1.jpg?1774422000"
     },
     {
       "title": "‘130억 확보’ 엑스와이지, 현장 검증으로...피지컬 AI 사업화 ‘속도’",
