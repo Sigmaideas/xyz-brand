@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-28T21:30:38.981Z",
+  "lastScrapedAt": "2026-08-29T04:18:49.032Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 148,
-  "krArticles": 144,
+  "totalArticles": 150,
+  "krArticles": 146,
   "overseasArticles": 4,
   "articles": [
     {
@@ -830,6 +830,17 @@
       "image": "https://tnnews.co.kr/wp-content/uploads/2026/05/%EB%A9%94%EC%9D%B8-%EC%9D%B8%ED%84%B0%EB%B7%B0%EC%BB%B7.jpg"
     },
     {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터 설립’ MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBvUXd5QlhRdDJaRTRzMEJ5eEdwRXBmRExDMldabnF3c2FrR1h4c0pLbUM0b01ZQ2c0ZDdkdFdnSGZnSXdjakp0WTc5ZUQ5VF8zb0Y0cEtHRUw2aDQ5YTU4UGRJNnNTRUxuaWdr?oc=5",
+      "press": "물류신문",
+      "date": "2026-05-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-29T04:18:49.032Z",
+      "image": "https://cdn.klnews.co.kr/news/thumbnail/202605/320957_64150_332_v150.jpg"
+    },
+    {
       "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QcnEzeTFRc3RaNEJuQVM3RFgxWTM0SXpNcGVDRURsdXIxY0x4UUI0Mk1fSUhwREZnUzdfQ21OcXlWTmk3SkR0LWVCb0F1X3VaOUFpbU81VjV1ZGprVlA0dC0wbnFTS2V4cWQtNg?oc=5",
@@ -1642,6 +1653,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-28T07:03:58.652Z",
       "image": "https://cdn.irobotnews.com/news/photo/202509/_93263_496.png"
+    },
+    {
+      "title": "엑스와이지, ‘K-휴머노이드 연합’ 최종 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE40YjA5eXVObERNV1Z2aXltZGxFcVlYXzNfX3REREpRYkNMYVdMOVdQdFdqY09ReFN1aHBwUmt1MFlqZ3dva05GXzQ3OE9qekUwX1lvS3BSazlmcXA5Y0NNMm5UbV9Sd0FTbEFLTA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-08-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-29T04:18:49.032Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202508/41555_91980_4632.png"
     }
   ]
 }
