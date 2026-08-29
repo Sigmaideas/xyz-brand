@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-29T04:18:49.032Z",
+  "lastScrapedAt": "2026-08-29T15:46:04.476Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 150,
-  "krArticles": 146,
+  "totalArticles": 153,
+  "krArticles": 149,
   "overseasArticles": 4,
   "articles": [
     {
@@ -476,6 +476,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-28T07:03:58.652Z",
       "image": "https://besuccess.com/wp-content/uploads/2026/07/20260727_%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80_%EB%93%80%EC%8A%A40-1024x574.png"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 세미 휴머노이드 '듀스' 실증 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1lZTktQXNfZ250Y2JPc3Zoa3pESkMtUE9HZ0thbW1xYjczdS1uNHNJYnZUV1FlTlo0QlpZYk1yNnRGRXY5akw4bGF0RnFQQ29Cc3RSdUNEVUc1dExkQmlMc1dfRTVaSjNVakE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-07-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-29T15:46:04.476Z",
+      "image": "https://cdn.aitimes.com/news/photo/202607/213203_216624_059.png"
     },
     {
       "title": "엑스와이지 '바리스브루', 로봇 자동화로 ESG 실현…플라스틱 연간 5.1톤 저감",
@@ -971,6 +982,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/04/2026042714215233568_1.jpg"
+    },
+    {
+      "title": "피지컬 AI 전문기업 ‘엑스와이지’, 양팔형 세미 휴머노이드 ‘듀스’ 공개…서비스 피지컬 AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9TRk05VDNCMjlCNG1kaEh3VTVQZ0N1ZTU4czVyRjhRU0Z5Z1IyWngwUlBoMGRHc3c4ODlUTlVmSWw0ZnRfYVE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-29T15:46:04.476Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/04/image-1024x572.png"
     },
     {
       "title": "엑스와이지, 부산 에코델타 스마트시티서 ‘바리스브루’ 시연",
@@ -1510,6 +1532,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.startupn.kr/news/thumbnail/202512/55354_57031_232_v150.jpg"
+    },
+    {
+      "title": "아이엘, 엑스와이지와 피지컬 AI 기반 스마트제조·로봇 DX 협력 MOU - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5LcGtMLUJaS0NYYU1uM2FKbFFiSXRjZDVTQVR0X1dhdWp0NGlDS1RqSF9nd2ZrT0hKZmpFRnlIQkNQRUw5N3Bka3U5Vng2MnkyS2NIck5aT1NCT29GajZnRnR2ck1SYXJB0gFuQVVfeXFMUFdRUElCS2pYSWN1cFMwVjcteVNtenlMWWp5LVAwRnhkZ1RKWHZ6RHd6Qkhnd19RcFJ6RXhTU3d6M0dVcWJ1TkMxbXl6N0FtTHB5QU84UTk3T014X091dFhSWVRsRVVfcjlJYl9SM2c?oc=5",
+      "press": "머니투데이",
+      "date": "2025-12-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-29T15:46:04.476Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2025/12/2025121014570458288_1.jpg"
     },
     {
       "title": "로봇 바리스타, 아파트 입주민의 '뉴노멀' 되나… 엑스와이지, 부산 EDC 주거단지 첫 공급",
