@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-30T01:37:01.238Z",
+  "lastScrapedAt": "2026-08-30T15:28:01.377Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 154,
-  "krArticles": 150,
+  "totalArticles": 158,
+  "krArticles": 154,
   "overseasArticles": 4,
   "articles": [
     {
@@ -401,6 +401,17 @@
       "image": null
     },
     {
+      "title": "“세미 휴머노이드로 리테일 혁신” 엑스와이지, 세미 휴머노이드 ‘듀스’ 매장 투입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE8wS2hHMmIxc3E3VlFlbXlIdUtTcEJuWXpUVHJrU0RCNEh3dmNCclRmSHdNeHNRSWZFcTRZc2Z3WWFIUlF3enhFZWNjS3lPYnBkVTdvSU9hemNMN2VaUE9V?oc=5",
+      "press": "헬로티",
+      "date": "2026-07-28",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T15:28:01.377Z",
+      "image": "https://www.hellot.net/data/photos/20260731/art_17851995010128_a3fe74.jpg"
+    },
+    {
       "title": "엑스와이지 '듀스', 성수 매장 투입…행동데이터로 피지컬 AI 고도화",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAzTDFRV2ROWmp5clNvbks5dWdLTmRkYkQwQlJLY0VHU2xtdms3V1VkbldJZnppR0lNZ2RaQ0FJUWdORTR4QVdiUlhNSkR1Wm1SbU5DN1dzT1hwM0h0MmNpLWhyU28xVVVU0gFsQVVfeXFMUDdXdXFKaGZTTmdDQjVEbHRiRlhzb183aEZpSFJ2N2FVWEZUT0Q3WnlpTXZLTFlBUnIyX2trYjdQd1N6LUlUbHZYZ0NvS3I5aWtrTFo0dmlxYkt4TjZ4dGZZM2NMNW13aWhSNWN3?oc=5",
@@ -487,6 +498,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-29T15:46:04.476Z",
       "image": "https://cdn.aitimes.com/news/photo/202607/213203_216624_059.png"
+    },
+    {
+      "title": "양팔 달린 로봇이 매장관리… 엑스와이지, 세미 휴머노이드 ‘듀스’ 실물 공개 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1xQml6Q2h0X2hpSGk4S202UHprNXlzdE9Lc3pCSldYa2ZHazJTam85WXpnMWZzelRCSUFuSkl0cHRoVnc2NkFxcjdTLWhqX1FFb0E?oc=5",
+      "press": "서울경제",
+      "date": "2026-07-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T15:28:01.377Z",
+      "image": "https://wimg.sedaily.com/news/cms/2026/07/27/news-p.v1.20260727.dab427b4a91a438b9d1ff1c4733f250b_R.png"
     },
     {
       "title": "엑스와이지 '바리스브루', 로봇 자동화로 ESG 실현…플라스틱 연간 5.1톤 저감",
@@ -797,6 +819,17 @@
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/w=1200,h=480,fit=cover,bg=white,f=auto,quality=high,sharpen=2,g=face/21/2026/06/2026060908374252340_1.jpg"
     },
     {
+      "title": "메디아나, 엑스와이지와 의료 AI 협업…플랫폼 구축·확장 박차",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9ueFRheXpKYkRFRzZBNUw1TTNBUTE1LXVSajRzWlZZcWphSk1oZTVyNVhkVEFjUmZ3VWgxSE1pOGpYUXBRZUp3Q3BmVDJEcjhoQktQX0Jn?oc=5",
+      "press": "DealSite경제TV",
+      "date": "2026-06-09",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T15:28:01.377Z",
+      "image": "https://d2k8i5ah8p7h3l.cloudfront.net/photos/7efa33a7d8fe488ff3b886808deca39c/thumb.jpg"
+    },
+    {
       "title": "젠슨 황 만난 K로봇 스타트업…에이로봇·엑스와이지 등 참석",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOLVRKWnl6dWcta3hEeDBiRk02cnVscUpJblF5X0llWVRNWUlUOEtGYmtOWmRLSTZuc3BKbGNnejI0aW0xUENLUTlsQWp3VHh4ZzU2M0VZODJBb0w0Y0pqTjJSd1hNOUJZZFRtYkpRb1RFdzlsQWd2T2taS1hfX2YyTA?oc=5",
@@ -927,6 +960,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-30T01:37:01.238Z",
       "image": "https://besuccess.com/wp-content/uploads/2026/04/%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80X%ED%95%9C%EC%96%91%EB%8C%80MOU-1-1024x687.png"
+    },
+    {
+      "title": "엑스와이지, 한양대와 손잡고 ‘사람-로봇 상호작용’ 연구 거점 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0xZE5BLUdnM1VybDVzWHZOMEdLeTc0V0dGbDVHZHh1Vy1OaE02QTVVNTV3RUYwMDh1VjF0N2pHeG8tUU02Z3djampPd3VHU0k?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-04-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T15:28:01.377Z",
+      "image": "https://www.venturesquare.net/wp-content/uploads/2026/04/MOU.png"
     },
     {
       "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
