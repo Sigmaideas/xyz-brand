@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-29T15:46:04.476Z",
+  "lastScrapedAt": "2026-08-30T01:37:01.238Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 153,
-  "krArticles": 149,
+  "totalArticles": 154,
+  "krArticles": 150,
   "overseasArticles": 4,
   "articles": [
     {
@@ -916,6 +916,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/04/2026042912304140283_1.jpg"
+    },
+    {
+      "title": "엑스와이지, 한양대와 ‘휴먼로봇인터렉션 센터’ 설립 및 업무협약 체결",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1lTmY3SnFWRkNZMTk0X21nS1lLOHg2SDhRb2s0ZjlnOVhBZ3hnQ1ZjV1ltR3hvUG1sWW95WkNZTnlIWXFScVE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-04-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-30T01:37:01.238Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/04/%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80X%ED%95%9C%EC%96%91%EB%8C%80MOU-1-1024x687.png"
     },
     {
       "title": "엑스와이지, 서비스 특화 양팔형 로봇 ‘듀스’ 공개...\"카페 알바·고객 응대도 척척\"",
