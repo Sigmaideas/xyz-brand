@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-30T15:28:01.377Z",
+  "lastScrapedAt": "2026-08-31T18:07:42.398Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,142 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 158,
-  "krArticles": 154,
-  "overseasArticles": 4,
+  "totalArticles": 172,
+  "krArticles": 167,
+  "overseasArticles": 5,
   "articles": [
+    {
+      "title": "엑스와이지 ‘바리스브루’, 푸르지오 커뮤니티센터에 들어간다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBBX09kQnlydkNHbWY4TXkzdUV2VkpLVmgyQjBmU2l4NU5pR3dtbFNjNndoR0V2VDdfdnpIQlhjQmpUcG1OVlpCLUYyOWs0aDJ3ZWRjbHlrM25yRHBERm12YTFaUEg2cTg2V1ZuRQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202608/48200_103358_052.jpg"
+    },
+    {
+      "title": "[게시판] 엑스와이지, 푸르지오 아파트에 '바리스타 로봇' 공급 등 단신",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LMGxyaUI4Rlh0NzBBMlBQTGtYeE03Yl9vaTJhamZsSlFqSmFyMzNFUE9OZ0FCZjlESWstVTJLeWo5M0Qtc1pUYTdfcDNGUXREY08zWW03X0E3S2lsUHN6RUh4ejFJSGktVWc?oc=5",
+      "press": "AI타임스",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.aitimes.com/news/photo/202608/214666_218377_4357.jpg"
+    },
+    {
+      "title": "엑스와이지, 대우건설과 푸르지오 로봇 도입 업무협약 체결∙∙∙주거 공간 진출 본격화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vUDNURnVseGVLTS13dE41T0ViM3l3Mk1IZVJHYXNRcGstUDRoZThzdTRTYURWLUpWUHNBVFZ1Y21BY1lmMWRITDlPQTlqYURGMU5KSGpOTmNmNDAwV0xwWk9UYXRjNGJfdGc?oc=5",
+      "press": "한국M&A경제신문",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "http://www.kmnanews.com/news/thumbnail/202608/10791_12242_3410_v150.jpg"
+    },
+    {
+      "title": "엑스와이지, 대우건설 푸르지오에 로봇 바리스타 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4wVGhyT0lMM3dMT2laQmkwT3FPTFdyaUU3enlPeFVDN25uVHUyNTZYMFBtcGwwLVpyNVY5UFFpeDVnbFN3NGlidDNhNGlCbVhqbXBRNFdB?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": null
+    },
+    {
+      "title": "엑스와이지, 대우건설과 푸르지오 로봇 바리스타 솔루션 공급 맞손∙∙∙스마트 주거 혁신 가속",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE96NDBFMjdIZmt6ajYyMjBlUlNrWlp0VWxUSHFjaUxtQ21fN2l4cFFRZUtiNkFhbjhRYmQ3akZtMXdyUEc3bkxwX1hSUzZSOTQtQWpKVXZNS1RONTFiaWxsWVFQbllVR1l3UzNqQlN3?oc=5",
+      "press": "startuptoday.kr",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.startuptoday.kr/news/thumbnail/202608/52893_40857_2644_v150.jpg"
+    },
+    {
+      "title": "엑스와이지, 대우건설과 MOU…푸르지오 커뮤니티에 로봇 바리스타 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1fZFNXUGhjZE5ZeUpXUnNUd241cWFoTFF4TG9hWHFuUVlKcVdHcDBzQlVieXFzeWNlSXN2MFpnQ1UyNEhEU3c?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/08/%EB%8C%80%EC%9A%B0%EA%B1%B4%EC%84%A4X%EC%97%91%EC%8A%A4%EC%99%80%EC%9D%B4%EC%A7%80_MOU%ED%98%91%EC%95%BD%EC%8B%9D-1024x683.jpg"
+    },
+    {
+      "title": "대우건설·엑스와이지, 푸르지오에 AI 로봇 바리스타 공급…주거공간 로봇 서비스 확대",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KTGtybDdrZmxoczdOTTRjR1ZfWUVCMDhuMTNOaURibG8xUVVkZk10QkgyM0RvbmI2ZmMwcURHNFdUZmhFMkN5Z0xOOEs1YjZlMHBCSDVxSjBsODJ2OFhnMnJkcDdxN0pH0gFsQVVfeXFMTW5YclVwaUdMbVRVeVBhVl82SnhJSmYzRDEySDRnc243cjNyTElJVWNZT0NMTldfVVRHMW5IZGE2UWRMcmlLckRiQUotSWE4R1BZUk9mNF82MFVORzRDZ01ReGh1NTQybW5Ed21H?oc=5",
+      "press": "startupn.kr",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202608/59612_61461_1312_v150.jpg"
+    },
+    {
+      "title": "푸르지오에 '로봇 바리스타' 생긴다…엑스와이지-대우건설 맞손 - 머니투데이",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0ydDJOSzNPTF9PU0htcURXdUplSHpLcjNvV05GZW9wdk1RMTE3OXR5bndSV2dUbmpFUjd4OF9lY0Zqb1EyOW55cWtKckYwNGRSVVF6NXdrbU5MdldXWjZuSGltY01TRGxpdEp2V3lmcGpQMkpsSFdRMDA0dk_SAXxBVV95cUxNMnQyTkszT0xfT1NIbXFEV3VKZUh6S3Izb1dORmVvcHZNUTExNzl0eW53UldnVG5qRVI3eDhfZWNGam9RMjlueXFrSnJGMDRkUlVRejV3a21OTHZXV1o2bkhpbWNNU0RsaXRKdld5ZnBqUDJKbEhXUTAwNHZP?oc=5",
+      "press": "머니투데이",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://thumb.mt.co.kr/cdn-cgi/image/f=avif/21/2026/08/2026083109055576752_1.jpg"
+    },
+    {
+      "title": "대우건설·엑스와이지, 푸르지오에 로봇 바리스타 도입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE4yYzQ4ZkFVWkIteDNHQ2dVbURsMTNMdzRGbVpyM05nNmhYa3k4VmktTWtKUWJ2a1JSNjVqaWExaHV4bzRCeS13UzZVM2xUWW94RnAweHY5dnU4Z2pSTzhKYkIzNmJ6TnpDV0JHT0xfcGtEakFxbWsxWElkREw?oc=5",
+      "press": "글로벌에픽",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cgeimage.commutil.kr/phpwas/restmb_allidxmake.php?pp=002&idx=999&simg=2026083114202009847048439a4874112222163195.jpg&nmt=29"
+    },
+    {
+      "title": "푸르지오 아파트에 엑스와이지 카페로봇 깔린다 [로보 인사이트]",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9TeDd6NWtiTzBtQi1Qd3Z0MTBvVlRuSEN1cERDUDlzcXp0bzhvVmU4ZmdVU09mUlJfMUtVSlZILUZCRHUwMFYzMTY0cy1GVG9TSFHSAVNBVV95cUxPTjB0YmhIbEM3a01ZUHpCemM3Nk9vRFF1eW1VM1YyNlhVMUVDTnFtRnVWNUoyUVBNVXd4SHg1OGtYa3E4ZF8wb1dEZjM3cnYwaTdORQ?oc=5",
+      "press": "sedaily.com",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://wimg.sedaily.com/news/cms/2026/08/31/news-p.v1.20260831.6a2759c29aa74be980a9ead30c15c917_R.jpg"
+    },
+    {
+      "title": "대우건설-엑스와이지, 푸르지오에 AI 로봇 바리스타 솔루션 ‘바리스브루’ 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5pc2JTYlZyUzBpNFRZeVEwcllGaF9zdmZ0a202MVZ6bFI0ajNNODNqSW9YSXRCVlY0NzFIRTZibnlYVFF4U19Ra2F0Rkx6VUwwajdaRUQ1YlIxcS01MXdLbW9Wdk1hV0k?oc=5",
+      "press": "인공지능신문",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.aitimes.kr/news/thumbnail/202608/41679_62724_3050_v150.jpg"
+    },
+    {
+      "title": "Daewoo E&C to Install XYZ Barista Robots at Prugio Apartments",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQS1JMNnEybUlLTmhzc2lLWVBfS1dUVDBfdTVtemN3MUU0V3BXZzNOM3Uwdnp5dFhJQkxaWl84Q2JBM1NTQW9hQk1DZ2hVX3QzLW5WN21vOXZJTno5Vnk4RWl1Q3hQbjNRd3AzOGVyd3NtSThQNjhQOS0weExkU29yZ0VtTk5zQnRvNGdScE1FYmFrQjhnQldpbTIzbWE3QXItUEdtRw?oc=5",
+      "press": "Seoul Economic Daily",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://wimg.sedaily.com/news/cms/2026/08/31/news-p.v1.20260831.6a2759c29aa74be980a9ead30c15c917_P1.jpg"
+    },
     {
       "title": "지티지오·엑스와이지, 글로벌 팁스 최종 선정…로봇 외식매장 개발",
       "description": "",
@@ -168,6 +300,17 @@
       "region": "overseas",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://wimg.sedaily.com/news/cms/2026/08/24/news-p.v1.20260824.6df6f76766af460fa4159b67b1226a69_P1.jpg"
+    },
+    {
+      "title": "\"사람 손 닮는게 목표 아냐\"…엑스와이지, 로봇핸드 구조 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1SSWJrYV9NU042NDFrOXV5dzVKY3hIeVNMRmxrMEVmX09haUV5MHVQUm5rTElybEhUWm50OTBFUFdKRTAxZmtLdmNaOXZKQUl0d1BvMjQwWW12eXF2?oc=5",
+      "press": "supple.kr",
+      "date": "2026-08-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://images.supple.kr/?url=https%3A%2F%2Fthumb.mt.co.kr%2F06%2F2026%2F08%2F2026082509532345291_1.jpg"
     },
     {
       "title": "엑스와이지, 갤럭시아와 협력해 한국 로봇 시장 공략",
@@ -509,6 +652,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-30T15:28:01.377Z",
       "image": "https://wimg.sedaily.com/news/cms/2026/07/27/news-p.v1.20260727.dab427b4a91a438b9d1ff1c4733f250b_R.png"
+    },
+    {
+      "title": "카페에서 일하는 휴머노이드… 엑스와이지, 성수 매장서 AI 행동지능 검증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5RbnF3Q0hVOVlmenlLd2FoZjhQUzN0YXRHYWFGWUFRTHVLQkZCMlRpOURvMWhYUHl0ZTdneUkybEltWG1CcUMxekxEcFBNaVQ0eWNjMU5WRGRzbTRlajlYQVRUR2VKQkRS0gFsQVVfeXFMUFlMb2FuRmNOa19wa0NzQUNiSDFyczkwTXpoMGFCeW9zd0dZS2tsOG5UYU9jQUE4T3luQ1VZcTYwbVBtU2lCd0t3LU9tT016Zmd2LUdtOFAyM0lnUEI4X0hXZk1xM2VEUFpibVhW?oc=5",
+      "press": "startupn.kr",
+      "date": "2026-07-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-08-31T18:07:42.398Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202607/59050_60876_4019_v150.jpg"
     },
     {
       "title": "엑스와이지 '바리스브루', 로봇 자동화로 ESG 실현…플라스틱 연간 5.1톤 저감",
