@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-08-31T18:07:42.398Z",
+  "lastScrapedAt": "2026-09-01T02:01:45.773Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 172,
-  "krArticles": 167,
+  "totalArticles": 188,
+  "krArticles": 183,
   "overseasArticles": 5,
   "articles": [
     {
@@ -146,6 +146,17 @@
       "region": "overseas",
       "firstSeenAt": "2026-08-31T18:07:42.398Z",
       "image": "https://wimg.sedaily.com/news/cms/2026/08/31/news-p.v1.20260831.6a2759c29aa74be980a9ead30c15c917_P1.jpg"
+    },
+    {
+      "title": "푸르지오에 '로봇 바리스타' 생긴다…엑스와이지-대우건설 맞손",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3MWJPSDZ1VkNieU9ZbzBHajR0ZWtmN3BGeWdMNmpKeGNYZHdITDdpWF9NX3ZpS3VyaC1sZUxjUDJES3JyVmRpYWlhQy1RaUNpdkZJ?oc=5",
+      "press": "news.nate.com",
+      "date": "2026-08-31",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": null
     },
     {
       "title": "지티지오·엑스와이지, 글로벌 팁스 최종 선정…로봇 외식매장 개발",
@@ -1666,6 +1677,17 @@
       "image": "https://cdn.startupn.kr/news/thumbnail/202601/56040_57760_4253_v150.jpg"
     },
     {
+      "title": "엑스와이지, 로스콘서 로봇 개발사례 발표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5Ia3VNSEJoYmtrV3ZzVHVtTFFLaDlZV3lOX0JuN2Exd0h3a0JWU0xpQTZZMkszam9MNnFmNlJGLTRnbnVDbHZoVnZBOS1nMi1BS0xMOTRB?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-01-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": null
+    },
+    {
       "title": "엑스와이지, 음성 주문 로봇 시대 연다...로봇 바리스타 ‘바리스브루’에 시스템 도입",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE81M3NjMTFLWjlKcmUzUFlpOWhJaVdPWmxmNmRfbGoxcmZiVG1lOS03czVqM0dsWE9NbDhHbjVtT3VRWHlBc2FwNGR2NTRaYVdiVWlMQlE4cUJmRDVpb0JZ?oc=5",
@@ -1719,6 +1741,28 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.irobotnews.com/news/photo/202512/44142_96427_482.png"
+    },
+    {
+      "title": "엑스와이지, 바리스타 로봇 매출 35억원",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4zQS1RU0JnN2VyMUhzM1AxeGdTWHJzNEk4YnMzYnNfRW5ZTWlhMmRDRXhiT1FxN1kzMXBybGs4RHhHak45elR4VS13Z1liV1IzRFZIWUNR?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-12-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": null
+    },
+    {
+      "title": "로봇 지능 혁신 특공대 탄생...엑스와이지-아이엘, 휴머노이드 AI 극대화 ‘정조준’",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5uT2lnVnVaZXhLV25SNTZCU3B6LTVDS28tNEdEeUZtRUNHdGoyUEhtajdmVHItcVFNdXozejFJZDQ5OVBibkJ2dWdCMzBRQzZTcTZvZTFmTmdMZw?oc=5",
+      "press": "헬로티",
+      "date": "2025-12-12",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://www.hellot.net/data/photos/20251250/art_17655309743029_d3ed12.png"
     },
     {
       "title": "엑스와이지-아이엘, 제조공정 로봇전환 업무협약 체결",
@@ -1831,6 +1875,17 @@
       "image": "https://cdn.startupn.kr/news/thumbnail/202511/54751_56401_5344_v150.jpg"
     },
     {
+      "title": "엑스와이지, 로보월드서 서비스 로봇 비전 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9UaGYwcVBTQk9SYUY1RDNhTUQzMVB2YWJaYWRLbHN0enNHSUo3S1BBal81WHczUGw2SXFxV1NmRG5CV2JZQl9YMlJlU0lVWnVIVWRsU0dn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-11-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://image.zdnet.co.kr/2025/11/03/214f7df9f971b9595dede7b6d83748d0.png"
+    },
+    {
       "title": "엑스와이지, 라운지엑스와 로봇카페 상용화 MOU…무인 매장 확산 본격화",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9EUWd3MmJleVRIS2p4SDlGMk1EenJhTXF6Nko4Z1JEVm0wN1JSczNoMkEyZXhhLXVlTFRGM3lRek00LUxkU0U0YXFhdzZBUFMxMlNMMFlackwwdnpib1NjcmR5cFZ3UDd2a3FvNA?oc=5",
@@ -1875,6 +1930,17 @@
       "image": "https://cdn.irobotnews.com/news/photo/202510/43027_94435_102.png"
     },
     {
+      "title": "엑스와이지, 서울시 주관 ‘2025 하이서울 기업’ 인증 획득",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBzYUNSN25NZG5sdDVoanRSenBZTENjdHVTV3BNMXNuZ3FmU0VnZzhDd3FCcEU1MG1JclhHdkQtSlRsSU9CaHRQUng1NHJpUFhiaHpWa2dqd3FEZzZmMTZZU2hLdndDeUs5cUtsWg?oc=5",
+      "press": "로봇신문",
+      "date": "2025-10-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202510/_93988_3240.jpg"
+    },
+    {
       "title": "엑스와이지, 브레인엑스 기반 피지컬 AI 혁신 사례 공개",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE10WFFsc1h4LUlXVXhmdnJXcjNsSFJwbW1SMFdoQ0NTdUh3TmNTY0ozZHhJRmJDRjdEajA4RVZzRGxDd3Vjck1vZWt5aHZhR3Y1dmRXeUNwd0ZTblRLUUkwdGJyVDRNX09VN0l3Mg?oc=5",
@@ -1906,6 +1972,116 @@
       "region": "kr",
       "firstSeenAt": "2026-08-29T04:18:49.032Z",
       "image": "https://cdn.irobotnews.com/news/photo/202508/41555_91980_4632.png"
+    },
+    {
+      "title": "엑스와이지, '유니티' 기반 실시간 모방학습 환경 '트윈엑스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1iV2JDWlg5NUljdVpfNWp6dmRIVEJDRXdocjRsWERKeXpDc0VjRGozSU1iM2J2bTd2S2lBTFdQUUQ2WFBRYkt2U1BGNW5Fa0tuc09RR2pHMERyWnJsbXRwNzk2Yk9YN0p4ckJBWQ?oc=5",
+      "press": "로봇신문",
+      "date": "2025-06-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202506/40868_91117_834.png"
+    },
+    {
+      "title": "엑스와이지, 교육부 주관 ‘AID 집중과정’ 선정… 광운대학교와 첫 협력 성과",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1KeVdoME1iMWJkQzBab0dpYjZCUzBqNUM1VHJWaDNzMkd1YnJaTUgzZ05UbWpIRUl3ODdYemstVGhTNDJMS0d2WWxub2d1ak1kT0pNem1WMjJRZ2swRVpZcEg2ZEZmUXpJUnBFcA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-05-25",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202505/40174_90128_398.png"
+    },
+    {
+      "title": "엑스와이지, 영인모빌리티와 ‘유니트리 휴머노이드 교육 및 보급’ MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9jSUIzUkhsUjVJcjVZNVpKVllfU1FUaUhOQVI1WlptMEk1Tnl6dXQxOGlYeVRsQ1BzUVRoM3NfNmhqM2ZOenoyTEEtWlI5R2dUNHVFVzlkOU1UNVBKakhYVnJCaGNubmxOZFk0OQ?oc=5",
+      "press": "로봇신문",
+      "date": "2025-04-23",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202504/38348_80090_545.jpg"
+    },
+    {
+      "title": "위펀·엑스와이지, '무인카페 서비스 활성화' 제휴",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6X1JCR0kyYUw0eGlnR1dvazYzd3ZuX0h4NFRsOGdacU01cVdZTEMxZWNJT0dCcG5mQnFvcEhDN0YtM2NWZWs4RkU3aHNQMU5tcHo4RUIwb0h1REpfUnVBSmFRUHJOVmlnRFR6MA?oc=5",
+      "press": "로봇신문",
+      "date": "2024-05-17",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202405/34921_74038_039.JPG"
+    },
+    {
+      "title": "서비스 로봇 스타트업 엑스와이지, 대규모 인력 채용 나서",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA4ZlZyWTlrcElQMXNPUUpjVlRvTzBvd1dVOEF0UlI4OGQ0azdRX0pGanZldzBKWWdmd0NPZmhKcVJ3cS1Sd0h2d203VmRrcDZWYWpiR21uZ0NxQy1lSW9fRTBiQjdOUTZxaGVVeQ?oc=5",
+      "press": "로봇신문",
+      "date": "2023-08-23",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202308/32499_69656_4124.png"
+    },
+    {
+      "title": "엑스와이지, 중기부 ‘아기유니콘 플러스’ 선정",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBYT1BFWkRiaEJSSTBrV0laUmFlTkVXOG1xN0oyZXZHUHhpaHhoemx5XzZvLTNBZXh0cGJudFRiYkd1S29rbWJPS25IaDZqaWJzU2oxMFppVXdxZjlBMHlaMWRWd2JKM1JSU2g1Xw?oc=5",
+      "press": "로봇신문",
+      "date": "2023-08-02",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202308/32315_69366_31.jpg"
+    },
+    {
+      "title": "AI 서비스로봇 플랫폼 ‘엑스와이지’, 시리즈 A 100억원 투자유치...“생활 속 로봇서비스 위해 AI기술력 고도화 할 것!”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFB4WTJrVEVOQ0xoc0N5OENyUzI2c096Q2R3NFA0d2NTWkZjNlIxTzZVc3FBaUZ3SU9zS1JxZkhzNERhWXRFa0xaZUhEVG9Kd3pxWDZSZF8wRlZOMXhLbGdQWnNDdXhZUjA?oc=5",
+      "press": "인공지능신문",
+      "date": "2022-11-21",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.aitimes.kr/news/thumbnail/202211/26567_39972_5128_v150.jpg"
+    },
+    {
+      "title": "서비스 로봇 스타트업 ‘엑스와이지’, 100억원 규모 시리즈 A 투자 유치",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFAycDllTmlLWlhza1JGcjlJdkZ0Mldsc3ZPOWpSa045ZUR6V2pFNG5SN0NqUHVoVGUwX3NGaEhuT0VCbmRQQV9mRGlkUF95Z0hnMDNobURaWG0tektHeXd4RTVrVWJPUWJYNjhGOA?oc=5",
+      "press": "로봇신문",
+      "date": "2022-11-21",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202211/30108_65135_1259.jpg"
+    },
+    {
+      "title": "엑스와이지, 무인카페 '엑스익스프레스' 2호점 오픈",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OXzlrSDl1SjBBVlRNWEZfUHRZbVhJRlhFOXJ1NHhBOFR1QTR0WmRVZ1lxUWFPZlRIeWJJMU83NEpDSWpMRmp2MjJ5Z05tUXNhV0tKUjlUcmpqQldyck1PbjhJWmRHQ3h2QTF2OA?oc=5",
+      "press": "로봇신문",
+      "date": "2022-11-01",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202211/29937_64768_350.png"
+    },
+    {
+      "title": "엑스와이지, 오픈형 무인 로봇 카페 ‘엑스익스프레스’ 성수동서 첫선",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5LNHFINmRLNXpkZlVrWVhrMUNsNFNqNmUzSkE2ckcxbGtndlJZXzd6ZTFYcGctR1VQVGM5M3VudGhnaHRDNlFyNnBqODBYU0hKZW5OUXhnQUhEZmx4OFNEd29lZi1vd25EWFY3aw?oc=5",
+      "press": "로봇신문",
+      "date": "2022-10-24",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-01T02:01:45.773Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202210/29850_64507_3346.jpg"
     }
   ]
 }
