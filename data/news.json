@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-02T01:19:49.672Z",
+  "lastScrapedAt": "2026-09-02T15:16:37.408Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 191,
-  "krArticles": 186,
+  "totalArticles": 193,
+  "krArticles": 188,
   "overseasArticles": 5,
   "articles": [
     {
@@ -552,6 +552,17 @@
       "source": "google",
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
+      "image": null
+    },
+    {
+      "title": "엑스와이지, 오픈그래프랩스와 피지컬 AI 데이터 수집 협력",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9XVHpGT211UHVldnFGMlhoclJBeGlQRzdVN2t4bTA1WUZrME82VEl1eFNRTHB5LVZJb0tMcmxZQW9SaXU3eENGZGYwaFhUZDRucGp3?oc=5",
+      "press": "네이트",
+      "date": "2026-07-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-02T15:16:37.408Z",
       "image": null
     },
     {
@@ -1763,6 +1774,17 @@
       "region": "kr",
       "firstSeenAt": "2026-09-01T02:01:45.773Z",
       "image": "https://www.hellot.net/data/photos/20251250/art_17655309743029_d3ed12.png"
+    },
+    {
+      "title": "아이엘, 엑스와이지와 맞손…피지컬 AI 기반 '아이엘봇 C2' 지능 고도화 목표",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9YSzJabEFTdmVfYU5Cdkc2bEpmRnpuQ1VOck1iOUQ0b3BlYlZCSVlvWmNyZUNkZVRmS195UW53dVJsVURMU25FUFBIQjZsUGMtRjVwRGdoTllVaDdHaWVHVFd3Yy1ITUZ6amc?oc=5",
+      "press": "파이낸스스코프",
+      "date": "2025-12-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-02T15:16:37.408Z",
+      "image": "https://image.finance-scope.com/data/scp/image/2025/12/11/scp20251211000004.jpg"
     },
     {
       "title": "엑스와이지-아이엘, 제조공정 로봇전환 업무협약 체결",
