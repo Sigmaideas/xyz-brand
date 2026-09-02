@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-01T15:32:54.475Z",
+  "lastScrapedAt": "2026-09-02T01:19:49.672Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 188,
-  "krArticles": 183,
+  "totalArticles": 191,
+  "krArticles": 186,
   "overseasArticles": 5,
   "articles": [
     {
@@ -2007,6 +2007,17 @@
       "image": "https://cdn.irobotnews.com/news/photo/202504/38348_80090_545.jpg"
     },
     {
+      "title": "커피 로봇부터 로봇 빌딩까지, 일상을 변화시키는 로봇 전문 기업, 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9teDBEZlRRMURHUnctNWhJMzJFMVMxR2RSb0ZLSjBicXpaTGsxYWZ1SURJZWFDRVJDd2N6VlNxT2x3Rk8zelJaWnE1MWN5Zw?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2025-04-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-02T01:19:49.672Z",
+      "image": "https://www.venturesquare.net/wp-content/uploads/2025/04/XZY1.jpg"
+    },
+    {
       "title": "위펀·엑스와이지, '무인카페 서비스 활성화' 제휴",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6X1JCR0kyYUw0eGlnR1dvazYzd3ZuX0h4NFRsOGdacU01cVdZTEMxZWNJT0dCcG5mQnFvcEhDN0YtM2NWZWs4RkU3aHNQMU5tcHo4RUIwb0h1REpfUnVBSmFRUHJOVmlnRFR6MA?oc=5",
@@ -2016,6 +2027,28 @@
       "region": "kr",
       "firstSeenAt": "2026-09-01T02:01:45.773Z",
       "image": "https://cdn.irobotnews.com/news/photo/202405/34921_74038_039.JPG"
+    },
+    {
+      "title": "[아이포럼 2023] '발명왕' 황성재 엑스와이지 대표…초거대 AI 로봇 미래 제시",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBvNFhTbWFPeVdfakxQdURRUjhOTGlDM3BpdGdBcThqeXhNN3NRczl5MGJFN0Y1LWRiSG8tZDg4aUphT0R6NFFpLWhScw?oc=5",
+      "press": "아이뉴스24",
+      "date": "2023-12-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-02T01:19:49.672Z",
+      "image": "https://image.inews24.com/v1/12a1350144252d.jpg"
+    },
+    {
+      "title": "[인터뷰] “생활 속 불편함 해소하는 로봇 만든다”…엑스와이지 김병조 COO",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1oN3g5Ty1jWHBDQmt4b3lrT3JjOWFzSUFya1hrUnktX3VXTDJtWURiVWJhNFBDLVB0eFNlaUY0RG5STnYxRDFfV3RHQWFQLUxZbG9tVnp2cVM5eEV6SEE?oc=5",
+      "press": "아시아타임즈",
+      "date": "2023-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-02T01:19:49.672Z",
+      "image": "https://csossihettpx2597658.cdn.gov-ntruss.com/data2/content/image/2023/09/04/.cache/512/20230904500298.jpg"
     },
     {
       "title": "서비스 로봇 스타트업 엑스와이지, 대규모 인력 채용 나서",
