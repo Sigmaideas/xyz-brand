@@ -179,12 +179,13 @@ main {
   gap: 24px;
 }
 
-/* 카드는 main 이 아니라 뷰 래퍼(#blogView/#trendView/#newsView) 안에 있어서
+/* 카드는 main 이 아니라 뷰 래퍼(#blogView/#trendView/#newsView/#youtubeView) 안에 있어서
    main 의 gap 이 카드 사이에는 적용되지 않는다. 여기서 따로 지정.
    :not([hidden]) — app.js 가 hidden 속성으로 뷰를 전환하므로 필수 */
 #blogView:not([hidden]),
 #trendView:not([hidden]),
-#newsView:not([hidden]) {
+#newsView:not([hidden]),
+#youtubeView:not([hidden]) {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -677,7 +678,8 @@ tbody tr:hover { background: var(--surface-2); }
   main { padding: 0 20px 32px; gap: 16px; }
   #blogView:not([hidden]),
   #trendView:not([hidden]),
-  #newsView:not([hidden]) { gap: 16px; }
+  #newsView:not([hidden]),
+  #youtubeView:not([hidden]) { gap: 16px; }
   .news-item { flex-direction: column; gap: 8px; }
   .news-item-meta { flex-direction: row; align-items: center; gap: 10px; }
 }
