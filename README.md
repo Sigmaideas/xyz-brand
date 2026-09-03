@@ -2,7 +2,11 @@
 
 엑스와이지(XYZ) 브랜드가 외부에서 어떻게 언급되는지 한 화면에서 보는 내부용 대시보드.
 
-**대시보드:** https://sigmaideas.github.io/xyz-brand/
+**대시보드:** https://portal.xyzcorp.io/xyz-brand/
+
+커스텀 도메인은 저장소가 아니라 계정(`Sigmaideas.github.io`) 레벨에 걸려 있다. 그래서 이
+저장소에는 CNAME 파일이 없고, 모든 프로젝트 페이지가 `portal.xyzcorp.io/<저장소>/` 로 나간다.
+예전 주소 `sigmaideas.github.io/xyz-brand/` 도 301 로 여기 붙으므로 링크가 깨지지는 않는다.
 
 매장 브랜드 '라운지엑스' 는 별도 저장소([loungex-brand](https://github.com/Sigmaideas/loungex-brand))에서 본다.
 두 대시보드는 코드 구조와 디자인을 공유하지만 수집 대상과 데이터가 완전히 분리돼 있다.
