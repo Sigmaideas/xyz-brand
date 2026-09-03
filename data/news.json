@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-03T01:24:52.984Z",
+  "lastScrapedAt": "2026-09-03T02:04:34.183Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 196,
-  "krArticles": 191,
+  "totalArticles": 197,
+  "krArticles": 192,
   "overseasArticles": 5,
   "articles": [
     {
@@ -2005,6 +2005,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.irobotnews.com/news/photo/202509/_93812_1849.gif"
+    },
+    {
+      "title": "엑스와이지(XYZ), 2025 서울 AI 로봇쇼 참가... 차세대 플랫폼 기반의 실용적 로보틱스 솔루션 대거 선보인다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1iXzY3QjJETkJaWE9Dbk9KeVFQNVA3NHFHa1E3ckltOE1VQzZ5OVB6cGVHV1dFNHhua2NnQXdTd1RXbkpFaXJCcTY5am5wcU1JZXNpdmFwUzFfQi1IZU1McFViT3hjaHfSAWtBVV95cUxPX1NwN1BfTWVHZS1SSlJfZWlKcmxPSlR4ZFFVZlJhVi1OdXhLTklQVmdnSDdVNWZMaUNmN3dya19tTm5SMkwtX25fTUNWTXhpQjFmWkx6b0NvdElZaHd3a1M3YkZJeFhSZ0pTNA?oc=5",
+      "press": "에이빙",
+      "date": "2025-09-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T02:04:34.183Z",
+      "image": "https://cdn.kr.aving.net/news/photo/202509/1804643_757939_5644.jpg"
     },
     {
       "title": "엑스와이지, 교보문고와 문화 콘텐츠 공간 실증 추진",
