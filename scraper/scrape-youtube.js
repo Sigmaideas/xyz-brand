@@ -25,12 +25,16 @@ const MAX_RESULTS = 50; // search.list 상한
 const STATS_BATCH = 50; // videos.list 는 한 번에 50개까지
 
 const QUERIES = ['엑스와이지 로봇', '엑스와이지 바리스브루', '라운지엑스 로봇카페', '엑스와이지 피지컬AI'];
-// 해외 반응은 판정 기준이 달라 따로 돌린다(영문 맥락으로 확인)
-const INTL_QUERIES = ['XYZ robot barista', 'Korea robot cafe XYZ'];
+// 해외 쿼리. 'XYZ robot' 두 개만 돌렸을 때 외신 보도가 통째로 안 잡혔다 — 해외에서는
+// 회사명보다 제품명(DEUX·Baris Brew)으로 불린다. 제품명을 쿼리에 넣어야 잡힌다.
+const INTL_QUERIES = [
+  'XYZ robot barista', 'Korea robot cafe XYZ',
+  'XYZ DEUX robot', 'DEUX dual arm robot', 'XYZ physical AI robot', 'Baris Brew robot cafe',
+];
 
-// 공식 채널은 따로 구분한다 — 자사 영상과 외부 언급을 섞으면 지표가 왜곡된다.
-// 채널 ID 는 확인되는 대로 채운다. 비어 있으면 전부 외부로 잡힌다.
-const OFFICIAL_CHANNEL_IDS = [];
+// 공식 채널 — 자사 영상과 외부 언급을 섞으면 지표가 왜곡된다.
+// 영문 영상도 올리지만 자사 발행분이므로 해외(외부 반응)로 세지 않는다.
+const OFFICIAL_CHANNEL_IDS = ['UCIieByJcSRGv9tJQaLMM0wg']; // XYZ(엑스와이지)
 
 const log = (...a) => console.log(`[youtube ${new Date().toISOString().slice(11, 19)}]`, ...a);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -56,10 +60,19 @@ async function callApi(url, params, key) {
   return res.json();
 }
 
-async function search(query, region, key) {
+// 국내/해외는 쿼리가 아니라 내용으로 가른다. 제품명 쿼리('Baris Brew')에는 한국어 영상이
+// 대량으로 딸려 오는데, 쿼리 출처로 가르면 그게 전부 해외 탭에 쌓인다.
+// 한글이 있거나 공식 채널이면 국내로 본다.
+const HANGUL = /[가-힣]/;
+const regionOf = (v) =>
+  HANGUL.test(`${v.title} ${v.description}`) || OFFICIAL_CHANNEL_IDS.includes(v.channelId)
+    ? 'kr'
+    : 'overseas';
+
+async function search(query, key, order = 'date') {
   const json = await callApi(
     SEARCH_URL,
-    { part: 'snippet', q: query, type: 'video', maxResults: String(MAX_RESULTS), order: 'date' },
+    { part: 'snippet', q: query, type: 'video', maxResults: String(MAX_RESULTS), order },
     key
   );
   return (json.items || [])
@@ -73,8 +86,8 @@ async function search(query, region, key) {
       channelId: it.snippet.channelId,
       date: (it.snippet.publishedAt || '').slice(0, 10),
       image: it.snippet.thumbnails?.medium?.url || it.snippet.thumbnails?.default?.url || '',
-      region,
-    }));
+    }))
+    .map((v) => ({ ...v, region: regionOf(v) }));
 }
 
 /** 영상 통계(조회수·좋아요·댓글)를 50개씩 끊어 조회 */
@@ -116,11 +129,15 @@ async function main() {
     return;
   }
 
+  // 해외 쿼리만 relevance 정렬을 한 번 더 돈다. order=date 는 최신 50건만 주는데
+  // 해외 보도는 발행량이 적어 과거 건이 그 창 밖으로 밀려난다(외신 5건 중 3건을 그렇게
+  // 놓쳤다). 국내는 발행량이 많아 최신순만으로 충분하므로 쿼터를 더 쓰지 않는다.
   const fresh = [];
-  for (const [queries, region] of [[QUERIES, 'kr'], [INTL_QUERIES, 'overseas']]) {
+  for (const [queries, orders] of [[QUERIES, ['date']], [INTL_QUERIES, ['date', 'relevance']]]) {
     for (const q of queries) {
       try {
-        const got = await search(q, region, key);
+        const got = [];
+        for (const o of orders) got.push(...(await search(q, key, o)));
         fresh.push(...got);
         log(`'${q}' ${got.length}건`);
       } catch (e) {
@@ -166,11 +183,13 @@ async function main() {
   }
 
   // 관련성 판정은 매번 다시 돌린다 — 규칙을 고치면 과거에 잘못 들어온 것도 함께 정리된다
+  // region 도 매번 다시 매긴다. 판정 기준을 고치면 이전 회차에 잘못 분류된 누적분도
+  // 다음 실행에서 함께 정리된다 — 관련성 판정과 같은 원칙.
   const videos = [...byId.values()]
-    .map((v) => ({ ...v, official: OFFICIAL_CHANNEL_IDS.includes(v.channelId) }))
+    .map((v) => ({ ...v, region: regionOf(v), official: OFFICIAL_CHANNEL_IDS.includes(v.channelId) }))
     .filter((v) =>
       v.region === 'overseas'
-        ? isIntlBrandMention(v)
+        ? isIntlBrandMention(v, { strict: true })
         : isBrandMention(v, { requireAnchor: true, exempt: v.official })
     )
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''));
