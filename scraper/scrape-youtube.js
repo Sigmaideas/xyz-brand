@@ -134,7 +134,7 @@ async function main() {
 
   const existing = await readExisting();
   const byId = new Map((existing.videos || []).map((v) => [v.videoId, v]));
-  let added = 0;
+  const addedIds = new Set();
 
   for (const v of fresh) {
     if (byId.has(v.videoId)) {
@@ -144,7 +144,7 @@ async function main() {
       continue;
     }
     byId.set(v.videoId, { ...v, firstSeenAt: new Date().toISOString() });
-    added++;
+    addedIds.add(v.videoId);
   }
 
   // 조회수는 계속 오르므로 누적분 전체를 갱신한다
@@ -189,8 +189,12 @@ async function main() {
   };
   await fs.mkdir(path.dirname(OUT_PATH), { recursive: true });
   await fs.writeFile(OUT_PATH, JSON.stringify(out, null, 2), 'utf8');
+  // 신규 건수는 관련성 필터를 통과한 것만 센다. 검색 결과에는 동명이인이 대량으로
+  // 섞여 들어와서(1회차 86건 중 13건만 생존) 필터 이전 수를 찍으면 로그가 거짓말을 한다.
+  const addedKept = videos.filter((v) => addedIds.has(v.videoId)).length;
   log(
-    `저장 완료: 누적 ${videos.length}건 (신규 +${added}건 · 국내 ${out.krVideos} / 해외 ${out.overseasVideos}) ` +
+    `저장 완료: 누적 ${videos.length}건 (신규 +${addedKept}건 · 무관 제외 ${byId.size - videos.length}건 · ` +
+      `국내 ${out.krVideos} / 해외 ${out.overseasVideos}) ` +
       `· 총 조회수 ${out.totalViews.toLocaleString()} → ${OUT_PATH}`
   );
 }
