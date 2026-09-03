@@ -12,7 +12,6 @@
 | 메뉴 | 내용 | 데이터 |
 |---|---|---|
 | 네이버 블로그 모니터링 | '엑스와이지' 를 언급한 블로그 포스트 · 전체/외부/공식 탭 | `data/blog.json` |
-| 네이버 카페 모니터링 | 카페 언급글 · 카페별 비중 | `data/cafe.json` |
 | 검색어 트렌드 | 네이버 데이터랩 기준 브랜드 검색 관심도 추이 | `data/trend.json` |
 | 뉴스 모니터링 | 국내·해외 언론 보도 | `data/news.json` |
 | 유튜브 모니터링 | 브랜드 언급 영상 · 조회수 · 국내/해외 탭 | `data/youtube.json` |
@@ -27,11 +26,10 @@ npm install
 npx playwright install chromium
 
 npm run blog        # 네이버 블로그 포스트 (검색 API, 없으면 Playwright 로 대체)
-npm run cafe        # 네이버 카페 글 (검색 API 필요)
 npm run news        # 구글 뉴스 RSS (키 불필요) + 네이버 뉴스 (검색 API)
 npm run trend       # 네이버 데이터랩 (데이터랩 API 필요)
 npm run youtube     # 유튜브 영상·조회수 (YouTube Data API 필요)
-npm run update      # 위 다섯을 순서대로
+npm run update      # 위 넷을 순서대로
 
 npm run dashboard   # http://localhost:8080
 ```
@@ -42,7 +40,7 @@ npm run dashboard   # http://localhost:8080
 
 | 키 | 용도 | 없으면 |
 |---|---|---|
-| `NAVER_CLIENT_ID` / `NAVER_CLIENT_SECRET` | 블로그·카페·뉴스(검색 API) + 검색어 트렌드(데이터랩 API) | 아래 표 참고 |
+| `NAVER_CLIENT_ID` / `NAVER_CLIENT_SECRET` | 블로그·뉴스(검색 API) + 검색어 트렌드(데이터랩 API) | 아래 표 참고 |
 | `YOUTUBE_API_KEY` | 유튜브 영상·조회수 | 유튜브 화면만 빔 |
 
 네이버는 **API 별로 따로 신청**해야 한다. 애플리케이션의 '사용 API' 에 `검색` 과
@@ -52,7 +50,7 @@ npm run dashboard   # http://localhost:8080
 | 등록 상태 | 결과 |
 |---|---|
 | 둘 다 등록 | 전부 정상 |
-| 데이터랩만 등록 | 트렌드 정상 · 카페 스킵 · 뉴스는 구글만 · 블로그는 Playwright 대체 경로 |
+| 데이터랩만 등록 | 트렌드 정상 · 뉴스는 구글만 · 블로그는 Playwright 대체 경로 |
 | 검색만 등록 | 트렌드만 빔 |
 | 키 없음 | 블로그만 Playwright 로 동작 |
 
@@ -65,7 +63,7 @@ YouTube 키는 console.cloud.google.com 에서 'YouTube Data API v3' 를 사용 
 
 ## 자동 수집
 
-`.github/workflows/update.yml` 이 하루 2회(약 10:00 / 22:00 KST) 돌면서 다섯 수집기를
+`.github/workflows/update.yml` 이 하루 2회(약 10:00 / 22:00 KST) 돌면서 네 수집기를
 실행하고 `data/*.json` 변경분을 커밋한다. 각 단계는 `continue-on-error` 라 하나가 실패해도
 나머지 결과는 살아남는다.
 
@@ -77,7 +75,7 @@ YouTube 키는 console.cloud.google.com 에서 'YouTube Data API v3' 를 사용 
 
 ```
 xyz-brand/
-├── index.html          # 대시보드 마크업 (3개 뷰)
+├── index.html          # 대시보드 마크업 (4개 뷰)
 ├── app.js              # 렌더링 — 블로그·뉴스가 집계/차트 코드를 공유한다
 ├── style.css
 ├── server.js           # 로컬 개발용 정적 서버 + 수집 트리거 API
@@ -85,7 +83,6 @@ xyz-brand/
 ├── scraper/
 │   ├── relevance.js      # 동명이인 제외·맥락 판정 (전 수집기 공용) + 키 검증
 │   ├── scrape-blog.js    # 네이버 블로그 — 검색 API, 실패 시 Playwright 대체
-│   ├── scrape-cafe.js    # 네이버 카페 — 검색 API
 │   ├── scrape-news.js    # 구글 뉴스 RSS (국내 + 해외) + 네이버 뉴스
 │   ├── scrape-trend.js   # 네이버 데이터랩
 │   └── scrape-youtube.js # YouTube Data API — 영상 + 조회수
@@ -108,11 +105,11 @@ xyz-brand/
 | W.XYZ | 워커힐 호텔 멤버십 |
 | 엑스와이지 칵테일 / 엑스와이지포차 | 각각 칵테일 이름, 압구정 술집 |
 
-새 오탐이 보이면 **`scraper/relevance.js` 의 `EXCLUDE` 한 곳**에만 추가하면 블로그·카페·뉴스·
-유튜브에 동시에 반영된다. 공백·괄호를 지운 소문자 기준으로 비교하므로 그 형태로 적는다.
+새 오탐이 보이면 **`scraper/relevance.js` 의 `EXCLUDE` 한 곳**에만 추가하면 블로그·뉴스·유튜브에
+동시에 반영된다. 공백·괄호를 지운 소문자 기준으로 비교하므로 그 형태로 적는다.
 
 수집원마다 판정 강도가 다르다 — 뉴스는 언론사 편집을 거쳐 이미 걸러진 상태라 브랜드 표기만
-확인하고, 블로그·카페·유튜브는 로봇/푸드테크 맥락(`ANCHORS`)까지 함께 요구한다.
+확인하고, 블로그·유튜브는 로봇/푸드테크 맥락(`ANCHORS`)까지 함께 요구한다.
 
 ## 수집이 깨졌을 때
 
@@ -120,10 +117,6 @@ xyz-brand/
 있어 못 쓰고, `data-template-id="ugcItem"` / `"articleSource"` 속성과 `blog.naver.com/{id}/{postId}`
 URL 패턴에 의존한다. 이 중 무엇이 바뀌었는지 확인하려면
 `HEADLESS=false npm run blog` 로 브라우저를 띄워 본다.
-
-**카페 월별 그래프가 수집 시작일부터만 있다** — 정상이다. 카페글 검색 API 는 작성일을
-주지 않아서(블로그 API 의 `postdate` 에 해당하는 필드가 없다) '처음 발견한 날' 을 날짜로 쓴다.
-즉 카페 화면의 월별 그래프는 '작성 추이' 가 아니라 '발견 추이' 다.
 
 **유튜브 조회수가 안 오른다** — 조회수는 매 실행마다 누적분 전체를 다시 조회해 갱신한다.
 `videos.list` 가 실패하면(쿼터 소진 등) 기존 값을 유지하고 로그에 남긴다.

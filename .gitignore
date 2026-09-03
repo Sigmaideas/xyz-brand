@@ -11,7 +11,6 @@ node_modules/
 data/*
 !data/blog.json
 !data/news.json
-!data/cafe.json
 !data/trend.json
 !data/youtube.json
 

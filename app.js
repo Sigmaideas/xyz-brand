@@ -9,7 +9,6 @@ const TOPIC_TOP_N = 12;
 let currentSource = 'blog';
 let blogData = null;
 let newsData = null;
-let cafeData = null;
 let youtubeData = null;
 let trendChart = null;
 
@@ -17,7 +16,6 @@ const SOURCE_PAGE_TITLE = {
   blog: '네이버 블로그 모니터링',
   trend: '엑스와이지 검색어 트렌드',
   news: '엑스와이지 뉴스 모니터링',
-  cafe: '네이버 카페 모니터링',
   youtube: '엑스와이지 유튜브 모니터링',
 };
 
@@ -36,7 +34,7 @@ function kpiCard({ icon, label, value, sub, accent, valueClass }) {
     </div>`;
 }
 
-const VIEWS = ['blog', 'trend', 'news', 'cafe', 'youtube'];
+const VIEWS = ['blog', 'trend', 'news', 'youtube'];
 function toggleView(view) {
   for (const v of VIEWS) $(`#${v}View`).hidden = v !== view;
 }
@@ -511,86 +509,6 @@ function renderNews() {
 }
 
 
-// ── 네이버 카페 ──────────────────────────────────────────────
-// 카페는 블로그보다 홍보성 글이 적어 외부 언급 지표로 더 정직하다.
-// 다만 카페글 검색 API 가 작성일을 주지 않아서 date 가 '발견일' 이다 —
-// 월별 그래프는 '작성 추이' 가 아니라 '발견 추이' 이므로 화면에 그렇게 적는다.
-const CAFE_TOPIC_GROUPS = [
-  { label: '로봇·로보틱스', terms: ['로봇', '로보틱스'] },
-  { label: '카페·바리스브루', terms: ['카페', '바리스브루', '커피', '바리스타'] },
-  { label: '라운지엑스', terms: ['라운지엑스', "lounge'x", 'loungex'] },
-  { label: '피지컬 AI', terms: ['피지컬 ai', '피지컬ai', '브레인엑스', 'brainx'] },
-  { label: '후기·방문', terms: ['후기', '방문', '가봤', '다녀', '먹어'] },
-  { label: '채용·조직', terms: ['채용', '공고', '입사', '면접'] },
-  { label: '투자·주식', terms: ['투자', '시리즈', '유치', '주식', '공모'] },
-  { label: '무인·자동화', terms: ['무인', '자동화', '키오스크'] },
-  { label: '전시·행사', terms: ['전시', '엑스포', '박람회', '세미나'] },
-  { label: '물류·빌딩', terms: ['물류', '빌딩', 'rbms', '창고'] },
-];
-
-let cafeAgg = null;
-let cafeSelectedYear = null;
-let cafeMonthlyChart = null;
-let cafeBreakdownChart = null;
-let cafeTopicsChart = null;
-
-async function loadCafe() {
-  toggleView('cafe');
-  let res;
-  try {
-    res = await fetch('data/cafe.json', { cache: 'no-store' });
-  } catch {
-    res = null;
-  }
-  if (!res || !res.ok) {
-    cafeData = null;
-    $('#lastUpdated').textContent = '-';
-    $('#cafeKpiRow').innerHTML = '';
-    $('#cafeBasisHint').textContent = '';
-    $('#cafeList').innerHTML =
-      '<p class="empty-msg">카페 데이터가 아직 없습니다.<br />' +
-      "네이버 개발자센터에서 애플리케이션에 '검색' API 를 추가하면 수집이 시작됩니다.</p>";
-    return;
-  }
-  cafeData = await res.json();
-  $('#lastUpdated').textContent = fmtDateTime(cafeData.lastScrapedAt);
-  renderCafe();
-}
-
-function renderCafe() {
-  const posts = cafeData.posts || [];
-  cafeAgg = aggregate(posts, { sourceKey: 'cafe', topicGroups: CAFE_TOPIC_GROUPS });
-  const d = cafeAgg;
-  $('#cafeBasisHint').textContent =
-    '카페글 검색 API 는 작성일을 주지 않는다 — 날짜는 이 대시보드가 글을 처음 발견한 날 기준이다';
-  $('#cafeKpiRow').innerHTML = [
-    kpiCard({ icon: 'file-text', label: '총 글 수', value: d.total.toLocaleString(), sub: '외부 언급' }),
-    kpiCard({ icon: 'users-round', label: '언급 카페', value: d.sourceCount.toLocaleString(), sub: '곳' }),
-    kpiCard({ icon: 'calendar', label: '최근 발견', value: d.latestDate || '-', sub: '가장 최근 수집일', valueClass: 'kpi-date' }),
-    kpiCard({ icon: 'activity', label: '월간 발견량', value: d.monthlyActivity.toLocaleString(), sub: '최근 30일 신규 글', accent: true }),
-  ].join('');
-  if (window.lucide) window.lucide.createIcons();
-
-  const redrawMonthly = (y) => {
-    if (cafeMonthlyChart) cafeMonthlyChart.destroy();
-    cafeMonthlyChart = monthlyBarChart($('#cafeMonthly'), d.monthlyByYear[y] || emptyMonths(), '건');
-  };
-  cafeSelectedYear = setupYearSelector($('#cafeYearSelect'), d, cafeSelectedYear, (y) => {
-    cafeSelectedYear = y;
-    redrawMonthly(y);
-  });
-  redrawMonthly(cafeSelectedYear);
-
-  if (cafeBreakdownChart) cafeBreakdownChart.destroy();
-  cafeBreakdownChart = breakdownDoughnut($('#cafeBreakdown'), d.breakdown, '건', '곳');
-  $('#cafeBreakdownHint').textContent =
-    d.breakdown.length > BREAKDOWN_TOP_N ? `전체 누적 기준 · 상위 ${BREAKDOWN_TOP_N}곳` : '전체 누적 기준';
-  if (cafeTopicsChart) cafeTopicsChart.destroy();
-  cafeTopicsChart = topicsBarChart($('#cafeTopics'), d.topicFrequency, '개 글에서 언급');
-
-  renderItemList($('#cafeList'), d.recent, { emptyMsg: '수집된 글이 없습니다.', sourceKey: 'cafe' });
-}
-
 // ── 유튜브 ───────────────────────────────────────────────────
 // 다른 수집원과 달리 조회수라는 정량 지표가 있다. 영상 편수보다 조회수가
 // 실제 도달을 더 잘 보여주므로 KPI 와 별도 차트로 같이 보여준다.
@@ -724,7 +642,6 @@ function renderYoutube() {
 async function load() {
   if (currentSource === 'trend') return loadTrend();
   if (currentSource === 'news') return loadNews();
-  if (currentSource === 'cafe') return loadCafe();
   if (currentSource === 'youtube') return loadYoutube();
   return loadBlog();
 }

@@ -3,11 +3,11 @@
  *
  * '엑스와이지' / 'XYZ' 는 동명이 유난히 많아서, 표기만 걸리면 무관한 글이 대량으로 들어온다.
  * EXCLUDE 는 실제로 걸려 나온 것들을 하나씩 넣은 결과다 — 새 오탐은 여기 한 곳에만 추가하면
- * 블로그·뉴스·카페·유튜브에 동시에 반영된다.
+ * 블로그·뉴스·유튜브에 동시에 반영된다.
  *
  * 수집원마다 노이즈 수준이 달라서 강도만 다르게 쓴다:
  *   뉴스              — 브랜드 표기만 확인 (언론사 편집을 거쳐 이미 걸러진 상태)
- *   블로그·카페·유튜브 — 브랜드 표기 + 로봇/푸드테크 맥락(ANCHORS) 을 함께 요구
+ *   블로그·유튜브      — 브랜드 표기 + 로봇/푸드테크 맥락(ANCHORS) 을 함께 요구
  */
 
 // 브랜드 표기 흔들림
@@ -44,7 +44,7 @@ const normalize = (x) => `${x.title || ''} ${x.description || ''}`.toLowerCase()
 /**
  * @param {{title: string, description?: string}} item
  * @param {{requireAnchor?: boolean, exempt?: boolean}} opts
- *   requireAnchor — 맥락 단어까지 요구할지 (블로그·카페·유튜브 true, 뉴스 false)
+ *   requireAnchor — 맥락 단어까지 요구할지 (블로그·유튜브 true, 뉴스 false)
  *   exempt        — 공식 채널처럼 맥락 조건을 면제할 대상 (웰컴키트·행사 공지엔 앵커가 없다)
  */
 function isBrandMention(item, { requireAnchor = true, exempt = false } = {}) {

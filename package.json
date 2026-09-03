@@ -5,11 +5,10 @@
   "private": true,
   "scripts": {
     "blog": "node scraper/scrape-blog.js",
-    "cafe": "node scraper/scrape-cafe.js",
     "news": "node scraper/scrape-news.js",
     "trend": "node scraper/scrape-trend.js",
     "youtube": "node scraper/scrape-youtube.js",
-    "update": "npm run blog && npm run cafe && npm run news && npm run trend && npm run youtube",
+    "update": "npm run blog && npm run news && npm run trend && npm run youtube",
     "dashboard": "node server.js"
   },
   "dependencies": {
