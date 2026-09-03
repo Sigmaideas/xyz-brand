@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-02T15:16:37.408Z",
+  "lastScrapedAt": "2026-09-03T01:24:52.984Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,21 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 193,
-  "krArticles": 188,
+  "totalArticles": 196,
+  "krArticles": 191,
   "overseasArticles": 5,
   "articles": [
+    {
+      "title": "엑스와이지, 한경국립대에 장애인 창업교육용 ‘바리스브루’ 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NV1ltVXVxV3FrTTEtMG5vS09odmhiWE0tcm8zdnBDajR0N1NiX2F5QmtIeWtEb1R6aFR2dW5UZi1CV19xN3NETmRIakdpNVRnZmw0SlJNRHFjdTNFZDluYjJTRmg1U2VscEFZYw?oc=5",
+      "press": "irobotnews.com",
+      "date": "2026-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T01:24:52.984Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48269_103482_645.png"
+    },
     {
       "title": "엑스와이지 ‘바리스브루’, 푸르지오 커뮤니티센터에 들어간다",
       "description": "",
@@ -1224,6 +1235,28 @@
       "region": "kr",
       "firstSeenAt": "2026-08-29T15:46:04.476Z",
       "image": "https://besuccess.com/wp-content/uploads/2026/04/image-1024x572.png"
+    },
+    {
+      "title": "엑스와이지, 양팔형 세미 휴머노이드 '듀스' 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBQdzdPUkVXbmFYZVRaMmQzdnV0R0w0RVFFRk9FSHhHTHAyejhoV041TzQwQmRVOUVtVXJMSGxCRnBpei1ScXlxdzg3dw?oc=5",
+      "press": "아이뉴스24",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T01:24:52.984Z",
+      "image": "https://image.inews24.com/v1/e5867a2d703899.jpg"
+    },
+    {
+      "title": "휴머노이드, 공장 대신 집·사무실·카페로...세미 휴머노이드 ‘듀스’ 베일 벗긴 엑스와이지",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE84WF9OT3VaRERDbld6SDV1QjFsNm1TbGRrZ3R1M2ZrQWFfMDZMS2xSSzZnU1FhV0pqcVBCeDRvald0WmQ4VklvZktteEZnSF9ZNFNPcDUtT1BLdDIzSmdF?oc=5",
+      "press": "헬로티",
+      "date": "2026-04-27",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-03T01:24:52.984Z",
+      "image": "https://www.hellot.net/data/photos/20260418/art_17772734864182_eec18d.png"
     },
     {
       "title": "엑스와이지, 부산 에코델타 스마트시티서 ‘바리스브루’ 시연",
