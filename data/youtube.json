@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-04T01:25:19.608Z",
+  "lastScrapedAt": "2026-09-04T15:06:33.000Z",
   "queries": [
     "엑스와이지 로봇",
     "엑스와이지 바리스브루",
@@ -18,7 +18,7 @@
   "krVideos": 39,
   "overseasVideos": 6,
   "channelCount": 18,
-  "totalViews": 50981,
+  "totalViews": 51057,
   "videos": [
     {
       "videoId": "Ssk0HNHmhNg",
@@ -31,7 +31,7 @@
       "image": "https://i.ytimg.com/vi/Ssk0HNHmhNg/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 291,
+      "views": 296,
       "likes": 3,
       "comments": 0,
       "official": true
@@ -63,7 +63,7 @@
       "image": "https://i.ytimg.com/vi/TPq3F_mAeP8/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 419,
+      "views": 436,
       "likes": 17,
       "comments": 1,
       "official": true
@@ -79,7 +79,7 @@
       "image": "https://i.ytimg.com/vi/8MKcxHAFVLc/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 1274,
+      "views": 1275,
       "likes": 13,
       "comments": 1,
       "official": true
@@ -95,7 +95,7 @@
       "image": "https://i.ytimg.com/vi/IOFWz7nM4lc/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 1800,
+      "views": 1802,
       "likes": 12,
       "comments": 0,
       "official": true
@@ -127,7 +127,7 @@
       "image": "https://i.ytimg.com/vi/LZAQO1YYPQc/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 312,
+      "views": 321,
       "likes": 6,
       "comments": 0,
       "official": true
@@ -159,7 +159,7 @@
       "image": "https://i.ytimg.com/vi/ohdJdw726-8/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 680,
+      "views": 681,
       "likes": 10,
       "comments": 1,
       "official": true
@@ -175,7 +175,7 @@
       "image": "https://i.ytimg.com/vi/YI-9AQZJZ6U/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 2354,
+      "views": 2355,
       "likes": 9,
       "comments": 0,
       "official": true
@@ -239,7 +239,7 @@
       "image": "https://i.ytimg.com/vi/TeTYOfnOQOU/mqdefault.jpg",
       "region": "overseas",
       "firstSeenAt": "2026-09-03T02:27:43.264Z",
-      "views": 4312,
+      "views": 4313,
       "likes": 233,
       "comments": 2,
       "official": false
@@ -303,7 +303,7 @@
       "image": "https://i.ytimg.com/vi/eDJrrGEgZEg/mqdefault.jpg",
       "region": "overseas",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 458,
+      "views": 463,
       "likes": 14,
       "comments": 0,
       "official": false
@@ -319,7 +319,7 @@
       "image": "https://i.ytimg.com/vi/tqhQTiX0NPw/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 7385,
+      "views": 7391,
       "likes": 184,
       "comments": 21,
       "official": true
@@ -335,7 +335,7 @@
       "image": "https://i.ytimg.com/vi/7_bJqfP0Wg4/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 203,
+      "views": 204,
       "likes": 2,
       "comments": 1,
       "official": true
@@ -351,7 +351,7 @@
       "image": "https://i.ytimg.com/vi/EQjV2tOvYNs/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 98,
+      "views": 102,
       "likes": 2,
       "comments": 0,
       "official": false
@@ -367,7 +367,7 @@
       "image": "https://i.ytimg.com/vi/7wbed1uEjtw/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 134,
+      "views": 135,
       "likes": 3,
       "comments": 0,
       "official": true
@@ -399,7 +399,7 @@
       "image": "https://i.ytimg.com/vi/s_wE8Nf6zxA/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 132,
+      "views": 136,
       "likes": 4,
       "comments": 0,
       "official": true
@@ -415,7 +415,7 @@
       "image": "https://i.ytimg.com/vi/5MuLVukkXck/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 181,
+      "views": 183,
       "likes": 8,
       "comments": 0,
       "official": true
@@ -431,7 +431,7 @@
       "image": "https://i.ytimg.com/vi/tAH6xt0qpqk/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 218,
+      "views": 219,
       "likes": 5,
       "comments": 0,
       "official": true
@@ -479,7 +479,7 @@
       "image": "https://i.ytimg.com/vi/bmzX7v-j-cg/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 1389,
+      "views": 1390,
       "likes": 34,
       "comments": 2,
       "official": true
@@ -511,7 +511,7 @@
       "image": "https://i.ytimg.com/vi/GnPiB19v5kQ/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:24:56.493Z",
-      "views": 888,
+      "views": 890,
       "likes": 2,
       "comments": 0,
       "official": true
@@ -527,7 +527,7 @@
       "image": "https://i.ytimg.com/vi/Y1_9bq1jhkE/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 1016,
+      "views": 1023,
       "likes": 4,
       "comments": 0,
       "official": true
@@ -575,7 +575,7 @@
       "image": "https://i.ytimg.com/vi/7I0AN8NXYZs/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 207,
+      "views": 208,
       "likes": 1,
       "comments": 1,
       "official": false
@@ -591,7 +591,7 @@
       "image": "https://i.ytimg.com/vi/yswbdG0VhGo/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:04:44.609Z",
-      "views": 1396,
+      "views": 1397,
       "likes": 9,
       "comments": 2,
       "official": false
@@ -655,7 +655,7 @@
       "image": "https://i.ytimg.com/vi/ihUpNMkSYvU/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:04:44.609Z",
-      "views": 1107,
+      "views": 1108,
       "likes": 4,
       "comments": 0,
       "official": false
@@ -719,7 +719,7 @@
       "image": "https://i.ytimg.com/vi/s2zidpsS8SY/mqdefault.jpg",
       "region": "kr",
       "firstSeenAt": "2026-09-03T02:01:58.125Z",
-      "views": 3908,
+      "views": 3910,
       "likes": 32,
       "comments": 1,
       "official": true

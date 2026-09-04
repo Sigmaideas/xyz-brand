@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-03T02:04:34.183Z",
+  "lastScrapedAt": "2026-09-04T15:06:00.535Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,54 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 197,
-  "krArticles": 192,
+  "totalArticles": 205,
+  "krArticles": 200,
   "overseasArticles": 5,
   "articles": [
+    {
+      "title": "엑스와이지, 5000평 '갤럭시 로봇파크'에 바리스타 로봇 투입한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0xT3dzOVhrbVhSTmZjbjRlVm9KYmRQSzR2dlNTNmxYUnhRWndsR1VLcV9vbDI0aWVLWEJrUzlMbGhvajR3dG8xQUt0dXpsQWxWbnR5V2V1bE9QYlZZV2JPYUdhT3d1NGJLMFE?oc=5",
+      "press": "aitimes.com",
+      "date": "2026-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://cdn.aitimes.com/news/photo/202609/214839_218569_273.jpg"
+    },
+    {
+      "title": "‘갤럭시 로봇파크’에 로봇 바리스타…엑스와이지 바리스브루 적용",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSeGlxMTZJQlFaSElMdGI2b0J4M2RUWV9SYVp1R2JRWkV2LU5XMWxsZHNhaWVSRTRvSUg2ZXFEU1BHVWZEV1ZCZEFkU01lSTE2N2g2X2F0Tno4MUJ0R3BodlpJU01LNWhHQ0RkTw?oc=5",
+      "press": "로봇신문",
+      "date": "2026-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48291_103518_2432.jpg"
+    },
+    {
+      "title": "엑스와이지, ‘갤럭시 로봇파크’에 로봇 바리스타 바리스브루 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1VWV9SVWt5bm9KSE9vYlNmU2JENHhKWHpKWi1CdkQ4V0xGVUVreFVCZUNra3RpZk5kUjZYYkZpaWRDbTJDQXc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/%EA%B0%A4%EB%9F%AD%EC%8B%9C-%EB%A1%9C%EB%B4%87%ED%8C%8C%ED%81%AC-%EC%86%8D-%EB%B0%94%EB%A6%AC%EC%8A%A4%EB%B8%8C%EB%A3%A8-3-1024x757.jpg"
+    },
+    {
+      "title": "5,000평 ‘갤럭시 로봇파크’에 로봇 바리스타…엑스와이지 ‘바리스브루’ 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhbVVLbVNJNTN6Wk1yZncxUHRfUl9aU3ZxVGcteVg5dVI5LTg3WmJad2YySkdlMDZSRGRULUFrSzZYdW1EMHF6UlFBNUtaSGFsZVVGUjc3M0lRN0k1TE9uYWZneGVLeDVT0gFsQVVfeXFMTU12LVN2LTV3N19pZ0U0V1BoM0JQbVdFT29OZVQ0cndDdEd1UndDSW10Rm9zSU9faUE1RWZzeWFraU9vak81LWVhQmJUZEZZbnFGRVpkb1Zvc1ozN2FsRzB6N3U1WGsyQ2dCRmVX?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-09-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202609/59704_61553_386_v150.jpg"
+    },
     {
       "title": "엑스와이지, 한경국립대에 장애인 창업교육용 ‘바리스브루’ 공급",
       "description": "",
@@ -25,6 +69,28 @@
       "region": "kr",
       "firstSeenAt": "2026-09-03T01:24:52.984Z",
       "image": "https://cdn.irobotnews.com/news/photo/202609/48269_103482_645.png"
+    },
+    {
+      "title": "엑스와이지, 한경국립대에 로봇 바리스타 공급…장애인 창업 지원",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE94cTgtTzB1YWM0QUt3cDJMb1lKNTdaZTItUENFQWNDeE51UmpTdHFCeEN3aHFoSFhnUXJMWGdNdlhVeV9IdGc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/20260903_%ED%95%9C%EA%B2%BD%EA%B5%AD%EB%A6%BD%EB%8C%80%ED%95%99%EA%B5%90-%EC%9E%A5%EC%95%A0%EC%9D%B8%EA%B8%B0%EC%97%85%EA%B0%80%EC%97%AD%EB%9F%89%EA%B0%95%ED%99%94%EC%84%BC%ED%84%B0-AI-%EB%A1%9C%EB%B4%87-%EC%83%81%EC%83%9D-%EC%B9%B4%ED%8E%98-%EC%86%8D-%EB%B0%94%EB%A6%AC%EC%8A%A4%EB%B8%8C%EB%A3%A8-2-1024x572.png"
+    },
+    {
+      "title": "엑스와이지, 한경국립대에 ‘바리스브루’ 공급…장애인 로봇카페 창업교육 지원",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA0VVE4aEVrWlJoeE5mT0ZMMnVXMlBLQ3pnWVVzbkZOZm1sMWZFRV9sU3lyNXhXNW16bG1rX0dFQkU0bHg2RzRlamNwTXJFR19vaG12WlpoMXdSMlVCNVkydExtSFJZdVF0cVltTdIBbEFVX3lxTFA0VVE4aEVrWlJoeE5mT0ZMMnVXMlBLQ3pnWVVzbkZOZm1sMWZFRV9sU3lyNXhXNW16bG1rX0dFQkU0bHg2RzRlamNwTXJFR19vaG12WlpoMXdSMlVCNVkydExtSFJZdVF0cVltTQ?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-09-03",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": null
     },
     {
       "title": "엑스와이지 ‘바리스브루’, 푸르지오 커뮤니티센터에 들어간다",
@@ -575,6 +641,28 @@
       "region": "kr",
       "firstSeenAt": "2026-09-02T15:16:37.408Z",
       "image": null
+    },
+    {
+      "title": "엑스와이지·오픈그래프랩스, Physical AI 행동 데이터 확보 맞손… 로봇 AI 고도화 나선다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5VcG52MkVOeFRXTTVyRGN6MlY1cUVWTUIyQ2FfbVR3OTBUbjZFbHd1bVlhYnFtTDJOSGxJbTdjOWdqUk9ySE5PT01TOVByYXFWOGpOQWVhM0pEOU12cmhkOFBJZHFaQlQ10gFsQVVfeXFMT0VndTNDOWZBX0dMaVdDcUhwbmM0Q1VWVXRZVGlCWV9zODRldGl1QmlCdkJFNlVpNXRseDIyWERacmtnTFdOaFJXU0tDSlk4blhsQnB0dEtob1lmYVBXNVlVa1JiQkloYzNMZVJj?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-07-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202607/59115_60942_3643_v150.jpg"
+    },
+    {
+      "title": "엑스와이지∙오픈그래프랩스, 실환경 Physical AI 데이터 파이프라인 공동 구축",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE8yai1OSUI2aVlPQXFUaGF5eGh2X01NR1dLOEthMkhyRktOY0VhZUVzZVZod0NwMkRQbFl4a1NVSWRjdVVQTUNpUTQ1d1RueTJEaHc4QTFlNzlOWU4tdDZ3LUhCUGJqeHZoMGI0WTBn?oc=5",
+      "press": "스타트업투데이",
+      "date": "2026-07-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-04T15:06:00.535Z",
+      "image": "https://cdn.startuptoday.kr/news/thumbnail/202607/52767_40736_2616_v150.jpg"
     },
     {
       "title": "“세미 휴머노이드로 리테일 혁신” 엑스와이지, 세미 휴머노이드 ‘듀스’ 매장 투입",
