@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-04T15:06:00.535Z",
+  "lastScrapedAt": "2026-09-05T01:21:25.035Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 205,
-  "krArticles": 200,
+  "totalArticles": 206,
+  "krArticles": 201,
   "overseasArticles": 5,
   "articles": [
     {
@@ -1774,6 +1774,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.irobotnews.com/news/photo/202602/45090_98035_3639.jpg"
+    },
+    {
+      "title": "엑스와이지, LG·SKT와 '국가 대표 AI팀' 합류… 독자 파운데이션 모델 개발 박차",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10T1c3TkowdC1VelVjQU5ndmZ3LW1ZdU02LWg5clVxS3ZSdGpncDdBaXZpeXFUYURRSnpqNnJRQ1YxOWh3Q2VVck5xMFBPdWdxVWtFN24yYWo2X3lqeUtYT1FHbDlEYzgt0gFsQVVfeXFMTVJTTXRGT25MZzJoZmsyUjFqUDRvQVNtSkZJT3JCZHRXN0o5T2oyQWh2RFlVcjVPTndqYzBmeW9lWTVtaHpHRUMxWG9NdzZCX1NLemlMdmZISzE0MkVaZkVUY3Y0cjZOTWY2RS1I?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-02-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-05T01:21:25.035Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202602/56522_58277_1918_v150.jpg"
     },
     {
       "title": "엑스와이지, ‘ROSCon Korea 2026’ 워크숍 참여",
