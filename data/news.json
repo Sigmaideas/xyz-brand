@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-06T01:18:38.438Z",
+  "lastScrapedAt": "2026-09-06T14:23:06.406Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 207,
-  "krArticles": 202,
+  "totalArticles": 208,
+  "krArticles": 203,
   "overseasArticles": 5,
   "articles": [
     {
@@ -1906,6 +1906,17 @@
       "region": "kr",
       "firstSeenAt": "2026-09-01T02:01:45.773Z",
       "image": null
+    },
+    {
+      "title": "엑스와이지, 서울시각장애인연합회와 실내 안내지원 로봇 실증 협약",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE02bTFqVDgzVExIV1lzMXROZkxnZDJhaXg4aHlGelVsMWRPcXdxeUtDN2o4NzBjZ1NZZjVMQ1E2ejRIdmtnXzRTRjQ4a1hVV1lGbmd6UDd5YmpxRjIyRDU4aHlTNnRVbEMyMi11MA?oc=5",
+      "press": "로봇신문",
+      "date": "2025-12-22",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-06T14:23:06.406Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202512/44046_96237_141.jpg"
     },
     {
       "title": "로봇 지능 혁신 특공대 탄생...엑스와이지-아이엘, 휴머노이드 AI 극대화 ‘정조준’",
