@@ -1,15 +1,15 @@
 {
-  "lastScrapedAt": "2026-09-07T01:17:13.688Z",
+  "lastScrapedAt": "2026-09-07T16:39:23.146Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
     "엑스와이지 XYZ",
     "엑스와이지 바리스브루"
   ],
-  "totalPosts": 111,
+  "totalPosts": 112,
   "officialPosts": 37,
-  "externalPosts": 74,
-  "bloggerCount": 51,
+  "externalPosts": 75,
+  "bloggerCount": 52,
   "posts": [
     {
       "title": "로봇, 주름 없이 옷 접는데 25초...절반 단축 [로보 인사이트]",
@@ -20,6 +20,16 @@
       "date": "2026-09-07",
       "official": false,
       "firstSeenAt": "2026-09-07T01:17:13.688Z"
+    },
+    {
+      "title": "[IT/AI 이슈] AI 최적화로 옷 접는 속도 2배 빨라졌다! (엑스와이지 '브레인엑스' 적용 사례)",
+      "description": "최근 국내 로봇 기업 엑스와이지(XYZ)가 AI 최적화 기술을 통해 로봇의 의류 접기 작업 속도를 기존보다 2배나 향상시켰다는 소식입니다! 핵심 성과 한눈에 보기 작업 시간 단축: 기존 약 50초가 걸리던 의류 접기 작업을 약 25초로 단축 높은 성공률 유지: 2배 빠른 고속 환경에서도 96%의 작업 성공률 및 품질 확보 핵심 기술: 자체 행동지능 모델 '브레인엑스(BrainX)' 기반의...",
+      "link": "https://blog.naver.com/dmswl1728/224403499928",
+      "blogger": "TechLog",
+      "bloggerId": "dmswl1728",
+      "date": "2026-09-07",
+      "official": false,
+      "firstSeenAt": "2026-09-07T16:39:23.146Z"
     },
     {
       "title": "대우건설, 푸르지오에 AI 로봇·향기 입힌다…주거 커뮤니티 ‘오감 혁신’",
