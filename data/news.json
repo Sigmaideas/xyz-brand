@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-06T14:23:06.406Z",
+  "lastScrapedAt": "2026-09-07T01:17:19.674Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,21 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 208,
-  "krArticles": 203,
+  "totalArticles": 210,
+  "krArticles": 205,
   "overseasArticles": 5,
   "articles": [
+    {
+      "title": "엑스와이지, 피지컬 AI 로봇 작업속도 2배 높였다…의류 접기 50초→25초",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBSOUo5V3ZYWDBBcHM1eFVEaDJTdVY2MS1KWDVXVGZtcHhNRUNjLXRwWkNlOUxFTmVaLTVnY2EwdTlaeHRidEJFREtfTjBpcTBFeHJVNGlMNENiSlpubXhMeVNsN2lrN0I3UWZHSg?oc=5",
+      "press": "로봇신문",
+      "date": "2026-09-07",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-07T01:17:19.674Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48329_103577_1624.png"
+    },
     {
       "title": "엑스와이지, 5000평 '갤럭시 로봇파크'에 바리스타 로봇 투입한다",
       "description": "",
@@ -1906,6 +1917,17 @@
       "region": "kr",
       "firstSeenAt": "2026-09-01T02:01:45.773Z",
       "image": null
+    },
+    {
+      "title": "로봇으로 돈 버는 단계 진입한 엑스와이지… 바리스타 로봇 첫해 매출 35억",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9NM252aVVhakkzT2lvN09NbFhQbF9sdnBwbUJkRVNiZ3NkQUVKU1FYU3A1SjJSVjVSel9vN0YzVjNrRjZlcDJhLUk0TEllU25wS3JFUVl6Mzk0TjJ3cGRsMUVwR2F6R0I50gFsQVVfeXFMTWx6NFZGLV9MdVVpb1d3eVk1eTJMS3lqUXE2RVc5TWhidDM0TGxsbEd2cEdsOEdTY1IyR1Mydlpwd2RtbDJWbWJPbXZUQjdXeXhfRFZrdDV1RHFoY3ZZTzNrWjlVYUpJSUtnRHZ3?oc=5",
+      "press": "스타트업엔",
+      "date": "2025-12-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-07T01:17:19.674Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202512/55620_57309_5719_v150.jpg"
     },
     {
       "title": "엑스와이지, 서울시각장애인연합회와 실내 안내지원 로봇 실증 협약",
