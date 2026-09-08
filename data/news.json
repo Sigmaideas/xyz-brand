@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-07T16:39:29.182Z",
+  "lastScrapedAt": "2026-09-08T01:22:07.022Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 214,
-  "krArticles": 209,
+  "totalArticles": 222,
+  "krArticles": 217,
   "overseasArticles": 5,
   "articles": [
     {
@@ -652,6 +652,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-28T07:03:58.652Z",
       "image": "https://cdn.irobotnews.com/news/photo/202607/47663_102254_446.jpg"
+    },
+    {
+      "title": "엑스와이지, 실환경 행동데이터로 피지컬AI 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE90Z0o2YjhXZmNrTUp5b3M2TnoyY1R1djdNWUd5eHQ4Tlhoai1GemlCY1F0bFRhWnFDM0MtSGhrM2tBV2hWdVFBaVBodklmMXJmVnpSZUNWN2NDdVZOai1XMmJkUWNoVEHSAWtBVV95cUxPdVU4UEpRMUZPOFc1OU1Ca1hiMEdhMmstMlBHZ1lUNHRSMDlTMjNjbUplb1RrekxpeFVVa29VVlgyOHdZbC1yRFdMYjR1cjhSMXMtSkZBSDMzNC1fTmY1Z0VqaVBvV3NfNkZ6Yw?oc=5",
+      "press": "금융계",
+      "date": "2026-07-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://cdn.fn1966.com/news/thumbnail/202607/42468_45750_426_v150.jpg"
     },
     {
       "title": "\"피지컬AI 핵심은 행동 데이터\"…엑스와이지, 실환경 데이터 수집",
@@ -1853,6 +1864,17 @@
       "image": "https://cdn.startupn.kr/news/thumbnail/202602/56522_58277_1918_v150.jpg"
     },
     {
+      "title": "엑스와이지, 독파모 모티프 컨소시엄 합류",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBjWFNGM01TS2daRVN6V3V6LUFtSkNQM2JnS3QxZXVLTFZOb0lLWTJRUVlrc0JSWUs0aWRDeTdGMDR2aGphRlBSZ3dqZ0t3UXQwSlp6YmNn?oc=5",
+      "press": "지디넷코리아",
+      "date": "2026-02-26",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://image.zdnet.co.kr/2026/02/26/dcb29c7a878ff6128865ecca46ec45fc.png"
+    },
+    {
       "title": "엑스와이지, ‘ROSCon Korea 2026’ 워크숍 참여",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1kd3kyM25PS3NadHpiR2s5NVpoTG5TaTFuOGVfUVFiQ2Y2M2REQTR0UGgxR3cyczdtWm1kcUtCMzR0MF9zQTE1R2pMQk1GVkFGdEcxcEhFNmN3amU4RC16ZW1UbDlkYk9HcURr?oc=5",
@@ -2007,6 +2029,28 @@
       "image": "https://image.finance-scope.com/data/scp/image/2025/12/11/scp20251211000004.jpg"
     },
     {
+      "title": "아이엘, 엑스와이지와 스마트제조·로봇 디지털 전환 MOU",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8yVkVOM0NwRzlXTmg0SUFvV1BPWklsMzFNUkUtWTN5RkNnZjZpdm5SbEhsUi1MSm11NWFfaDVUUlNvT1IwMUVGZnFsMmRJZnM3cDl5b2FVZUtrdnR0dVdXT0N3N2NXaHFacUJmcEFOSURaMDA?oc=5",
+      "press": "마켓인",
+      "date": "2025-12-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://image.edaily.co.kr/images/Photo/files/NP/S/2025/12/PS25121100290.jpg"
+    },
+    {
+      "title": "원티드랩, 엑스와이지·광운대와 ‘휴머노이드 로봇’ 전문가 과정 개설",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45c0czOFpja0hqMm9pczZzY2w4akpEYUIzOGhQVV9ROTlsU2h4UnM3WlUyTW1HeW0yNDNBanBYcnlqMTVoaDMwSlV4R0VvN2QzQnV5TmtNMVNWU3pfcWpheTRscWZueF8tT21Gdg?oc=5",
+      "press": "로봇신문",
+      "date": "2025-12-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202512/43857_95946_72.jpg"
+    },
+    {
       "title": "엑스와이지-아이엘, 제조공정 로봇전환 업무협약 체결",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1qT1p5d3lubTVIMTlyT2RJdTBfSkNMa1djUFo5dzl6TlhYSXlLeDNtVUtEYzJBcFRiMzhWY2JMd1ByZzlJUm9wX21Ya2owZlZhUVF1dENHaXAyWmc3STFMc3Yxekx0Mm13WDNULQ?oc=5",
@@ -2084,6 +2128,17 @@
       "image": "https://cdn.irobotnews.com/news/photo/202511/43348_95199_531.jpg"
     },
     {
+      "title": "엑스와이지, ‘브레인X’ 기반 3대 핵심 기술 공개...서비스 로봇 新 생태계 구축 선언했다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFByRmJIZE1IQi1pV0o2dWtXWEZBbjFpd1g2ZEJoVXEtclNyRzdWNU9uWk1PSUpKMm04MWttLTExYmdiOGZacTNOa2dGRFlqVGR3Vk9FRzVZVmtfM18yZkJR?oc=5",
+      "press": "헬로티",
+      "date": "2025-11-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://www.hellot.net/data/photos/20251146/art_17627533505293_887ddb.png"
+    },
+    {
       "title": "엑스와이지, '로보월드 2025'서 차세대 자율주행 로봇 플랫폼 '스토리지 2.0' 최초 공개",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qWGxDTmVuRlptWC1odzA0bGt3SDFKdzA5OVFob3BhWUV2S2Joa2tQMWJxNDRyOElJN3MtUjU0SUZNQUxCZUh6M1dVSEhSUVFIOEpJdjR3dmphaVdkSWFib3ZhZWJLOVhy0gFsQVVfeXFMUDhraEk4WXpWS0t0RFFpNEtnNzF4ek1zX0FlQklkblVySXBOelJ1bFdqODBGLTBJVkZjRnVDbGpnNFZXYndWeXdiQVpFYVJGMmhiV1E1ajBUanFyUGhpTGhsUXcxb0x5c08xX3lZ?oc=5",
@@ -2104,6 +2159,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-28T07:03:58.652Z",
       "image": "https://cdn.startupn.kr/news/thumbnail/202511/54774_56423_4023_v150.jpg"
+    },
+    {
+      "title": "엑스와이지, 사회적 지능 적용 바리스타 로봇 ‘로보월드’서 공개한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBjOVdOaFBKUU85cUV4aW53RnlVYUxRbUFuX0IwbExGalpkUzlyYkNJSnZkZWkxbkFRRjNValRpaHhZa2Z0UkJWdy1wVHpzdDdzZ3pMaGJ6NkpaRzR1UFVyZ0RKOWNKODhRTlNvdw?oc=5",
+      "press": "로봇신문",
+      "date": "2025-11-04",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202511/43180_94772_342.png"
     },
     {
       "title": "'로봇 지능' 브레인X, 휴머노이드 시동 건다! 엑스와이지, 로보월드 2025서 차세대 서비스 로봇 총출동",
@@ -2139,6 +2205,17 @@
       "image": "https://cdn.irobotnews.com/news/photo/202510/43081_94550_481.jpg"
     },
     {
+      "title": "엑스와이지, 내년 로봇카페 100곳 늘린다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5TekVWeGpiS0JQYUlhMDFJb3gtUWRDZnp1SVRWdXhFYlhQakZzU2hpM3Rsa21hVUQ4aEhuc0tlRXl3MkRQSWVSc2lycVA5a1JBdzJmVzB3?oc=5",
+      "press": "지디넷코리아",
+      "date": "2025-10-29",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://image.zdnet.co.kr/2025/10/29/4ca13252e0bfbd658d4841dd11ba5433.jpg"
+    },
+    {
       "title": "황성재 엑스와이지 대표, ‘빌드스마트 컨퍼런스’서 기조강연",
       "description": "",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45NFI4YWRQYi05dWJGdm1EVUVhOVJoS0FDX0cxVlRvbEZxY19iR2RqY1dGanRFRlJubDdxRUxTR1Z1NHhlU0R2a3IwTVU1eXREZmtkTUs4ek12ZHNnTzlsRUxpaFJnelJudEdVMA?oc=5",
@@ -2148,6 +2225,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-26T05:22:11.554Z",
       "image": "https://cdn.irobotnews.com/news/photo/202510/43075_94549_281.jpg"
+    },
+    {
+      "title": "‘AI 무인 리테일 시대’ 선언한 엑스와이지, 맘스터치와 손잡고 K-푸드테크 변혁 노린다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5GRUw5RjNlaEdBWU93T3QxX2UyTUJiYkd4S1hZTDUycS1lZlNTc0o5M2lJVTRaX01CWWNrRGJ4M2xqN21DVjFNSlpGdXRxRXl5cC1lRVNXb1d2X2Zz?oc=5",
+      "press": "헬로티",
+      "date": "2025-10-28",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-08T01:22:07.022Z",
+      "image": "https://www.hellot.net/data/photos/20251044/art_17616498007965_f1e9ef.jpg"
     },
     {
       "title": "엑스와이지, 맘스터치와 AI·로봇 기반 F&B 서비스 혁신 MOU",

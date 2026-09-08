@@ -1,16 +1,12 @@
 {
-  "lastScrapedAt": "2026-09-07T16:39:40.210Z",
-  "startDate": "2025-09-01",
+  "lastScrapedAt": "2026-09-08T01:22:29.215Z",
+  "startDate": "2025-09-08",
   "endDate": "2026-09-08",
   "timeUnit": "week",
   "groups": [
     {
       "title": "엑스와이지",
       "data": [
-        {
-          "period": "2025-09-01",
-          "ratio": 58.73417
-        },
         {
           "period": "2025-09-08",
           "ratio": 69.62025
@@ -218,6 +214,10 @@
         {
           "period": "2026-08-31",
           "ratio": 83.5443
+        },
+        {
+          "period": "2026-09-07",
+          "ratio": 27.34177
         }
       ]
     }
