@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-10T01:24:39.024Z",
+  "lastScrapedAt": "2026-09-10T15:08:21.298Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 223,
-  "krArticles": 218,
+  "totalArticles": 225,
+  "krArticles": 220,
   "overseasArticles": 5,
   "articles": [
     {
@@ -25,6 +25,28 @@
       "region": "kr",
       "firstSeenAt": "2026-09-10T01:24:39.024Z",
       "image": "https://cdn.irobotnews.com/news/photo/202609/48401_103690_86.jpg"
+    },
+    {
+      "title": "엑스와이지, WSCE 2026 참가…로봇 바리스타 및 세미 휴머노이드 ‘듀스’ 공개",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE1yNUoxaGpVbUpPMUF5amRBdEVzaXNkcHZpcVVPUDdWSkthaVp3WWh0Y29OLUFodUtCNVpoZ2V5bDRjRkEyMXc?oc=5",
+      "press": "besuccess.com",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T15:08:21.298Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/20260910_XYZ_WSCE2026-1-1024x627.jpg"
+    },
+    {
+      "title": "엑스와이지, WSCE서 로봇 바리스타·휴머노이드 공개…“일상 속 로봇 경험”",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCNm9Fa0xQWFZQOUlEZGI4bmRVajU5V3JlUUR5QUI3Tl9CS0hlcS1WOGZ3dGdyazlESThmaWs0ajVmMEF5Z1NYelh4dVF6cUJLVjFPbmhCVU9CNWhDTm9uVjI3S0hvYmVS0gFsQVVfeXFMT0t1S0RMcHRRSUZVTjVrQS1NVS1udkI1QXlsY1d6ajVaZTVXMWlfTHlnU2ZVMWNURFBxV1AtRjJER0U4Y2hZQXd1UWt6OHVra043c25vazRnRURaZ3Q4elkwT2M5RGlkTUxfODl1?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T15:08:21.298Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202609/59762_61614_277_v150.jpg"
     },
     {
       "title": "엑스와이지, 피지컬 AI 로봇 작업속도 2배 높였다…의류 접기 50초→25초",
