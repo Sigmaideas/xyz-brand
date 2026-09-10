@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-09T15:16:24.121Z",
+  "lastScrapedAt": "2026-09-10T01:24:39.024Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,21 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 222,
-  "krArticles": 217,
+  "totalArticles": 223,
+  "krArticles": 218,
   "overseasArticles": 5,
   "articles": [
+    {
+      "title": "“커피 내리고 빨래 개고”…엑스와이지 로봇, WSCE 관람객과 만났다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9Dbl9IU2dZTERIc0dLLWpFZVpLYnM0aFJFaWlMVUo2Z3c2X2tOcHp3b1Z4cVhwazg1RlpkdkVNdFZic3lTMGhOLTFST0RyZ3hpeFRzTGIxWVZvWVB1Q1ZtNENlckRGSGNaVkFBaQ?oc=5",
+      "press": "로봇신문",
+      "date": "2026-09-10",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-10T01:24:39.024Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48401_103690_86.jpg"
+    },
     {
       "title": "엑스와이지, 피지컬 AI 로봇 작업속도 2배 높였다…의류 접기 50초→25초",
       "description": "",

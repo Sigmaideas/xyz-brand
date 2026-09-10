@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-09T15:16:25.027Z",
+  "lastScrapedAt": "2026-09-10T01:24:47.019Z",
   "startDate": "2025-09-08",
   "endDate": "2026-09-10",
   "timeUnit": "week",
@@ -217,7 +217,7 @@
         },
         {
           "period": "2026-09-07",
-          "ratio": 48.60759
+          "ratio": 66.58227
         }
       ]
     }
