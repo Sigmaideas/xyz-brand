@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-11T01:25:16.623Z",
+  "lastScrapedAt": "2026-09-11T15:10:55.153Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,9 +11,9 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 226,
-  "krArticles": 221,
-  "overseasArticles": 5,
+  "totalArticles": 230,
+  "krArticles": 224,
+  "overseasArticles": 6,
   "articles": [
     {
       "title": "“로봇이 숨 쉬고 눈을 깜빡이는 이유”…엑스와이지, 듀스 상호작용 기술 고도화",
@@ -25,6 +25,50 @@
       "region": "kr",
       "firstSeenAt": "2026-09-11T01:25:16.623Z",
       "image": "https://cdn.irobotnews.com/news/photo/202609/48427_103739_2335.gif"
+    },
+    {
+      "title": "엑스와이지, 사람과 상호작용하는 '휴머노이드 행동 지능' 기술 선보여",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5zOUFXQTFmRm9ZM1NCOFhlZnIwTFoxSXBEMGdxZkRfVUFRWVJBZGVzaHU2Q1k2bHN4U3lwRENQUmVtYS02UGpYMWhtN2d6b0hWb2cwdF9WUDFVT0ZhdWQxTmswUWd2STNfTlE?oc=5",
+      "press": "AI타임스",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T15:10:55.153Z",
+      "image": "https://cdn.aitimes.com/news/photo/202609/215142_218938_944.gif"
+    },
+    {
+      "title": "엑스와이지, 세미 휴머노이드 ‘듀스’에 대화 맥락 기반 상호작용 기술 적용",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFB5MHlURUpYUTk3TDlOaUNrQmxMSjJtcUhsTks5MV82VUF6S1ExeUc3VTVTSUhVNlFOdmJCaUdfUGlMS2VsREE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T15:10:55.153Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/20260911_XYZ_%EC%82%AC%EB%9E%8C%EC%9D%98-%EC%A7%88%EB%AC%B8%EC%97%90-%EB%93%80%EC%8A%A4DEUX%EA%B0%80-%EC%9D%8C%EC%84%B1%EA%B3%BC-%ED%91%9C%EC%A0%95-%ED%8C%94-%EB%8F%99%EC%9E%91%EC%9D%84-%ED%95%A8%EA%BB%98-%ED%99%9C%EC%9A%A9%ED%95%B4-%EB%B0%98%EC%9D%91%ED%95%98%EB%8A%94-%EB%AA%A8%EC%8A%B51.gif"
+    },
+    {
+      "title": "엑스와이지, 로봇 ‘듀스’ 상호작용 기술 고도화…대화 맥락 따라 표정·몸짓까지 생성",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ONVpDbGxxdkVpbDhkMFJMTUYzTTdkZ3lmQjVaTFg4alBwQmlHYkFPWWVQZ2JiTGhHR0d4X2kyRGVRelhyc2pkZUxPOS1YM2Z6S0xqaUN2dGxuRU9HXy1JUFhycUhneGJR0gFsQVVfeXFMTU1XRy13a2tXSFViTFpOSUFXdFQtclYtTFNsS3h6YUtLS3VaUzVUS3RNSUtZTGxRbVFYeHktSEFqWkFPV0Y4a1RhZTctZ3pxWFFKMEdaQkljTlFjV1h3SkZEeVpPSnU1UXplNDN4?oc=5",
+      "press": "스타트업엔(StartupN)",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T15:10:55.153Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202609/59790_61640_242_v150.jpg"
+    },
+    {
+      "title": "Robot that handles housework in cafes… XYZ unveils behavioral intelligence technology at WSCE",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wTThvVlVGYVAzVFo2SVp3WkhkNWMtdElfSWZydjdEY3EtRDB5TXoxQ1FudWN3OTg0bmZTWThDV1RsX25ZUUZ4RDVzV3N3bFplTXRv?oc=5",
+      "press": "벤처스퀘어",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "overseas",
+      "firstSeenAt": "2026-09-11T15:10:55.153Z",
+      "image": "https://www.venturesquare.net/wp-content/uploads/2026/09/20260910_XYZ_WSCE2026-1-789x483.jpg"
     },
     {
       "title": "“커피 내리고 빨래 개고”…엑스와이지 로봇, WSCE 관람객과 만났다",
