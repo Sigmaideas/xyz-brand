@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-10T15:08:21.298Z",
+  "lastScrapedAt": "2026-09-11T01:25:16.623Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,21 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 225,
-  "krArticles": 220,
+  "totalArticles": 226,
+  "krArticles": 221,
   "overseasArticles": 5,
   "articles": [
+    {
+      "title": "“로봇이 숨 쉬고 눈을 깜빡이는 이유”…엑스와이지, 듀스 상호작용 기술 고도화",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9yUl8xUWNWTUczc3hwMEMxeEc0SVlPeFRJUDlKbjUzc285RlJMRmE4WlpHUi1VY1lUZkNlUkR0NER1b2s2RWdEbGl5cko0VWQ4cGR2RlVmcUd4STEyVXIyc2hjeUFrZXhOc3E1aw?oc=5",
+      "press": "로봇신문",
+      "date": "2026-09-11",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-11T01:25:16.623Z",
+      "image": "https://cdn.irobotnews.com/news/photo/202609/48427_103739_2335.gif"
+    },
     {
       "title": "“커피 내리고 빨래 개고”…엑스와이지 로봇, WSCE 관람객과 만났다",
       "description": "",
