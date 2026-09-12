@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-11T15:10:55.153Z",
+  "lastScrapedAt": "2026-09-12T01:29:46.471Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 230,
-  "krArticles": 224,
+  "totalArticles": 231,
+  "krArticles": 225,
   "overseasArticles": 6,
   "articles": [
     {
@@ -1323,6 +1323,17 @@
       "region": "kr",
       "firstSeenAt": "2026-08-29T04:18:49.032Z",
       "image": "https://cdn.klnews.co.kr/news/thumbnail/202605/320957_64150_332_v150.jpg"
+    },
+    {
+      "title": "한양대 기술경영전문대학원·엑스와이지, ‘휴먼로봇인터렉션 센터’ 설립",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBwYnM5WTFIMnpjdU03cUNJYnRJSEM4LVpqSm1DZmVlbER0NnNzemZaRzZKVkpLYUUwalkxNm1tTHlXNHBTRE11dnptRS1GMlBqaWkzQl95Q29VejVGbVdraWU1Vm9oY1FHZUhsTWpDTUJxNGfSAXdBVV95cUxQUHY2ZmhudjhZcGtmVVFPdC0tUmhpZWlFNDNVWDg4LXBUMVBZc1NqX09zWmRxSmNuN0Z3bFF1ZE5GNmhIN24wM3RhUnluNGNoc2xwaVBBcHJQQmlla095Zm85TWM3WnZXT2QwRHM4R05VZ0pUV2R0OA?oc=5",
+      "press": "뉴스프리존",
+      "date": "2026-04-30",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-12T01:29:46.471Z",
+      "image": "https://cdn.newsfreezone.co.kr/news/thumbnail/202604/687629_731152_4816_v150.jpg"
     },
     {
       "title": "엑스와이지, 한양대 기술경영전문대학원과 ‘휴먼로봇인터렉션 센터’ 오픈",
