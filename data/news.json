@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-14T01:33:35.185Z",
+  "lastScrapedAt": "2026-09-14T17:02:50.932Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,8 +11,8 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 233,
-  "krArticles": 227,
+  "totalArticles": 236,
+  "krArticles": 230,
   "overseasArticles": 6,
   "articles": [
     {
@@ -25,6 +25,39 @@
       "region": "kr",
       "firstSeenAt": "2026-09-14T01:33:35.185Z",
       "image": "https://cdn.irobotnews.com/news/photo/202609/48472_103817_5627.png"
+    },
+    {
+      "title": "사람의 말·맥락 읽는 엑스와이지 ‘듀스’, 대화 끊겨도 표정·몸짓으로 답한다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE80VW5iRlhSQy1jOHQ5QmZYeDU4ZG1Nd21GbFRhNW9KN3ZXaXdlb1cxM2hibHlpQWNwZDdUdkp5bWtfSWZ3VldnUWJqT3hDTzJxZFp5MmU4ZUlaLXE3VWl3?oc=5",
+      "press": "헬로티",
+      "date": "2026-09-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-14T17:02:50.932Z",
+      "image": "https://www.hellot.net/data/design/logo/default_image_share_20210526085512.jpg"
+    },
+    {
+      "title": "엑스와이지, 무신사 오프라인 매장에 로봇 바리스타 도입",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOMVFHM1BpS1pwWkcwZzREYVJrYVh6UUduWklhMWF5NWhHZHBaamJ3X2NIMUNZOVV1WkN3S05OTG0tUERkMHQxSVJFWWJPUE5tRkd5dXJFenZMOG85RFp0bkdQWjFNWHE5MEdSRE5CRmNvWjB0cEtQZmJkS29Nem9yV1M0NDNWa1hTQkVUakkxUjFObnl0TEV5aVVtRnNrU09ibEJ6YXN4eHpXVkFWY29MbzhTX2t3cmdDUGJQU0NxWVhhek5YQl9ZRDVramJ0U1Vsa2YwMEpCV05ORUZsWERENFpCWS1KOTlleUdhRU5aNmdZSEFEWDJNYVJzcm43bER6YzFNUkd5MFBoRTZ6NldoZ2EzVThMbTFadmpsYkdpYThJVjQ?oc=5",
+      "press": "데일리안",
+      "date": "2026-09-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-14T17:02:50.932Z",
+      "image": "https://cdnimage.dailian.co.kr/news/202609/news_1789366965580_1690175_m_1.png"
+    },
+    {
+      "title": "엑스와이지, 무신사 매장에 로봇 바리스타 ‘바리스브루’ 연내 3대 공급",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE91Y0JKVDNYQWxTbnVfMGw2ZU8wbTdiTlpuMlBoRzd6dkoxcUt1ZGRxRWUtOVNobnlNSmtLX1Q0Nld2U1h6Vnc?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-09-14",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-14T17:02:50.932Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/20260914_XYZ_%EB%AC%B4%EC%8B%A0%EC%82%AC-%EB%B7%B0%ED%8B%B0-%ED%99%8D%EB%8C%80-%EC%B9%B4%ED%8E%98-%EC%95%84%EC%A6%88%EB%8B%88%EC%84%AC-%EC%95%88-%EB%B0%94%EB%A6%AC%EC%8A%A4%EB%B8%8C%EB%A3%A8-2-1024x683.png"
     },
     {
       "title": "“로봇이 숨 쉬고 눈을 깜빡이는 이유”…엑스와이지, 듀스 상호작용 기술 고도화",
