@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-09-15T01:52:26.242Z",
+  "lastScrapedAt": "2026-09-15T15:40:39.107Z",
   "queries": [
     "엑스와이지",
     "엑스와이지 로봇",
@@ -11,10 +11,43 @@
     "XYZ robotics Korea barista",
     "XYZ 韓国 ロボット スタートアップ"
   ],
-  "totalArticles": 236,
-  "krArticles": 230,
+  "totalArticles": 239,
+  "krArticles": 233,
   "overseasArticles": 6,
   "articles": [
+    {
+      "title": "엑스와이지, WSCE 2026서 로봇 바리스타 ‘바리스브루’ 1,000잔 제조 성료",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9pSTd1bVAxbno1VXF2aVNpbEo5bktrOHd1OTJ2V1VBTXVLSFBVZjVUc2hLUFdjZTduSldFYW14UG1HZ3QxYUE?oc=5",
+      "press": "beSUCCESS",
+      "date": "2026-09-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-15T15:40:39.107Z",
+      "image": "https://besuccess.com/wp-content/uploads/2026/09/20260915_XYZ-Barisbrew_WSCE2026-3-1024x768.jpg"
+    },
+    {
+      "title": "엑스와이지 로봇 바리스타, WSCE 2026서 1,005잔 제조…현장 운영 역량 입증",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1fSlRsRFEybGl5NVdWYlZfa2k3Vk1JVnVMckl5anRMbGtSWDNhMklZanhYUDhjd2pOYnNEVjJ0Zzd0aWpXbmZ5NkF6ZUl5anNEWTYxM1lQc29zLUN3LUgzc3pIUlFyRF830gFsQVVfeXFMUFV6dFZsOTJzUmdwT0VrSUI0U05LYjZTbWtXUkhNUXFOWTFZdGFfNmJyOHlUZElIaE1WdUhPa3E1a0o5UGFDNzFJemhBTENsanF2NzBYSkRnNjFnRU8zZDd0OW8wTlJmVzlFU0E2?oc=5",
+      "press": "startupn.kr",
+      "date": "2026-09-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-15T15:40:39.107Z",
+      "image": "https://cdn.startupn.kr/news/thumbnail/202609/59839_61691_4527_v150.jpg"
+    },
+    {
+      "title": "엑스와이지 로봇 바리스타, 벡스코서 음료 1005잔 만들었다",
+      "description": "",
+      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE0zdi1lazRxSTFPZVhqbjFqdU9PTzlDRFE5ZHBwbFJsTk9GdjFMR3JkdlhaeDUxZklhNFhJeTJFT2JiaEl2TjB5NFEzUQ?oc=5",
+      "press": "티스토리",
+      "date": "2026-09-15",
+      "source": "google",
+      "region": "kr",
+      "firstSeenAt": "2026-09-15T15:40:39.107Z",
+      "image": "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdna%2F8tYGQ%2FdJMcagUyNMu%2FAAAAAAAAAAAAAAAAAAAAAKfLuvV9ZwPfaIUWMQKw1H_9OuugnH8qWBz8v6cMKowz%2Fimg.jpg%3Fcredential%3DyqXZFxpELC7KVnFOS48ylbz2pIh7yKj8%26expires%3D1790780399%26allow_ip%3D%26allow_referer%3D%26signature%3D5sB%252BNdjFgS7FympssXy8%252BIPXd%252FY%253D"
+    },
     {
       "title": "엑스와이지, ‘무신사 뷰티 홍대’에 로봇 바리스타 적용…오프라인 협업 넓힌다",
       "description": "",
